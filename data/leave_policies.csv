@@ -1,0 +1,7 @@
+policy_id,policy_name,leave_type,accrual_days_per_year,max_carry_forward_days,max_consecutive_days,notice_period_days,applicable_grades,requires_approval
+LP-001,Annual Leave – Standard,Annual,20,5,15,7,L1|L2|L3,True
+LP-002,Annual Leave – Senior,Annual,25,10,20,7,L4|L5|L6,True
+LP-003,Sick Leave,Sick,12,0,5,0,L1|L2|L3|L4|L5|L6,True
+LP-004,Maternity Leave,Maternity,90,0,90,30,L1|L2|L3|L4|L5|L6,True
+LP-005,Paternity Leave,Paternity,10,0,10,14,L1|L2|L3|L4|L5|L6,True
+LP-006,Unpaid Leave,Unpaid,30,0,30,14,L1|L2|L3|L4|L5|L6,True

@@ -1,0 +1,401 @@
+employee_id,full_name,email,department,job_grade,annual_salary,employment_type,hire_date,termination_date,manager_id,location,is_active
+EMP-000001,Linda Allen,linda.allen1@company.com,Sales,L5,190896.78,Full-Time,2019-03-05,,,Singapore,True
+EMP-000002,Linda Sharma,linda.sharma2@company.com,Engineering,L2,58917.99,Full-Time,2020-02-21,,,Dubai,True
+EMP-000003,Liam Tanaka,liam.tanaka3@company.com,Engineering,L3,89606.52,Part-Time,2023-02-26,,,Toronto,True
+EMP-000004,James Davis,james.davis4@company.com,Product,L2,57447.59,Full-Time,2020-12-03,,,Dubai,True
+EMP-000005,Emily Adams,emily.adams5@company.com,Operations,L1,32636.58,Full-Time,2025-05-04,,,Sydney,True
+EMP-000006,Barbara Smith,barbara.smith6@company.com,Operations,L3,102719.39,Full-Time,2024-10-15,,,London,True
+EMP-000007,Amir Harris,amir.harris7@company.com,HR,L1,45315.38,Full-Time,2021-10-14,,,Dubai,True
+EMP-000008,Joseph Jones,joseph.jones8@company.com,Sales,L2,75114.45,Full-Time,2020-06-18,,,Toronto,True
+EMP-000009,Priya Johnson,priya.johnson9@company.com,Sales,L2,77912.64,Contract,2020-04-23,2025-10-14,,London,False
+EMP-000010,Linda Singh,linda.singh10@company.com,Engineering,L1,36121.84,Contract,2022-04-02,,,Bangalore,True
+EMP-000011,Sarah Martinez,sarah.martinez11@company.com,Marketing,L2,53274.14,Full-Time,2024-06-04,,EMP-000007,Sydney,True
+EMP-000012,Jessica Smith,jessica.smith12@company.com,Marketing,L5,191108.52,Full-Time,2022-05-18,,EMP-000003,Toronto,True
+EMP-000013,James White,james.white13@company.com,HR,L1,40765.6,Full-Time,2022-12-18,,EMP-000012,Berlin,True
+EMP-000014,Owen Lewis,owen.lewis14@company.com,Finance,L2,51051.49,Full-Time,2021-01-03,,EMP-000001,Sydney,True
+EMP-000015,Mateo Williams,mateo.williams15@company.com,Operations,L3,100839.3,Full-Time,2019-10-05,,EMP-000013,Bangalore,True
+EMP-000016,Lucas Clark,lucas.clark16@company.com,Finance,L5,239233.32,Full-Time,2021-11-12,,EMP-000014,London,True
+EMP-000017,Robert Harris,robert.harris17@company.com,Engineering,L3,97421.53,Full-Time,2023-03-23,,EMP-000012,Bangalore,True
+EMP-000018,William Harris,william.harris18@company.com,Sales,L1,33315.22,Full-Time,2021-06-08,,EMP-000016,Sydney,True
+EMP-000019,Lucas Allen,lucas.allen19@company.com,Finance,L3,101017.05,Full-Time,2021-09-21,,EMP-000013,New York,True
+EMP-000020,Karen Williams,karen.williams20@company.com,Marketing,L5,230564.57,Part-Time,2021-12-10,2025-05-19,EMP-000001,Dubai,False
+EMP-000021,Jackson Lee,jackson.lee21@company.com,HR,L4,131529.08,Full-Time,2023-12-12,,EMP-000013,Singapore,True
+EMP-000022,Theodore Hernandez,theodore.hernandez22@company.com,Sales,L1,42282.34,Full-Time,2024-12-27,,EMP-000006,London,True
+EMP-000023,Ella Gonzalez,ella.gonzalez23@company.com,Legal,L3,85035.2,Full-Time,2023-03-23,,EMP-000020,Toronto,True
+EMP-000024,Patricia Lee,patricia.lee24@company.com,Legal,L4,152089.0,Full-Time,2022-10-15,,EMP-000012,Singapore,True
+EMP-000025,Sarah Davis,sarah.davis25@company.com,HR,L5,232163.59,Full-Time,2021-06-10,,EMP-000008,Toronto,True
+EMP-000026,Jessica Thomas,jessica.thomas26@company.com,Finance,L4,173716.77,Full-Time,2023-05-13,,EMP-000001,Dubai,True
+EMP-000027,Mei Nguyen,mei.nguyen27@company.com,Legal,L3,117447.68,Part-Time,2020-11-11,,EMP-000007,Dubai,True
+EMP-000028,Owen Baker,owen.baker28@company.com,Finance,L1,49969.01,Full-Time,2024-06-06,,EMP-000006,Singapore,True
+EMP-000029,Mateo Flores,mateo.flores29@company.com,Engineering,L1,45955.77,Part-Time,2019-03-26,,EMP-000003,Dubai,True
+EMP-000030,Mei Rivera,mei.rivera30@company.com,Operations,L3,84880.46,Full-Time,2021-06-23,,EMP-000006,London,True
+EMP-000031,Jack Taylor,jack.taylor31@company.com,Operations,L3,82626.55,Contract,2023-04-28,,EMP-000001,New York,True
+EMP-000032,Sebastian Hernandez,sebastian.hernandez32@company.com,Legal,L2,73319.93,Part-Time,2020-06-02,,EMP-000025,Bangalore,True
+EMP-000033,Mohamed Anderson,mohamed.anderson33@company.com,Finance,L2,59466.73,Contract,2023-08-04,,EMP-000004,Toronto,True
+EMP-000034,Noah Robinson,noah.robinson34@company.com,Engineering,L1,48806.88,Full-Time,2021-07-01,,EMP-000029,Bangalore,True
+EMP-000035,Thomas Williams,thomas.williams35@company.com,Operations,L2,75233.2,Full-Time,2020-08-19,,EMP-000025,Sydney,True
+EMP-000036,Mohamed Davis,mohamed.davis36@company.com,Marketing,L5,199532.49,Full-Time,2022-04-21,,EMP-000008,New York,True
+EMP-000037,Linda Ramirez,linda.ramirez37@company.com,Sales,L1,32421.91,Part-Time,2023-07-24,,EMP-000030,Sydney,True
+EMP-000038,Jennifer Rodriguez,jennifer.rodriguez38@company.com,Product,L1,43322.91,Part-Time,2025-10-11,,EMP-000023,New York,True
+EMP-000039,Elizabeth Johnson,elizabeth.johnson39@company.com,Marketing,L1,31985.32,Part-Time,2020-08-03,,EMP-000020,Dubai,True
+EMP-000040,Linda Anderson,linda.anderson40@company.com,Legal,L4,157249.47,Contract,2022-05-17,,EMP-000035,Singapore,True
+EMP-000041,Ravi Smith,ravi.smith41@company.com,Engineering,L6,379195.71,Full-Time,2018-04-09,,EMP-000040,Toronto,True
+EMP-000042,James Wright,james.wright42@company.com,Sales,L2,58266.55,Full-Time,2024-04-06,,EMP-000019,London,True
+EMP-000043,Ava Torres,ava.torres43@company.com,Operations,L3,104908.11,Full-Time,2024-04-16,,EMP-000016,Toronto,True
+EMP-000044,Yuki Green,yuki.green44@company.com,Finance,L5,199011.63,Full-Time,2023-10-05,2024-09-03,EMP-000005,Toronto,False
+EMP-000045,Linda Patel,linda.patel45@company.com,HR,L1,33706.41,Contract,2020-01-12,,EMP-000041,Singapore,True
+EMP-000046,Theodore Sanchez,theodore.sanchez46@company.com,Operations,L4,123120.27,Part-Time,2024-07-01,,EMP-000017,Bangalore,True
+EMP-000047,Owen Garcia,owen.garcia47@company.com,Engineering,L6,396270.64,Full-Time,2025-11-10,,EMP-000020,Sydney,True
+EMP-000048,Jackson Nguyen,jackson.nguyen48@company.com,Finance,L2,61252.51,Full-Time,2022-09-16,,EMP-000032,New York,True
+EMP-000049,Amir King,amir.king49@company.com,Finance,L4,129848.64,Full-Time,2020-05-21,,EMP-000035,London,True
+EMP-000050,Sarah White,sarah.white50@company.com,Engineering,L3,90119.55,Full-Time,2019-01-16,,EMP-000008,Bangalore,True
+EMP-000051,Noah Nguyen,noah.nguyen51@company.com,Engineering,L3,98712.52,Part-Time,2025-10-11,,EMP-000002,Berlin,True
+EMP-000052,Emily Nguyen,emily.nguyen52@company.com,Product,L3,118909.68,Part-Time,2018-05-07,,EMP-000028,Berlin,True
+EMP-000053,Susan Green,susan.green53@company.com,Sales,L2,74529.85,Full-Time,2022-07-18,,EMP-000024,Dubai,True
+EMP-000054,Elizabeth Smith,elizabeth.smith54@company.com,HR,L3,114799.85,Part-Time,2018-09-14,,EMP-000031,Berlin,True
+EMP-000055,Noah Taylor,noah.taylor55@company.com,Operations,L3,87042.0,Full-Time,2021-05-31,,EMP-000011,Bangalore,True
+EMP-000056,Ava Gupta,ava.gupta56@company.com,Legal,L2,60614.28,Part-Time,2024-07-02,,EMP-000036,Singapore,True
+EMP-000057,Karen Anderson,karen.anderson57@company.com,Engineering,L3,98323.89,Full-Time,2025-02-06,,EMP-000010,Sydney,True
+EMP-000058,Jack Patel,jack.patel58@company.com,Finance,L5,217477.22,Full-Time,2022-07-13,,EMP-000034,Sydney,True
+EMP-000059,Isabella Rodriguez,isabella.rodriguez59@company.com,Engineering,L3,115046.41,Full-Time,2022-11-24,,EMP-000019,Dubai,True
+EMP-000060,Mateo Sanchez,mateo.sanchez60@company.com,Operations,L2,79909.52,Full-Time,2022-09-01,,EMP-000031,Bangalore,True
+EMP-000061,Noah Brown,noah.brown61@company.com,Sales,L4,172125.42,Full-Time,2019-03-21,,EMP-000057,New York,True
+EMP-000062,Mary Torres,mary.torres62@company.com,Legal,L3,114732.68,Full-Time,2019-05-19,,EMP-000040,New York,True
+EMP-000063,Camila Carter,camila.carter63@company.com,Operations,L2,53920.96,Full-Time,2021-05-16,,EMP-000060,Bangalore,True
+EMP-000064,Robert Tanaka,robert.tanaka64@company.com,Marketing,L2,65590.19,Full-Time,2020-02-13,2021-11-04,EMP-000052,Singapore,False
+EMP-000065,Olivia Adams,olivia.adams65@company.com,Product,L2,70756.95,Full-Time,2018-04-12,,EMP-000029,New York,True
+EMP-000066,Emma Nelson,emma.nelson66@company.com,HR,L1,33666.24,Full-Time,2018-06-10,,EMP-000064,London,True
+EMP-000067,Mohamed Lee,mohamed.lee67@company.com,Finance,L1,44525.59,Full-Time,2018-05-22,,EMP-000047,Bangalore,True
+EMP-000068,Patricia Nelson,patricia.nelson68@company.com,Product,L1,39685.75,Part-Time,2022-02-06,,EMP-000058,Bangalore,True
+EMP-000069,Charles Sanchez,charles.sanchez69@company.com,Marketing,L3,87181.81,Full-Time,2020-06-27,,EMP-000020,Toronto,True
+EMP-000070,Owen Miller,owen.miller70@company.com,Operations,L4,137522.24,Contract,2024-08-19,,EMP-000065,Singapore,True
+EMP-000071,Aiden Sharma,aiden.sharma71@company.com,Marketing,L6,369874.32,Full-Time,2023-01-27,,EMP-000046,Sydney,True
+EMP-000072,Noah Thomas,noah.thomas72@company.com,Finance,L6,310251.68,Full-Time,2022-07-09,,EMP-000065,Sydney,True
+EMP-000073,Sophia Martinez,sophia.martinez73@company.com,Legal,L4,126459.74,Part-Time,2020-12-25,2024-10-19,EMP-000031,Berlin,False
+EMP-000074,Mary Thomas,mary.thomas74@company.com,Sales,L5,195256.12,Full-Time,2023-05-27,2026-01-23,EMP-000069,Dubai,False
+EMP-000075,James Torres,james.torres75@company.com,Product,L3,99314.08,Part-Time,2020-08-18,,EMP-000058,Singapore,True
+EMP-000076,Patricia Gonzalez,patricia.gonzalez76@company.com,Legal,L1,48584.51,Full-Time,2025-09-16,,EMP-000033,Singapore,True
+EMP-000077,Robert Clark,robert.clark77@company.com,Product,L1,35579.4,Full-Time,2018-01-27,,EMP-000048,Bangalore,True
+EMP-000078,Richard Harris,richard.harris78@company.com,Legal,L2,61617.36,Full-Time,2021-10-30,,EMP-000057,London,True
+EMP-000079,Olivia White,olivia.white79@company.com,Product,L3,106405.17,Full-Time,2018-09-13,,EMP-000049,New York,True
+EMP-000080,Abigail Lewis,abigail.lewis80@company.com,Legal,L3,110214.11,Contract,2025-02-19,,EMP-000073,Sydney,True
+EMP-000081,Susan Moore,susan.moore81@company.com,Engineering,L5,184103.9,Contract,2023-06-15,,EMP-000045,London,True
+EMP-000082,Sophia Gupta,sophia.gupta82@company.com,Product,L3,103940.12,Full-Time,2022-01-09,2023-10-27,EMP-000055,Bangalore,False
+EMP-000083,Lucas Lopez,lucas.lopez83@company.com,Product,L2,57251.12,Full-Time,2021-10-03,,EMP-000054,Dubai,True
+EMP-000084,Mohamed Garcia,mohamed.garcia84@company.com,Product,L3,86747.49,Full-Time,2023-03-18,,EMP-000042,Bangalore,True
+EMP-000085,Karen Sanchez,karen.sanchez85@company.com,Product,L3,87239.76,Full-Time,2019-09-11,,EMP-000071,Singapore,True
+EMP-000086,Linda Baker,linda.baker86@company.com,Sales,L4,164838.77,Full-Time,2021-08-27,,EMP-000056,London,True
+EMP-000087,William Thomas,william.thomas87@company.com,Operations,L1,33645.78,Full-Time,2018-06-11,,EMP-000059,Dubai,True
+EMP-000088,Yuki Brown,yuki.brown88@company.com,Finance,L4,169737.73,Full-Time,2024-10-29,,EMP-000066,Berlin,True
+EMP-000089,Jessica Sharma,jessica.sharma89@company.com,Product,L2,50109.26,Full-Time,2022-01-25,2024-09-20,EMP-000073,Sydney,False
+EMP-000090,Aiden Perez,aiden.perez90@company.com,Product,L2,56978.72,Part-Time,2025-02-01,,EMP-000070,Dubai,True
+EMP-000091,Richard Tanaka,richard.tanaka91@company.com,Product,L1,42645.91,Full-Time,2021-03-17,,EMP-000055,London,True
+EMP-000092,Mason Jackson,mason.jackson92@company.com,HR,L5,249246.8,Contract,2023-06-11,,EMP-000045,Toronto,True
+EMP-000093,Richard Robinson,richard.robinson93@company.com,Legal,L1,49106.24,Part-Time,2024-07-31,,EMP-000067,Dubai,True
+EMP-000094,John Scott,john.scott94@company.com,Marketing,L3,89112.3,Full-Time,2019-12-16,,EMP-000079,London,True
+EMP-000095,Michael Rivera,michael.rivera95@company.com,Finance,L3,117869.85,Full-Time,2020-01-14,,EMP-000079,London,True
+EMP-000096,Jennifer Campbell,jennifer.campbell96@company.com,Legal,L4,155929.78,Part-Time,2020-08-13,,EMP-000046,New York,True
+EMP-000097,Joseph Adams,joseph.adams97@company.com,HR,L2,62385.36,Part-Time,2022-06-20,,EMP-000074,Toronto,True
+EMP-000098,Sophia Gupta,sophia.gupta98@company.com,Sales,L1,49755.62,Part-Time,2025-08-05,,EMP-000055,Sydney,True
+EMP-000099,Olivia Lewis,olivia.lewis99@company.com,Marketing,L2,57802.17,Full-Time,2021-08-27,,EMP-000065,Bangalore,True
+EMP-000100,Charles Young,charles.young100@company.com,Operations,L4,164637.9,Full-Time,2024-12-31,,EMP-000060,New York,True
+EMP-000101,Mateo Harris,mateo.harris101@company.com,Sales,L2,65995.64,Part-Time,2018-01-03,,EMP-000070,Dubai,True
+EMP-000102,Patricia Kumar,patricia.kumar102@company.com,Engineering,L3,83905.0,Full-Time,2024-09-04,,EMP-000055,Berlin,True
+EMP-000103,Susan Torres,susan.torres103@company.com,Sales,L3,84607.47,Full-Time,2020-08-27,,EMP-000074,Sydney,True
+EMP-000104,Lucas Lopez,lucas.lopez104@company.com,HR,L2,73912.63,Full-Time,2019-05-05,,EMP-000072,Toronto,True
+EMP-000105,Charles Miller,charles.miller105@company.com,Legal,L5,198188.07,Full-Time,2019-12-14,2022-11-13,EMP-000056,London,False
+EMP-000106,Abigail Nguyen,abigail.nguyen106@company.com,Engineering,L4,155465.49,Full-Time,2019-05-22,,EMP-000097,Bangalore,True
+EMP-000107,James Lee,james.lee107@company.com,Sales,L2,60832.49,Full-Time,2022-03-21,2026-07-15,EMP-000085,Dubai,False
+EMP-000108,Linda White,linda.white108@company.com,Marketing,L3,114056.2,Contract,2020-07-09,,EMP-000091,New York,True
+EMP-000109,Jennifer Tanaka,jennifer.tanaka109@company.com,Sales,L2,58414.87,Full-Time,2024-07-09,,EMP-000069,New York,True
+EMP-000110,Evelyn Robinson,evelyn.robinson110@company.com,Product,L3,116180.84,Full-Time,2019-10-22,,EMP-000066,Sydney,True
+EMP-000111,Robert Anderson,robert.anderson111@company.com,Operations,L1,35841.25,Full-Time,2019-02-22,,EMP-000065,Berlin,True
+EMP-000112,Ella Allen,ella.allen112@company.com,Legal,L3,94985.38,Full-Time,2020-09-15,,EMP-000073,Dubai,True
+EMP-000113,Joseph Nguyen,joseph.nguyen113@company.com,Operations,L4,169421.09,Full-Time,2019-09-18,2022-07-09,EMP-000072,New York,False
+EMP-000114,Barbara Taylor,barbara.taylor114@company.com,HR,L1,33045.02,Full-Time,2022-04-02,,EMP-000068,Bangalore,True
+EMP-000115,John Campbell,john.campbell115@company.com,Finance,L3,99506.66,Full-Time,2018-07-06,,EMP-000113,Toronto,True
+EMP-000116,Ravi Harris,ravi.harris116@company.com,Engineering,L3,103525.71,Contract,2022-05-20,,EMP-000108,Toronto,True
+EMP-000117,David Taylor,david.taylor117@company.com,Product,L4,127086.41,Full-Time,2018-04-22,,EMP-000099,New York,True
+EMP-000118,Richard Patel,richard.patel118@company.com,Product,L2,54300.82,Full-Time,2025-11-21,,EMP-000100,Dubai,True
+EMP-000119,William Ramirez,william.ramirez119@company.com,Engineering,L1,42474.77,Full-Time,2024-12-22,,EMP-000106,New York,True
+EMP-000120,Mei Patel,mei.patel120@company.com,Finance,L1,41861.39,Full-Time,2022-10-05,,EMP-000089,Bangalore,True
+EMP-000121,William Miller,william.miller121@company.com,Sales,L4,129143.65,Full-Time,2020-05-12,,EMP-000104,London,True
+EMP-000122,Richard Flores,richard.flores122@company.com,Engineering,L6,325298.39,Full-Time,2021-10-26,,EMP-000106,New York,True
+EMP-000123,Ella Lewis,ella.lewis123@company.com,Legal,L1,31077.5,Part-Time,2019-07-06,,EMP-000122,Singapore,True
+EMP-000124,Evelyn Nguyen,evelyn.nguyen124@company.com,Operations,L4,176879.1,Contract,2023-11-06,,EMP-000117,Singapore,True
+EMP-000125,Patricia Lewis,patricia.lewis125@company.com,Product,L2,77343.35,Full-Time,2019-11-29,2020-08-05,EMP-000103,Singapore,False
+EMP-000126,Ana Flores,ana.flores126@company.com,Legal,L3,117671.28,Part-Time,2022-02-02,,EMP-000089,Bangalore,True
+EMP-000127,Thomas Miller,thomas.miller127@company.com,HR,L1,45173.26,Full-Time,2020-04-26,,EMP-000105,Berlin,True
+EMP-000128,James Martin,james.martin128@company.com,Engineering,L5,186244.15,Full-Time,2025-02-23,2026-07-25,EMP-000116,Bangalore,False
+EMP-000129,Fatima Mitchell,fatima.mitchell129@company.com,Sales,L3,102754.95,Contract,2019-06-17,,EMP-000091,Dubai,True
+EMP-000130,Ravi Kumar,ravi.kumar130@company.com,HR,L1,41816.32,Full-Time,2020-04-12,,EMP-000119,New York,True
+EMP-000131,Mary Gonzalez,mary.gonzalez131@company.com,Sales,L4,178608.25,Full-Time,2024-08-10,,EMP-000116,Berlin,True
+EMP-000132,Jackson Nelson,jackson.nelson132@company.com,Product,L6,264175.76,Full-Time,2023-03-11,,EMP-000092,Dubai,True
+EMP-000133,Charles Jackson,charles.jackson133@company.com,Sales,L2,51333.25,Full-Time,2025-09-30,2026-02-03,EMP-000104,Bangalore,False
+EMP-000134,Mia Patel,mia.patel134@company.com,Marketing,L6,293562.18,Full-Time,2020-10-13,,EMP-000110,Dubai,True
+EMP-000135,Michael Jackson,michael.jackson135@company.com,Operations,L4,144592.01,Contract,2020-12-02,,EMP-000111,Toronto,True
+EMP-000136,Jackson Hall,jackson.hall136@company.com,Product,L2,52250.77,Full-Time,2020-12-16,,EMP-000114,Berlin,True
+EMP-000137,Robert Wright,robert.wright137@company.com,Operations,L1,39973.98,Full-Time,2022-10-11,,EMP-000133,Singapore,True
+EMP-000138,Mateo Perez,mateo.perez138@company.com,HR,L4,147192.95,Full-Time,2019-06-02,,EMP-000113,New York,True
+EMP-000139,Camila Martinez,camila.martinez139@company.com,Operations,L2,58285.59,Full-Time,2024-07-07,,EMP-000125,Berlin,True
+EMP-000140,Karen Miller,karen.miller140@company.com,Finance,L1,45298.0,Part-Time,2023-11-19,,EMP-000130,New York,True
+EMP-000141,Mohamed Baker,mohamed.baker141@company.com,Legal,L4,153993.72,Full-Time,2022-12-29,,EMP-000093,Bangalore,True
+EMP-000142,David Allen,david.allen142@company.com,Product,L1,42728.66,Full-Time,2025-11-04,,EMP-000110,Sydney,True
+EMP-000143,Barbara Williams,barbara.williams143@company.com,Operations,L2,50554.15,Full-Time,2025-02-13,,EMP-000117,Dubai,True
+EMP-000144,Sebastian Lopez,sebastian.lopez144@company.com,Sales,L1,49505.67,Full-Time,2020-07-04,,EMP-000141,Bangalore,True
+EMP-000145,Ella Miller,ella.miller145@company.com,Engineering,L2,63534.83,Full-Time,2020-08-28,,EMP-000107,Berlin,True
+EMP-000146,Emma Nguyen,emma.nguyen146@company.com,Marketing,L3,83941.15,Full-Time,2025-09-04,,EMP-000145,Sydney,True
+EMP-000147,William Flores,william.flores147@company.com,Marketing,L5,233689.68,Full-Time,2021-05-24,,EMP-000113,Toronto,True
+EMP-000148,Mia Martin,mia.martin148@company.com,Product,L1,46438.01,Part-Time,2023-04-25,,EMP-000143,Toronto,True
+EMP-000149,Lucas Wright,lucas.wright149@company.com,Engineering,L5,211964.29,Full-Time,2018-03-01,,EMP-000126,New York,True
+EMP-000150,Sophia Thomas,sophia.thomas150@company.com,Product,L1,33034.34,Full-Time,2025-12-28,,EMP-000145,Berlin,True
+EMP-000151,Ella Flores,ella.flores151@company.com,Engineering,L5,231448.77,Full-Time,2022-01-08,,EMP-000131,Toronto,True
+EMP-000152,Owen Carter,owen.carter152@company.com,Marketing,L3,93950.68,Full-Time,2018-08-16,2019-10-07,EMP-000108,Dubai,False
+EMP-000153,Priya Walker,priya.walker153@company.com,Sales,L1,39106.95,Full-Time,2023-11-12,,EMP-000138,London,True
+EMP-000154,Lucas Smith,lucas.smith154@company.com,HR,L3,94493.92,Contract,2023-03-26,,EMP-000104,Singapore,True
+EMP-000155,Patricia Martinez,patricia.martinez155@company.com,Operations,L2,63439.19,Contract,2022-08-07,2026-05-23,EMP-000141,Berlin,False
+EMP-000156,Isabella Harris,isabella.harris156@company.com,Engineering,L2,67080.13,Full-Time,2021-03-11,,EMP-000135,New York,True
+EMP-000157,Jennifer Sharma,jennifer.sharma157@company.com,Operations,L4,126396.89,Full-Time,2024-10-28,,EMP-000107,Singapore,True
+EMP-000158,Linda Campbell,linda.campbell158@company.com,Legal,L5,230723.54,Full-Time,2021-11-16,,EMP-000127,Singapore,True
+EMP-000159,Ava Patel,ava.patel159@company.com,Marketing,L6,290552.93,Part-Time,2024-05-20,2025-05-04,EMP-000152,Sydney,False
+EMP-000160,Jessica Hill,jessica.hill160@company.com,Engineering,L3,101319.48,Contract,2020-04-24,,EMP-000115,Singapore,True
+EMP-000161,Charles Scott,charles.scott161@company.com,Operations,L2,68684.48,Full-Time,2024-12-06,,EMP-000151,Dubai,True
+EMP-000162,Robert Lee,robert.lee162@company.com,Legal,L2,64313.17,Full-Time,2020-07-17,,EMP-000119,Bangalore,True
+EMP-000163,Sophia Sharma,sophia.sharma163@company.com,HR,L5,249364.89,Full-Time,2025-04-20,2026-07-15,EMP-000159,Toronto,False
+EMP-000164,Theodore Hall,theodore.hall164@company.com,Product,L1,38084.0,Full-Time,2023-08-04,,EMP-000137,Berlin,True
+EMP-000165,Joseph Rivera,joseph.rivera165@company.com,Finance,L1,47887.02,Part-Time,2019-12-14,,EMP-000154,Singapore,True
+EMP-000166,Mohamed Jackson,mohamed.jackson166@company.com,Marketing,L5,215355.86,Full-Time,2020-04-23,2022-03-14,EMP-000143,Bangalore,False
+EMP-000167,Aiden Rodriguez,aiden.rodriguez167@company.com,Product,L2,56191.06,Full-Time,2019-05-21,,EMP-000147,Bangalore,True
+EMP-000168,Lucas Johnson,lucas.johnson168@company.com,HR,L4,171462.61,Full-Time,2019-10-04,,EMP-000118,Toronto,True
+EMP-000169,Evelyn Lopez,evelyn.lopez169@company.com,Finance,L4,166809.18,Full-Time,2019-09-30,,EMP-000125,Sydney,True
+EMP-000170,Karen Young,karen.young170@company.com,Sales,L3,83280.62,Full-Time,2024-08-12,,EMP-000120,Bangalore,True
+EMP-000171,Leila Johnson,leila.johnson171@company.com,HR,L1,35995.53,Part-Time,2020-10-27,,EMP-000168,Dubai,True
+EMP-000172,Barbara Garcia,barbara.garcia172@company.com,Sales,L4,138014.24,Part-Time,2024-07-11,,EMP-000170,Singapore,True
+EMP-000173,Mateo Miller,mateo.miller173@company.com,Engineering,L1,30458.22,Full-Time,2022-01-17,,EMP-000164,Toronto,True
+EMP-000174,John Walker,john.walker174@company.com,Legal,L1,32135.93,Full-Time,2018-02-27,,EMP-000146,Sydney,True
+EMP-000175,Michael Davis,michael.davis175@company.com,Finance,L3,82949.76,Full-Time,2019-07-29,,EMP-000172,Sydney,True
+EMP-000176,Sarah Lee,sarah.lee176@company.com,Legal,L2,74333.24,Full-Time,2019-12-30,,EMP-000166,New York,True
+EMP-000177,Mohamed Carter,mohamed.carter177@company.com,Marketing,L1,32031.03,Full-Time,2020-05-03,,EMP-000171,Dubai,True
+EMP-000178,Jack Gupta,jack.gupta178@company.com,Operations,L1,32678.27,Full-Time,2020-01-10,,EMP-000131,Bangalore,True
+EMP-000179,Emma Thomas,emma.thomas179@company.com,Legal,L4,167993.94,Part-Time,2020-04-01,,EMP-000130,London,True
+EMP-000180,Liam Lewis,liam.lewis180@company.com,Operations,L2,61733.54,Full-Time,2018-04-19,,EMP-000145,New York,True
+EMP-000181,Karen Adams,karen.adams181@company.com,Sales,L3,115047.24,Full-Time,2021-02-18,,EMP-000141,Toronto,True
+EMP-000182,Elizabeth Baker,elizabeth.baker182@company.com,Operations,L2,66336.83,Full-Time,2021-10-10,,EMP-000134,Toronto,True
+EMP-000183,Priya Jackson,priya.jackson183@company.com,Engineering,L4,136172.67,Full-Time,2020-11-05,,EMP-000136,Sydney,True
+EMP-000184,Sebastian Allen,sebastian.allen184@company.com,Product,L3,104724.63,Full-Time,2025-07-08,,EMP-000142,Toronto,True
+EMP-000185,Mary Brown,mary.brown185@company.com,Product,L3,86662.31,Part-Time,2020-11-05,2021-09-26,EMP-000183,Singapore,False
+EMP-000186,Ella Thompson,ella.thompson186@company.com,HR,L2,61082.49,Contract,2020-06-11,,EMP-000152,Toronto,True
+EMP-000187,Abigail Scott,abigail.scott187@company.com,Finance,L1,39137.26,Full-Time,2018-03-26,,EMP-000142,Toronto,True
+EMP-000188,Ella Wilson,ella.wilson188@company.com,Legal,L3,105997.63,Contract,2019-05-02,,EMP-000165,Singapore,True
+EMP-000189,Emily Green,emily.green189@company.com,Finance,L2,79087.04,Part-Time,2018-11-15,2023-10-14,EMP-000184,New York,False
+EMP-000190,Chen Ramirez,chen.ramirez190@company.com,HR,L3,102064.33,Part-Time,2020-11-19,,EMP-000184,Singapore,True
+EMP-000191,Noah Smith,noah.smith191@company.com,Operations,L2,59043.09,Full-Time,2019-02-11,,EMP-000159,Singapore,True
+EMP-000192,Susan Jackson,susan.jackson192@company.com,Legal,L6,258841.42,Contract,2024-04-17,,EMP-000186,Singapore,True
+EMP-000193,Chen Hill,chen.hill193@company.com,Marketing,L1,47020.49,Part-Time,2023-12-18,,EMP-000165,Toronto,True
+EMP-000194,Barbara Williams,barbara.williams194@company.com,Product,L5,247711.61,Full-Time,2019-09-03,,EMP-000167,Bangalore,True
+EMP-000195,Ella Gonzalez,ella.gonzalez195@company.com,Legal,L4,138235.32,Full-Time,2022-06-27,,EMP-000176,Berlin,True
+EMP-000196,Jackson Nguyen,jackson.nguyen196@company.com,Operations,L4,179649.86,Full-Time,2021-07-12,,EMP-000154,London,True
+EMP-000197,Linda Lewis,linda.lewis197@company.com,Finance,L3,92626.15,Full-Time,2021-05-03,,EMP-000172,Singapore,True
+EMP-000198,Harper Lewis,harper.lewis198@company.com,Marketing,L2,74110.34,Part-Time,2021-02-06,,EMP-000182,Bangalore,True
+EMP-000199,Robert Gupta,robert.gupta199@company.com,Legal,L2,73216.46,Full-Time,2019-01-28,,EMP-000164,Singapore,True
+EMP-000200,Theodore Davis,theodore.davis200@company.com,Sales,L6,361580.08,Full-Time,2018-07-06,,EMP-000189,Bangalore,True
+EMP-000201,Mei Williams,mei.williams201@company.com,HR,L2,73273.21,Full-Time,2019-10-05,,EMP-000190,Bangalore,True
+EMP-000202,Carlos Hernandez,carlos.hernandez202@company.com,Product,L1,31224.78,Full-Time,2022-12-31,2026-03-23,EMP-000158,New York,False
+EMP-000203,Yuki Lee,yuki.lee203@company.com,Engineering,L2,76612.57,Full-Time,2024-04-08,,EMP-000179,Bangalore,True
+EMP-000204,Priya Garcia,priya.garcia204@company.com,Sales,L2,67657.69,Full-Time,2023-02-16,,EMP-000202,New York,True
+EMP-000205,Carlos Walker,carlos.walker205@company.com,Finance,L3,111519.12,Full-Time,2020-06-04,2026-07-14,EMP-000191,Sydney,False
+EMP-000206,John Johnson,john.johnson206@company.com,HR,L3,83349.29,Full-Time,2021-06-20,,EMP-000192,Singapore,True
+EMP-000207,Richard Moore,richard.moore207@company.com,Marketing,L1,47962.15,Full-Time,2023-12-28,,EMP-000166,Sydney,True
+EMP-000208,Ana Gupta,ana.gupta208@company.com,Sales,L6,397135.84,Part-Time,2019-03-23,,EMP-000194,Bangalore,True
+EMP-000209,Barbara Carter,barbara.carter209@company.com,Product,L6,327184.05,Full-Time,2023-12-27,,EMP-000161,Toronto,True
+EMP-000210,Mia Thomas,mia.thomas210@company.com,Finance,L4,120388.26,Full-Time,2023-04-29,,EMP-000181,Toronto,True
+EMP-000211,Barbara Flores,barbara.flores211@company.com,Legal,L2,54923.58,Full-Time,2022-07-29,,EMP-000161,Dubai,True
+EMP-000212,Mohamed Wilson,mohamed.wilson212@company.com,HR,L4,151744.28,Full-Time,2022-07-29,,EMP-000167,Bangalore,True
+EMP-000213,Patricia Green,patricia.green213@company.com,HR,L3,117657.26,Part-Time,2018-01-22,,EMP-000169,Bangalore,True
+EMP-000214,Abigail Taylor,abigail.taylor214@company.com,Legal,L4,146793.43,Full-Time,2021-08-05,,EMP-000203,Bangalore,True
+EMP-000215,Noah Walker,noah.walker215@company.com,Product,L6,250694.46,Full-Time,2019-12-19,,EMP-000166,Toronto,True
+EMP-000216,Mary Nguyen,mary.nguyen216@company.com,Sales,L3,118527.07,Full-Time,2023-03-11,,EMP-000212,New York,True
+EMP-000217,Ravi Campbell,ravi.campbell217@company.com,Engineering,L5,192029.15,Full-Time,2025-03-27,,EMP-000205,New York,True
+EMP-000218,Jennifer Harris,jennifer.harris218@company.com,HR,L2,50309.86,Full-Time,2020-12-18,,EMP-000209,Singapore,True
+EMP-000219,Linda Gupta,linda.gupta219@company.com,HR,L1,32696.99,Full-Time,2025-08-12,2025-11-15,EMP-000181,Dubai,False
+EMP-000220,Liam Williams,liam.williams220@company.com,HR,L3,84778.71,Full-Time,2025-06-02,2026-06-26,EMP-000190,Bangalore,False
+EMP-000221,Noah Jones,noah.jones221@company.com,HR,L5,236374.18,Full-Time,2018-03-29,2020-08-20,EMP-000174,Dubai,False
+EMP-000222,John Brown,john.brown222@company.com,Legal,L3,92843.8,Full-Time,2021-10-12,,EMP-000190,Bangalore,True
+EMP-000223,Michael Sanchez,michael.sanchez223@company.com,Finance,L3,93994.26,Full-Time,2021-11-09,,EMP-000210,New York,True
+EMP-000224,Elizabeth Brown,elizabeth.brown224@company.com,Engineering,L2,76272.02,Part-Time,2019-08-15,,EMP-000182,Singapore,True
+EMP-000225,Liam Torres,liam.torres225@company.com,Operations,L3,115422.22,Part-Time,2021-08-20,,EMP-000200,Bangalore,True
+EMP-000226,Amir Jones,amir.jones226@company.com,Operations,L3,83560.84,Full-Time,2025-04-22,2025-09-21,EMP-000209,Toronto,False
+EMP-000227,Ella Wilson,ella.wilson227@company.com,Marketing,L1,43295.25,Full-Time,2021-04-08,,EMP-000201,New York,True
+EMP-000228,Patricia Jones,patricia.jones228@company.com,HR,L5,218470.82,Full-Time,2025-05-01,,EMP-000212,Berlin,True
+EMP-000229,Michael Wilson,michael.wilson229@company.com,Sales,L2,56030.94,Full-Time,2022-10-16,2025-11-01,EMP-000204,Sydney,False
+EMP-000230,Olivia Campbell,olivia.campbell230@company.com,Finance,L2,57255.73,Full-Time,2024-08-05,,EMP-000201,Bangalore,True
+EMP-000231,Liam White,liam.white231@company.com,Engineering,L2,63390.09,Full-Time,2025-04-09,,EMP-000186,Sydney,True
+EMP-000232,Barbara Nguyen,barbara.nguyen232@company.com,Legal,L4,149528.38,Full-Time,2018-09-20,,EMP-000228,Dubai,True
+EMP-000233,Mohamed Campbell,mohamed.campbell233@company.com,Legal,L1,31480.68,Part-Time,2022-02-19,,EMP-000224,Berlin,True
+EMP-000234,Sophia Singh,sophia.singh234@company.com,Sales,L4,134063.72,Part-Time,2020-04-28,,EMP-000212,Toronto,True
+EMP-000235,Jennifer Young,jennifer.young235@company.com,Legal,L4,121059.68,Part-Time,2020-09-30,,EMP-000229,Dubai,True
+EMP-000236,Evelyn Thomas,evelyn.thomas236@company.com,Finance,L4,140695.52,Full-Time,2021-06-04,,EMP-000193,Toronto,True
+EMP-000237,Leila White,leila.white237@company.com,Engineering,L5,197569.85,Full-Time,2018-08-20,,EMP-000212,Sydney,True
+EMP-000238,Aiden Moore,aiden.moore238@company.com,Sales,L4,137554.01,Full-Time,2024-04-30,,EMP-000199,Berlin,True
+EMP-000239,Jennifer Allen,jennifer.allen239@company.com,HR,L2,79487.93,Full-Time,2020-02-09,,EMP-000195,Toronto,True
+EMP-000240,Ethan Williams,ethan.williams240@company.com,Marketing,L1,31591.35,Full-Time,2025-12-22,,EMP-000233,Bangalore,True
+EMP-000241,Evelyn Robinson,evelyn.robinson241@company.com,HR,L1,43248.41,Full-Time,2019-04-14,,EMP-000210,Toronto,True
+EMP-000242,Thomas Allen,thomas.allen242@company.com,Legal,L3,83674.06,Full-Time,2018-09-13,,EMP-000192,Berlin,True
+EMP-000243,Lucas Wright,lucas.wright243@company.com,Sales,L3,87098.0,Full-Time,2023-09-20,2026-09-22,EMP-000205,Sydney,False
+EMP-000244,Ava Flores,ava.flores244@company.com,Engineering,L1,40517.05,Full-Time,2023-02-23,2024-10-15,EMP-000198,Sydney,False
+EMP-000245,Mia Torres,mia.torres245@company.com,Sales,L4,143780.95,Full-Time,2022-06-27,,EMP-000200,New York,True
+EMP-000246,Karen Sanchez,karen.sanchez246@company.com,HR,L1,44120.18,Part-Time,2019-06-23,,EMP-000243,Berlin,True
+EMP-000247,Abigail Garcia,abigail.garcia247@company.com,Marketing,L3,86300.73,Contract,2021-06-26,,EMP-000211,New York,True
+EMP-000248,Mei Nelson,mei.nelson248@company.com,Engineering,L1,37019.74,Full-Time,2024-08-31,,EMP-000220,London,True
+EMP-000249,Theodore Moore,theodore.moore249@company.com,Operations,L2,59634.06,Part-Time,2019-05-21,,EMP-000237,Singapore,True
+EMP-000250,Emily Taylor,emily.taylor250@company.com,Operations,L2,56673.58,Full-Time,2025-05-24,,EMP-000242,Bangalore,True
+EMP-000251,Liam Jackson,liam.jackson251@company.com,Engineering,L1,31676.52,Full-Time,2025-05-31,,EMP-000227,New York,True
+EMP-000252,Isabella Ramirez,isabella.ramirez252@company.com,Sales,L4,121991.59,Full-Time,2021-01-16,,EMP-000219,Sydney,True
+EMP-000253,Elizabeth Singh,elizabeth.singh253@company.com,Marketing,L1,36934.84,Full-Time,2021-12-11,,EMP-000237,New York,True
+EMP-000254,Emily Williams,emily.williams254@company.com,HR,L1,37643.23,Part-Time,2020-11-12,,EMP-000226,Berlin,True
+EMP-000255,Ella Nguyen,ella.nguyen255@company.com,Sales,L2,58263.81,Part-Time,2021-02-22,,EMP-000246,Sydney,True
+EMP-000256,David Perez,david.perez256@company.com,Legal,L2,77888.0,Part-Time,2021-05-30,,EMP-000253,Dubai,True
+EMP-000257,Joseph Young,joseph.young257@company.com,Finance,L5,228762.48,Part-Time,2021-02-16,,EMP-000217,Bangalore,True
+EMP-000258,Patricia Harris,patricia.harris258@company.com,Sales,L2,73305.48,Full-Time,2019-12-20,,EMP-000234,Toronto,True
+EMP-000259,Mei King,mei.king259@company.com,Finance,L4,137306.33,Full-Time,2020-11-30,,EMP-000244,New York,True
+EMP-000260,Evelyn Smith,evelyn.smith260@company.com,Finance,L1,40970.71,Full-Time,2024-05-30,2026-07-14,EMP-000251,Berlin,False
+EMP-000261,Mason Miller,mason.miller261@company.com,Sales,L3,90637.22,Part-Time,2023-06-16,,EMP-000256,Sydney,True
+EMP-000262,Chen Carter,chen.carter262@company.com,Finance,L1,35576.88,Full-Time,2021-11-13,,EMP-000256,Toronto,True
+EMP-000263,Michael Moore,michael.moore263@company.com,Product,L2,65383.61,Full-Time,2024-08-19,,EMP-000259,Singapore,True
+EMP-000264,Jackson Green,jackson.green264@company.com,Sales,L2,53782.1,Part-Time,2024-06-01,,EMP-000260,Sydney,True
+EMP-000265,Ana Martin,ana.martin265@company.com,Marketing,L5,236191.32,Full-Time,2021-07-19,,EMP-000256,Bangalore,True
+EMP-000266,Priya Walker,priya.walker266@company.com,Finance,L2,63563.81,Full-Time,2020-05-20,,EMP-000224,Berlin,True
+EMP-000267,Theodore Rivera,theodore.rivera267@company.com,Operations,L4,149765.2,Full-Time,2024-12-15,,EMP-000224,New York,True
+EMP-000268,Mason Ramirez,mason.ramirez268@company.com,Finance,L2,74466.91,Contract,2021-05-26,,EMP-000264,London,True
+EMP-000269,Lucas Brown,lucas.brown269@company.com,Finance,L4,130143.97,Full-Time,2024-11-22,2026-06-01,EMP-000268,Singapore,False
+EMP-000270,Mary Martinez,mary.martinez270@company.com,Legal,L1,45039.2,Full-Time,2024-06-14,2025-11-30,EMP-000220,New York,False
+EMP-000271,Jennifer Lewis,jennifer.lewis271@company.com,Sales,L6,254456.47,Contract,2020-08-28,,EMP-000256,London,True
+EMP-000272,Mary Torres,mary.torres272@company.com,Engineering,L3,89636.65,Full-Time,2022-05-25,,EMP-000270,Sydney,True
+EMP-000273,Camila Anderson,camila.anderson273@company.com,Finance,L1,34187.76,Part-Time,2023-10-24,,EMP-000261,Sydney,True
+EMP-000274,Carlos Adams,carlos.adams274@company.com,Finance,L1,32805.17,Part-Time,2024-04-23,2024-09-10,EMP-000242,New York,False
+EMP-000275,Richard White,richard.white275@company.com,Finance,L5,241368.0,Full-Time,2025-02-20,,EMP-000232,London,True
+EMP-000276,Abigail Robinson,abigail.robinson276@company.com,Operations,L3,82374.42,Full-Time,2024-06-10,,EMP-000270,Sydney,True
+EMP-000277,Olivia Singh,olivia.singh277@company.com,Operations,L3,110346.25,Full-Time,2022-01-31,,EMP-000230,Berlin,True
+EMP-000278,Carlos Anderson,carlos.anderson278@company.com,Engineering,L6,356414.07,Full-Time,2022-03-08,,EMP-000252,Bangalore,True
+EMP-000279,Ava Kumar,ava.kumar279@company.com,Marketing,L3,115675.18,Contract,2021-02-11,,EMP-000248,Bangalore,True
+EMP-000280,Mary Martin,mary.martin280@company.com,Product,L6,279625.91,Full-Time,2018-08-31,,EMP-000230,London,True
+EMP-000281,Joseph Brown,joseph.brown281@company.com,Marketing,L2,60365.73,Part-Time,2025-06-14,2025-10-05,EMP-000265,Berlin,False
+EMP-000282,James Scott,james.scott282@company.com,Product,L2,74504.51,Part-Time,2022-02-02,,EMP-000248,Sydney,True
+EMP-000283,Mei Hernandez,mei.hernandez283@company.com,HR,L3,117070.2,Full-Time,2020-03-10,,EMP-000255,Toronto,True
+EMP-000284,Lucas Gonzalez,lucas.gonzalez284@company.com,Product,L1,36955.98,Full-Time,2023-11-27,,EMP-000280,New York,True
+EMP-000285,Mia Baker,mia.baker285@company.com,Legal,L5,195390.99,Full-Time,2021-11-16,,EMP-000257,Sydney,True
+EMP-000286,James Anderson,james.anderson286@company.com,Operations,L4,142150.33,Full-Time,2024-02-21,,EMP-000246,Bangalore,True
+EMP-000287,Carlos White,carlos.white287@company.com,Engineering,L3,85688.19,Full-Time,2020-11-06,,EMP-000237,Toronto,True
+EMP-000288,Mia Mitchell,mia.mitchell288@company.com,Finance,L1,42543.66,Full-Time,2019-06-29,,EMP-000277,Berlin,True
+EMP-000289,Ana Singh,ana.singh289@company.com,Legal,L1,41576.87,Full-Time,2025-04-13,,EMP-000277,London,True
+EMP-000290,Robert Ramirez,robert.ramirez290@company.com,Finance,L1,47456.83,Full-Time,2023-10-24,,EMP-000267,Toronto,True
+EMP-000291,Sophia Campbell,sophia.campbell291@company.com,HR,L4,129510.75,Part-Time,2024-03-10,,EMP-000244,London,True
+EMP-000292,Chen Clark,chen.clark292@company.com,Engineering,L5,197952.64,Full-Time,2020-04-23,,EMP-000263,Dubai,True
+EMP-000293,Ana Walker,ana.walker293@company.com,Operations,L2,71687.39,Full-Time,2024-07-26,,EMP-000253,Berlin,True
+EMP-000294,Richard Lee,richard.lee294@company.com,Sales,L4,141857.07,Full-Time,2023-05-30,,EMP-000262,Singapore,True
+EMP-000295,Linda Rodriguez,linda.rodriguez295@company.com,Finance,L5,198691.16,Full-Time,2018-06-08,,EMP-000275,Singapore,True
+EMP-000296,Barbara Flores,barbara.flores296@company.com,Finance,L4,152233.52,Full-Time,2024-07-12,,EMP-000271,Berlin,True
+EMP-000297,Noah Young,noah.young297@company.com,Legal,L4,157597.36,Part-Time,2018-08-03,,EMP-000250,Toronto,True
+EMP-000298,Leila Miller,leila.miller298@company.com,HR,L1,30715.51,Full-Time,2025-11-05,,EMP-000254,New York,True
+EMP-000299,Robert Kumar,robert.kumar299@company.com,Engineering,L3,80316.49,Full-Time,2024-07-23,,EMP-000280,London,True
+EMP-000300,Elizabeth Walker,elizabeth.walker300@company.com,Legal,L4,142389.61,Full-Time,2023-08-21,,EMP-000292,Berlin,True
+EMP-000301,Joseph Clark,joseph.clark301@company.com,Operations,L5,183402.23,Part-Time,2022-08-17,,EMP-000258,Berlin,True
+EMP-000302,William Adams,william.adams302@company.com,Operations,L1,31249.5,Full-Time,2024-04-06,2025-03-25,EMP-000262,Berlin,False
+EMP-000303,Elizabeth Clark,elizabeth.clark303@company.com,Finance,L4,176707.23,Part-Time,2021-05-16,,EMP-000264,Dubai,True
+EMP-000304,Elizabeth Rivera,elizabeth.rivera304@company.com,Operations,L2,54364.98,Full-Time,2024-03-01,,EMP-000291,New York,True
+EMP-000305,James Williams,james.williams305@company.com,Legal,L3,81366.62,Part-Time,2022-06-21,2023-06-26,EMP-000282,London,False
+EMP-000306,Chen Clark,chen.clark306@company.com,Sales,L2,66374.95,Full-Time,2021-02-08,,EMP-000270,Berlin,True
+EMP-000307,Mateo Singh,mateo.singh307@company.com,Product,L3,106304.95,Full-Time,2020-08-24,,EMP-000272,New York,True
+EMP-000308,Evelyn Rodriguez,evelyn.rodriguez308@company.com,HR,L2,61450.08,Full-Time,2019-02-26,,EMP-000269,Toronto,True
+EMP-000309,Theodore Flores,theodore.flores309@company.com,Marketing,L1,32831.51,Part-Time,2020-10-17,,EMP-000305,Toronto,True
+EMP-000310,Olivia Jackson,olivia.jackson310@company.com,Finance,L3,118637.22,Full-Time,2018-12-27,,EMP-000277,Dubai,True
+EMP-000311,Mateo Young,mateo.young311@company.com,HR,L4,168017.08,Contract,2022-02-03,2022-08-27,EMP-000274,Dubai,False
+EMP-000312,Ravi King,ravi.king312@company.com,Engineering,L4,146271.15,Full-Time,2019-12-09,,EMP-000270,Dubai,True
+EMP-000313,Ella Baker,ella.baker313@company.com,Marketing,L2,73647.7,Full-Time,2019-06-01,,EMP-000307,Sydney,True
+EMP-000314,Sarah Brown,sarah.brown314@company.com,Sales,L4,164314.56,Contract,2023-01-12,,EMP-000264,Toronto,True
+EMP-000315,Fatima Lopez,fatima.lopez315@company.com,HR,L4,150190.3,Full-Time,2020-10-21,,EMP-000273,Singapore,True
+EMP-000316,Ana Rivera,ana.rivera316@company.com,Product,L3,92908.84,Part-Time,2018-10-31,,EMP-000270,Singapore,True
+EMP-000317,Elizabeth Torres,elizabeth.torres317@company.com,HR,L3,85251.28,Full-Time,2019-01-09,,EMP-000315,Toronto,True
+EMP-000318,James King,james.king318@company.com,HR,L3,83269.26,Full-Time,2019-10-16,2023-07-09,EMP-000315,Bangalore,False
+EMP-000319,Sebastian Miller,sebastian.miller319@company.com,Sales,L4,166493.43,Contract,2024-02-22,,EMP-000277,New York,True
+EMP-000320,Priya Jackson,priya.jackson320@company.com,Legal,L3,88125.76,Full-Time,2024-08-28,,EMP-000297,London,True
+EMP-000321,Owen Mitchell,owen.mitchell321@company.com,Sales,L4,167883.47,Contract,2021-06-20,,EMP-000296,London,True
+EMP-000322,Amir Walker,amir.walker322@company.com,Product,L2,60784.56,Full-Time,2022-02-12,,EMP-000287,Dubai,True
+EMP-000323,Barbara Brown,barbara.brown323@company.com,Operations,L2,69088.14,Full-Time,2023-04-16,,EMP-000318,Sydney,True
+EMP-000324,Priya White,priya.white324@company.com,Marketing,L3,95035.09,Part-Time,2024-06-28,,EMP-000320,New York,True
+EMP-000325,Camila Nguyen,camila.nguyen325@company.com,Sales,L3,102568.21,Full-Time,2024-08-31,,EMP-000294,New York,True
+EMP-000326,Jennifer Green,jennifer.green326@company.com,Finance,L3,92811.63,Part-Time,2022-02-17,,EMP-000307,Sydney,True
+EMP-000327,Noah King,noah.king327@company.com,HR,L3,108377.32,Part-Time,2022-08-28,,EMP-000278,Singapore,True
+EMP-000328,Mason Campbell,mason.campbell328@company.com,Marketing,L4,145892.89,Full-Time,2024-01-16,,EMP-000282,Sydney,True
+EMP-000329,William Brown,william.brown329@company.com,Legal,L3,83332.34,Full-Time,2024-02-04,,EMP-000282,Singapore,True
+EMP-000330,Ethan Ramirez,ethan.ramirez330@company.com,Product,L1,34941.86,Part-Time,2025-11-15,2026-07-28,EMP-000311,Sydney,False
+EMP-000331,Priya Williams,priya.williams331@company.com,Operations,L1,31193.08,Full-Time,2021-08-15,,EMP-000292,New York,True
+EMP-000332,Abigail Mitchell,abigail.mitchell332@company.com,Finance,L3,85680.66,Full-Time,2022-08-25,,EMP-000313,Bangalore,True
+EMP-000333,Robert Rivera,robert.rivera333@company.com,HR,L2,68339.18,Full-Time,2024-08-05,,EMP-000285,Berlin,True
+EMP-000334,Carlos Wilson,carlos.wilson334@company.com,Finance,L2,51020.87,Contract,2024-06-13,,EMP-000304,London,True
+EMP-000335,Ravi Davis,ravi.davis335@company.com,HR,L2,69673.27,Full-Time,2024-12-15,,EMP-000301,London,True
+EMP-000336,Elizabeth Rivera,elizabeth.rivera336@company.com,Finance,L2,52130.24,Contract,2021-12-02,,EMP-000296,London,True
+EMP-000337,Patricia Mitchell,patricia.mitchell337@company.com,Marketing,L3,102180.92,Full-Time,2022-05-20,,EMP-000303,Dubai,True
+EMP-000338,Emily Gupta,emily.gupta338@company.com,Sales,L6,342362.53,Part-Time,2021-10-22,,EMP-000316,Dubai,True
+EMP-000339,Ethan Sanchez,ethan.sanchez339@company.com,Product,L4,126272.49,Full-Time,2019-02-26,,EMP-000312,London,True
+EMP-000340,Mateo Gupta,mateo.gupta340@company.com,Engineering,L2,51229.67,Full-Time,2024-05-06,,EMP-000302,Berlin,True
+EMP-000341,Emily Singh,emily.singh341@company.com,Sales,L2,66994.88,Full-Time,2021-10-01,,EMP-000312,London,True
+EMP-000342,Theodore Tanaka,theodore.tanaka342@company.com,Engineering,L1,32596.77,Full-Time,2022-11-28,,EMP-000313,Bangalore,True
+EMP-000343,Carlos Williams,carlos.williams343@company.com,Sales,L1,36716.36,Full-Time,2022-03-23,,EMP-000329,Sydney,True
+EMP-000344,Jack Thompson,jack.thompson344@company.com,Operations,L2,63436.79,Full-Time,2018-01-08,,EMP-000309,Dubai,True
+EMP-000345,Camila Mitchell,camila.mitchell345@company.com,Operations,L1,34638.21,Full-Time,2022-07-29,,EMP-000332,Dubai,True
+EMP-000346,Emily Walker,emily.walker346@company.com,Product,L5,228754.55,Full-Time,2025-09-14,,EMP-000339,Dubai,True
+EMP-000347,James Robinson,james.robinson347@company.com,Product,L4,168827.71,Full-Time,2025-08-28,,EMP-000313,Singapore,True
+EMP-000348,Mia Martin,mia.martin348@company.com,Finance,L2,79681.41,Full-Time,2019-12-19,,EMP-000310,Toronto,True
+EMP-000349,Mason Torres,mason.torres349@company.com,Sales,L1,37671.19,Full-Time,2020-02-09,,EMP-000317,Sydney,True
+EMP-000350,Mohamed Tanaka,mohamed.tanaka350@company.com,HR,L1,45292.36,Full-Time,2024-08-12,,EMP-000346,Berlin,True
+EMP-000351,Aiden Davis,aiden.davis351@company.com,Product,L3,97974.28,Full-Time,2020-01-29,,EMP-000346,Dubai,True
+EMP-000352,Sebastian Robinson,sebastian.robinson352@company.com,Sales,L1,44074.72,Full-Time,2023-10-09,2026-04-10,EMP-000341,Dubai,False
+EMP-000353,Fatima Nelson,fatima.nelson353@company.com,Product,L2,53938.8,Part-Time,2025-03-09,,EMP-000349,Dubai,True
+EMP-000354,Jackson Davis,jackson.davis354@company.com,Operations,L5,182243.52,Full-Time,2018-07-19,,EMP-000307,New York,True
+EMP-000355,Barbara Wilson,barbara.wilson355@company.com,Marketing,L6,317679.1,Part-Time,2021-04-29,,EMP-000322,Berlin,True
+EMP-000356,Yuki Thomas,yuki.thomas356@company.com,Marketing,L6,269694.75,Full-Time,2024-06-25,,EMP-000335,Dubai,True
+EMP-000357,Emily Miller,emily.miller357@company.com,Sales,L3,109715.41,Full-Time,2020-07-17,2021-01-17,EMP-000354,London,False
+EMP-000358,Mateo Hill,mateo.hill358@company.com,Engineering,L4,138829.35,Full-Time,2024-08-10,2025-09-05,EMP-000330,New York,False
+EMP-000359,Camila Patel,camila.patel359@company.com,Marketing,L1,39409.56,Full-Time,2024-06-27,,EMP-000329,New York,True
+EMP-000360,Lucas Allen,lucas.allen360@company.com,Operations,L4,161704.55,Full-Time,2023-06-04,,EMP-000337,New York,True
+EMP-000361,Abigail Ramirez,abigail.ramirez361@company.com,Finance,L2,62232.71,Full-Time,2023-05-25,,EMP-000345,Sydney,True
+EMP-000362,Evelyn King,evelyn.king362@company.com,Sales,L4,174603.1,Contract,2024-10-23,2025-04-25,EMP-000317,Dubai,False
+EMP-000363,James Perez,james.perez363@company.com,HR,L2,54302.09,Full-Time,2018-07-28,,EMP-000362,Sydney,True
+EMP-000364,Emily Harris,emily.harris364@company.com,Product,L1,42929.26,Full-Time,2018-08-18,,EMP-000350,London,True
+EMP-000365,Lucas Tanaka,lucas.tanaka365@company.com,Operations,L1,36729.44,Full-Time,2020-01-30,,EMP-000333,Bangalore,True
+EMP-000366,Charles Torres,charles.torres366@company.com,Operations,L3,108470.74,Part-Time,2023-01-28,2025-12-25,EMP-000328,New York,False
+EMP-000367,Susan Carter,susan.carter367@company.com,Engineering,L1,47014.5,Contract,2021-07-14,,EMP-000329,New York,True
+EMP-000368,Abigail Williams,abigail.williams368@company.com,Legal,L2,65165.63,Contract,2025-03-05,,EMP-000357,New York,True
+EMP-000369,Sebastian Gupta,sebastian.gupta369@company.com,Engineering,L2,69187.98,Contract,2021-06-22,,EMP-000337,Bangalore,True
+EMP-000370,Joseph Hill,joseph.hill370@company.com,Product,L1,42016.15,Full-Time,2022-04-07,,EMP-000339,London,True
+EMP-000371,Jackson King,jackson.king371@company.com,Finance,L6,386358.49,Full-Time,2021-12-29,,EMP-000322,New York,True
+EMP-000372,Mateo Miller,mateo.miller372@company.com,Sales,L2,62876.63,Full-Time,2022-10-27,,EMP-000343,Berlin,True
+EMP-000373,Noah Sanchez,noah.sanchez373@company.com,Legal,L5,185603.64,Full-Time,2025-05-19,,EMP-000361,London,True
+EMP-000374,Mateo Singh,mateo.singh374@company.com,Operations,L5,238590.83,Full-Time,2019-06-01,2021-06-11,EMP-000352,London,False
+EMP-000375,Chen Robinson,chen.robinson375@company.com,Product,L2,73721.28,Full-Time,2019-05-08,,EMP-000348,London,True
+EMP-000376,James Thompson,james.thompson376@company.com,Finance,L1,49112.27,Full-Time,2024-12-13,,EMP-000341,Sydney,True
+EMP-000377,Ella Anderson,ella.anderson377@company.com,Engineering,L2,63609.43,Full-Time,2018-10-05,2019-06-18,EMP-000359,Sydney,False
+EMP-000378,Ana Scott,ana.scott378@company.com,Marketing,L6,346714.33,Full-Time,2023-04-29,,EMP-000355,Toronto,True
+EMP-000379,Ana Campbell,ana.campbell379@company.com,Operations,L2,64961.52,Full-Time,2019-07-08,,EMP-000360,London,True
+EMP-000380,Elizabeth Singh,elizabeth.singh380@company.com,Legal,L3,86523.52,Part-Time,2020-12-01,2025-08-06,EMP-000377,London,False
+EMP-000381,Ravi Flores,ravi.flores381@company.com,Legal,L3,80492.04,Full-Time,2019-03-13,,EMP-000357,Dubai,True
+EMP-000382,Noah Smith,noah.smith382@company.com,Operations,L5,200499.71,Full-Time,2025-11-14,,EMP-000349,Bangalore,True
+EMP-000383,Lucas Campbell,lucas.campbell383@company.com,Legal,L1,35909.57,Full-Time,2025-02-12,,EMP-000364,Toronto,True
+EMP-000384,Ethan Gonzalez,ethan.gonzalez384@company.com,Sales,L3,117732.47,Full-Time,2018-07-29,,EMP-000357,Berlin,True
+EMP-000385,Theodore Rodriguez,theodore.rodriguez385@company.com,Product,L5,181336.19,Full-Time,2025-02-03,,EMP-000338,Bangalore,True
+EMP-000386,Emily Adams,emily.adams386@company.com,Finance,L3,82261.27,Full-Time,2019-06-08,,EMP-000380,Sydney,True
+EMP-000387,Charles Singh,charles.singh387@company.com,HR,L3,93620.73,Full-Time,2018-02-17,,EMP-000363,Singapore,True
+EMP-000388,Aiden Campbell,aiden.campbell388@company.com,Finance,L4,159752.89,Full-Time,2024-05-07,,EMP-000343,Dubai,True
+EMP-000389,Elizabeth Hill,elizabeth.hill389@company.com,Marketing,L2,77992.23,Full-Time,2024-06-08,,EMP-000384,Sydney,True
+EMP-000390,Lucas Thompson,lucas.thompson390@company.com,Marketing,L1,45382.22,Part-Time,2024-10-16,,EMP-000359,Singapore,True
+EMP-000391,Olivia Smith,olivia.smith391@company.com,Sales,L2,68587.47,Full-Time,2020-01-19,,EMP-000355,New York,True
+EMP-000392,Chen Allen,chen.allen392@company.com,Marketing,L4,154857.12,Part-Time,2020-03-20,,EMP-000360,Dubai,True
+EMP-000393,Fatima Martinez,fatima.martinez393@company.com,Sales,L6,367038.36,Full-Time,2023-04-11,,EMP-000386,Bangalore,True
+EMP-000394,Yuki Perez,yuki.perez394@company.com,HR,L3,86975.04,Full-Time,2021-06-14,,EMP-000375,London,True
+EMP-000395,Sophia Brown,sophia.brown395@company.com,Operations,L1,46132.42,Full-Time,2023-02-15,,EMP-000352,Bangalore,True
+EMP-000396,Ella Perez,ella.perez396@company.com,Sales,L3,110754.92,Full-Time,2019-12-04,,EMP-000393,New York,True
+EMP-000397,Barbara Lee,barbara.lee397@company.com,Marketing,L5,190986.59,Full-Time,2020-06-21,,EMP-000362,Singapore,True
+EMP-000398,Jack Walker,jack.walker398@company.com,HR,L3,93374.6,Full-Time,2025-08-05,,EMP-000383,Singapore,True
+EMP-000399,Michael Jackson,michael.jackson399@company.com,HR,L5,223728.53,Full-Time,2023-11-04,,EMP-000368,Dubai,True
+EMP-000400,Carlos Flores,carlos.flores400@company.com,Legal,L3,87827.95,Full-Time,2023-03-17,,EMP-000382,Sydney,True
