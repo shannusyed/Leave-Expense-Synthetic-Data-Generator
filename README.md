@@ -43,22 +43,94 @@ leave_expense_synthetic/
 
 ## 🚀 Quick Start
 
+### 1. Install Dependencies
 ```bash
-# Install dependencies
 pip install -r requirements.txt
+```
 
-# Generate the dataset
+### 2. Generate the Dataset
+```bash
+# Generate the dataset with 400 employees, 800 leave requests, 1000 expense claims
 python generate_data.py
+```
 
-# Run validation (56 checks)
+Expected output:
+```
+✅ Generating 400 employees...
+✅ Generating 800 leave requests...
+✅ Generating 1000 expense claims...
+✅ All data generated successfully!
+Generated CSV files in data/ directory
+```
+
+### 3. Run Validation (61 checks)
+```bash
 python validate.py
+```
 
-# Run tests (36 tests)
+This validates:
+- Volume targets
+- PK uniqueness & FK integrity
+- Zero ground-truth leakage
+- ID formats & date ordering
+- Approval sequence correctness
+- Balance reconciliation
+
+### 4. Run Tests (36 tests)
+```bash
 python -m pytest tests/ -v
+```
 
-# Verify reproducibility
+### 5. Verify Reproducibility
+```bash
 python scripts/repro_check.py
 ```
+
+## 📊 Interactive Dashboard
+
+Launch the **interactive Streamlit dashboard** to explore leave & expense data, approval chains, anomalies, and validation results:
+
+### Install Streamlit
+```bash
+python -m pip install streamlit
+```
+
+### Run the Dashboard
+```bash
+python -m streamlit run streamlit_app.py
+```
+
+**Dashboard opens at:** http://localhost:8501
+
+**Features:**
+- **🏠 Home**: System overview with key metrics
+- **✅ Approval Decisions**: Search leave/expense by ID; view complete approval chains and decisions
+- **🔍 Anomaly Detection**: Browse all detected anomalies:
+  - Duplicate receipts (fraud indicator)
+  - Split claims (threshold evasion)
+  - Self-approvals (conflict of interest)
+  - Duplicate reimbursements (payment fraud)
+- **📊 Data Quality**: Run and view 61 validation checks in real-time
+- **📝 Audit Trail**: View complete status event history for any entity
+
+All anomalies are detected at **runtime** from the generated data (not pre-labeled).
+
+### Dashboard Output Examples
+
+**Anomaly Detection Page:**
+- Each anomaly shows clean, readable information (not JSON)
+- Displays: Employee ID, Claim ID, Severity Level, Anomaly Type, Description
+- Sortable by anomaly type: receipts, splits, self-approvals, reimbursements
+
+**Approval Decisions Page:**
+- Enter any Leave Request ID (LRxxxx) or Expense Claim ID (ECxxxx)
+- View complete approval routing with all decision levels
+- Shows approver role, decision, date, and reason code
+
+**Data Quality Page:**
+- Click "Run Validation" to execute 61 checks
+- Displays pass/fail status for each validation category
+- Shows volume targets vs. actual counts
 
 ## 📊 Generated Tables
 
@@ -311,23 +383,4 @@ Typical chain: `Draft → Submitted → Under Review → Approved/Rejected`
 - pytest (for tests only)
 - Streamlit (for dashboard)
 
-## 📊 Interactive Dashboard
 
-A Streamlit-based dashboard provides visual exploration of the data:
-
-```bash
-# Install Streamlit (if not already installed)
-pip install streamlit
-
-# Run the dashboard
-streamlit run streamlit_app.py
-```
-
-**Features:**
-- **Home**: System overview with key metrics
-- **Approval Decisions**: Search leave/expense by ID; view approval chains
-- **Anomaly Detection**: Browse detected anomalies with filtering
-- **Data Quality**: Run and view 61 validation checks
-- **Audit Trail**: View status event history for any entity
-
-The dashboard demonstrates **runtime anomaly detection** and complete traceability.

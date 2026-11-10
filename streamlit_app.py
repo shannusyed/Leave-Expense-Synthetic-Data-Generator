@@ -173,14 +173,22 @@ elif page == "✅ Approval Decisions":
                     
                     with col1:
                         st.subheader("📄 Request Details")
-                        st.json({
-                            "Leave Type": request["leave_type"],
-                            "Start Date": request["start_date"],
-                            "End Date": request["end_date"],
-                            "Days Requested": request["days_requested"],
-                            "Applied Date": request["applied_date"],
-                            "Status": request["status"],
-                        })
+                        st.markdown(f"""
+**Leave Type:** {request['leave_type']}
+
+**Date Range:** {request['start_date']} to {request['end_date']}
+
+**Days Requested:** {request['days_requested']} days
+
+**Applied On:** {request['applied_date']}
+
+**Current Status:** {request['status']}
+                        """)
+                        
+                        if request["status"] == "Approved":
+                            st.success("✅ LEAVE APPROVED")
+                        else:
+                            st.error("❌ LEAVE REJECTED")
                         
                         if request["status"] == "Approved":
                             st.success("✅ APPROVED")
@@ -221,13 +229,22 @@ elif page == "✅ Approval Decisions":
                     
                     with col1:
                         st.subheader("📄 Claim Details")
-                        st.json({
-                            "Amount": f"₹{float(claim['total_amount']):,.2f}",
-                            "Claim Date": claim["claim_date"],
-                            "Department": claim["department"],
-                            "Cost Center": claim["cost_center_id"],
-                            "Status": claim["status"],
-                        })
+                        st.markdown(f"""
+**Amount:** ₹{float(claim['total_amount']):,.2f}
+
+**Claim Date:** {claim['claim_date']}
+
+**Department:** {claim['department']}
+
+**Cost Center:** {claim['cost_center_id']}
+
+**Current Status:** {claim['status']}
+                        """)
+                        
+                        if claim["status"] == "Approved":
+                            st.success("✅ CLAIM APPROVED")
+                        else:
+                            st.error("❌ CLAIM REJECTED")
                         
                         if claim["status"] == "Approved":
                             st.success("✅ APPROVED")
@@ -314,59 +331,84 @@ elif page == "🔍 Anomaly Detection":
             st.subheader("🧾 Duplicate Receipt Details")
             for i, anom in enumerate(results["duplicate_receipts"], 1):
                 with st.expander(f"#{i}: {anom['description']}"):
-                    st.json({
-                        "Receipt Hash": anom["receipt_hash"][:32] + "...",
-                        "Claims": anom["claim_ids"],
-                        "Lines": anom["line_ids"],
-                        "Severity": anom["severity"],
-                        "Count": anom["count"]
-                    })
+                    st.markdown(f"""
+**Receipt Hash:** {anom['receipt_hash'][:32]}...
+
+**Found On Claims:**
+{', '.join(anom['claim_ids'])}
+
+**Found On Line Items:**
+{', '.join(anom['line_ids'])}
+
+**Severity Level:** {anom['severity']}
+
+**Times Used:** {anom['count']} times
+                    """)
         else:
-            st.info("No duplicate receipts detected")
+            st.info("✅ No duplicate receipts detected - All receipts are unique")
     
     elif anomaly_type == "Split Claims":
         if results["split_claims"]:
             st.subheader("✂️ Split Claim Details")
             for i, anom in enumerate(results["split_claims"], 1):
                 with st.expander(f"#{i}: {anom['description']}"):
-                    st.json({
-                        "Employee": anom["employee_id"],
-                        "Claims": anom["claim_ids"],
-                        "Individual Max": f"₹{anom['individual_max']:,.0f}",
-                        "Group Total": f"₹{anom['group_total']:,.0f}",
-                        "Date Range": anom["date_range"],
-                        "Severity": anom["severity"]
-                    })
+                    st.markdown(f"""
+**Employee:** {anom['employee_id']}
+
+**Claims Involved:** {', '.join(anom['claim_ids'])}
+
+**Number of Claims:** {anom['count']}
+
+**Individual Maximum Amount:** ₹{anom['individual_max']:,.2f}
+
+**Group Total Amount:** ₹{anom['group_total']:,.2f}
+
+**Approval Threshold:** ₹20,000
+
+**Date Range:** {anom['date_range']}
+
+**Severity:** {anom['severity']}
+
+**Issue:** Claims appear to be split to avoid multi-level approval
+                    """)
         else:
-            st.info("No split claims detected")
+            st.info("✅ No split claims detected - All claims are legitimate")
     
     elif anomaly_type == "Self-Approvals":
         if results["self_approvals"]:
             st.subheader("👤 Self-Approval Details")
             for i, anom in enumerate(results["self_approvals"], 1):
                 with st.expander(f"#{i}: {anom['description']}"):
-                    st.json({
-                        "Employee": anom["employee_id"],
-                        "Claim": anom["claim_id"],
-                        "Approver Role": anom["approver_role"],
-                        "Severity": anom["severity"]
-                    })
+                    st.markdown(f"""
+**Employee:** {anom["employee_id"]}
+
+**Claim:** {anom["claim_id"]}
+
+**Approver Role:** {anom["approver_role"]}
+
+**Severity:** {anom["severity"]}
+                    """)
         else:
-            st.info("No self-approvals detected")
+            st.info("✅ No self-approvals detected - All approvals follow proper chain of command")
     
     else:  # Duplicate Reimbursements
         if results["duplicate_reimbursements"]:
             st.subheader("💳 Duplicate Reimbursement Details")
             for i, anom in enumerate(results["duplicate_reimbursements"], 1):
                 with st.expander(f"#{i}: {anom['description']}"):
-                    st.json({
-                        "Claim": anom["claim_id"],
-                        "Reimbursement IDs": anom["reimbursement_ids"],
-                        "Count": anom["count"],
-                        "Severity": anom["severity"]
-                    })
+                    st.markdown(f"""
+**Claim:** {anom["claim_id"]}
+
+**Reimbursement IDs:** {', '.join(anom["reimbursement_ids"])}
+
+**Count:** {anom["count"]} duplicate reimbursements
+
+**Severity:** {anom["severity"]}
+
+**Issue:** The same claim has been reimbursed multiple times, indicating potential duplicate payment fraud
+                    """)
         else:
-            st.info("No duplicate reimbursements detected")
+            st.info("✅ No duplicate reimbursements detected - All reimbursements are processed once")
 
 
 # ══════════════════════════════════════════════════════════════════════
