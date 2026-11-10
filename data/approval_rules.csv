@@ -1,7 +1,7 @@
-rule_id,rule_name,entity_type,condition,threshold,approver_role,level,sla_hours,is_active
-AR-001,Leave – Manager Approval,Leave,always,0.0,Manager,1,48,True
-AR-002,Leave – HR Review (>10 days),Leave,days_gt,10.0,HR,2,72,True
-AR-003,Expense – Manager (>$0),Expense,amount_gt,0.0,Manager,1,48,True
-AR-004,Expense – Director (>$2 000),Expense,amount_gt,2000.0,Director,2,72,True
-AR-005,Expense – CFO (>$5 000),Expense,amount_gt,5000.0,CFO,3,96,True
-AR-006,Expense – Finance Audit (>$10 000),Expense,amount_gt,10000.0,Finance,4,120,True
+rule_id,entity_type,condition,levels,approver_role
+AR001,leave,days <= 3,1,Manager
+AR002,leave,days > 3 and days <=7,2,"Manager,Senior Manager"
+AR003,leave,days > 7,3,"Manager,Senior Manager,Director"
+AR004,expense,amount <= 5000,1,Manager
+AR005,expense,amount > 5000 and amount <= 20000,2,"Manager,Senior Manager"
+AR006,expense,amount > 20000,3,"Manager,Senior Manager,Director"

@@ -1,401 +1,401 @@
-employee_id,full_name,email,department,job_grade,annual_salary,employment_type,hire_date,termination_date,manager_id,location,is_active
-EMP-000001,Linda Allen,linda.allen1@company.com,Sales,L5,190896.78,Full-Time,2019-03-05,,,Singapore,True
-EMP-000002,Linda Sharma,linda.sharma2@company.com,Engineering,L2,58917.99,Full-Time,2020-02-21,,,Dubai,True
-EMP-000003,Liam Tanaka,liam.tanaka3@company.com,Engineering,L3,89606.52,Part-Time,2023-02-26,,,Toronto,True
-EMP-000004,James Davis,james.davis4@company.com,Product,L2,57447.59,Full-Time,2020-12-03,,,Dubai,True
-EMP-000005,Emily Adams,emily.adams5@company.com,Operations,L1,32636.58,Full-Time,2025-05-04,,,Sydney,True
-EMP-000006,Barbara Smith,barbara.smith6@company.com,Operations,L3,102719.39,Full-Time,2024-10-15,,,London,True
-EMP-000007,Amir Harris,amir.harris7@company.com,HR,L1,45315.38,Full-Time,2021-10-14,,,Dubai,True
-EMP-000008,Joseph Jones,joseph.jones8@company.com,Sales,L2,75114.45,Full-Time,2020-06-18,,,Toronto,True
-EMP-000009,Priya Johnson,priya.johnson9@company.com,Sales,L2,77912.64,Contract,2020-04-23,2025-10-14,,London,False
-EMP-000010,Linda Singh,linda.singh10@company.com,Engineering,L1,36121.84,Contract,2022-04-02,,,Bangalore,True
-EMP-000011,Sarah Martinez,sarah.martinez11@company.com,Marketing,L2,53274.14,Full-Time,2024-06-04,,EMP-000007,Sydney,True
-EMP-000012,Jessica Smith,jessica.smith12@company.com,Marketing,L5,191108.52,Full-Time,2022-05-18,,EMP-000003,Toronto,True
-EMP-000013,James White,james.white13@company.com,HR,L1,40765.6,Full-Time,2022-12-18,,EMP-000012,Berlin,True
-EMP-000014,Owen Lewis,owen.lewis14@company.com,Finance,L2,51051.49,Full-Time,2021-01-03,,EMP-000001,Sydney,True
-EMP-000015,Mateo Williams,mateo.williams15@company.com,Operations,L3,100839.3,Full-Time,2019-10-05,,EMP-000013,Bangalore,True
-EMP-000016,Lucas Clark,lucas.clark16@company.com,Finance,L5,239233.32,Full-Time,2021-11-12,,EMP-000014,London,True
-EMP-000017,Robert Harris,robert.harris17@company.com,Engineering,L3,97421.53,Full-Time,2023-03-23,,EMP-000012,Bangalore,True
-EMP-000018,William Harris,william.harris18@company.com,Sales,L1,33315.22,Full-Time,2021-06-08,,EMP-000016,Sydney,True
-EMP-000019,Lucas Allen,lucas.allen19@company.com,Finance,L3,101017.05,Full-Time,2021-09-21,,EMP-000013,New York,True
-EMP-000020,Karen Williams,karen.williams20@company.com,Marketing,L5,230564.57,Part-Time,2021-12-10,2025-05-19,EMP-000001,Dubai,False
-EMP-000021,Jackson Lee,jackson.lee21@company.com,HR,L4,131529.08,Full-Time,2023-12-12,,EMP-000013,Singapore,True
-EMP-000022,Theodore Hernandez,theodore.hernandez22@company.com,Sales,L1,42282.34,Full-Time,2024-12-27,,EMP-000006,London,True
-EMP-000023,Ella Gonzalez,ella.gonzalez23@company.com,Legal,L3,85035.2,Full-Time,2023-03-23,,EMP-000020,Toronto,True
-EMP-000024,Patricia Lee,patricia.lee24@company.com,Legal,L4,152089.0,Full-Time,2022-10-15,,EMP-000012,Singapore,True
-EMP-000025,Sarah Davis,sarah.davis25@company.com,HR,L5,232163.59,Full-Time,2021-06-10,,EMP-000008,Toronto,True
-EMP-000026,Jessica Thomas,jessica.thomas26@company.com,Finance,L4,173716.77,Full-Time,2023-05-13,,EMP-000001,Dubai,True
-EMP-000027,Mei Nguyen,mei.nguyen27@company.com,Legal,L3,117447.68,Part-Time,2020-11-11,,EMP-000007,Dubai,True
-EMP-000028,Owen Baker,owen.baker28@company.com,Finance,L1,49969.01,Full-Time,2024-06-06,,EMP-000006,Singapore,True
-EMP-000029,Mateo Flores,mateo.flores29@company.com,Engineering,L1,45955.77,Part-Time,2019-03-26,,EMP-000003,Dubai,True
-EMP-000030,Mei Rivera,mei.rivera30@company.com,Operations,L3,84880.46,Full-Time,2021-06-23,,EMP-000006,London,True
-EMP-000031,Jack Taylor,jack.taylor31@company.com,Operations,L3,82626.55,Contract,2023-04-28,,EMP-000001,New York,True
-EMP-000032,Sebastian Hernandez,sebastian.hernandez32@company.com,Legal,L2,73319.93,Part-Time,2020-06-02,,EMP-000025,Bangalore,True
-EMP-000033,Mohamed Anderson,mohamed.anderson33@company.com,Finance,L2,59466.73,Contract,2023-08-04,,EMP-000004,Toronto,True
-EMP-000034,Noah Robinson,noah.robinson34@company.com,Engineering,L1,48806.88,Full-Time,2021-07-01,,EMP-000029,Bangalore,True
-EMP-000035,Thomas Williams,thomas.williams35@company.com,Operations,L2,75233.2,Full-Time,2020-08-19,,EMP-000025,Sydney,True
-EMP-000036,Mohamed Davis,mohamed.davis36@company.com,Marketing,L5,199532.49,Full-Time,2022-04-21,,EMP-000008,New York,True
-EMP-000037,Linda Ramirez,linda.ramirez37@company.com,Sales,L1,32421.91,Part-Time,2023-07-24,,EMP-000030,Sydney,True
-EMP-000038,Jennifer Rodriguez,jennifer.rodriguez38@company.com,Product,L1,43322.91,Part-Time,2025-10-11,,EMP-000023,New York,True
-EMP-000039,Elizabeth Johnson,elizabeth.johnson39@company.com,Marketing,L1,31985.32,Part-Time,2020-08-03,,EMP-000020,Dubai,True
-EMP-000040,Linda Anderson,linda.anderson40@company.com,Legal,L4,157249.47,Contract,2022-05-17,,EMP-000035,Singapore,True
-EMP-000041,Ravi Smith,ravi.smith41@company.com,Engineering,L6,379195.71,Full-Time,2018-04-09,,EMP-000040,Toronto,True
-EMP-000042,James Wright,james.wright42@company.com,Sales,L2,58266.55,Full-Time,2024-04-06,,EMP-000019,London,True
-EMP-000043,Ava Torres,ava.torres43@company.com,Operations,L3,104908.11,Full-Time,2024-04-16,,EMP-000016,Toronto,True
-EMP-000044,Yuki Green,yuki.green44@company.com,Finance,L5,199011.63,Full-Time,2023-10-05,2024-09-03,EMP-000005,Toronto,False
-EMP-000045,Linda Patel,linda.patel45@company.com,HR,L1,33706.41,Contract,2020-01-12,,EMP-000041,Singapore,True
-EMP-000046,Theodore Sanchez,theodore.sanchez46@company.com,Operations,L4,123120.27,Part-Time,2024-07-01,,EMP-000017,Bangalore,True
-EMP-000047,Owen Garcia,owen.garcia47@company.com,Engineering,L6,396270.64,Full-Time,2025-11-10,,EMP-000020,Sydney,True
-EMP-000048,Jackson Nguyen,jackson.nguyen48@company.com,Finance,L2,61252.51,Full-Time,2022-09-16,,EMP-000032,New York,True
-EMP-000049,Amir King,amir.king49@company.com,Finance,L4,129848.64,Full-Time,2020-05-21,,EMP-000035,London,True
-EMP-000050,Sarah White,sarah.white50@company.com,Engineering,L3,90119.55,Full-Time,2019-01-16,,EMP-000008,Bangalore,True
-EMP-000051,Noah Nguyen,noah.nguyen51@company.com,Engineering,L3,98712.52,Part-Time,2025-10-11,,EMP-000002,Berlin,True
-EMP-000052,Emily Nguyen,emily.nguyen52@company.com,Product,L3,118909.68,Part-Time,2018-05-07,,EMP-000028,Berlin,True
-EMP-000053,Susan Green,susan.green53@company.com,Sales,L2,74529.85,Full-Time,2022-07-18,,EMP-000024,Dubai,True
-EMP-000054,Elizabeth Smith,elizabeth.smith54@company.com,HR,L3,114799.85,Part-Time,2018-09-14,,EMP-000031,Berlin,True
-EMP-000055,Noah Taylor,noah.taylor55@company.com,Operations,L3,87042.0,Full-Time,2021-05-31,,EMP-000011,Bangalore,True
-EMP-000056,Ava Gupta,ava.gupta56@company.com,Legal,L2,60614.28,Part-Time,2024-07-02,,EMP-000036,Singapore,True
-EMP-000057,Karen Anderson,karen.anderson57@company.com,Engineering,L3,98323.89,Full-Time,2025-02-06,,EMP-000010,Sydney,True
-EMP-000058,Jack Patel,jack.patel58@company.com,Finance,L5,217477.22,Full-Time,2022-07-13,,EMP-000034,Sydney,True
-EMP-000059,Isabella Rodriguez,isabella.rodriguez59@company.com,Engineering,L3,115046.41,Full-Time,2022-11-24,,EMP-000019,Dubai,True
-EMP-000060,Mateo Sanchez,mateo.sanchez60@company.com,Operations,L2,79909.52,Full-Time,2022-09-01,,EMP-000031,Bangalore,True
-EMP-000061,Noah Brown,noah.brown61@company.com,Sales,L4,172125.42,Full-Time,2019-03-21,,EMP-000057,New York,True
-EMP-000062,Mary Torres,mary.torres62@company.com,Legal,L3,114732.68,Full-Time,2019-05-19,,EMP-000040,New York,True
-EMP-000063,Camila Carter,camila.carter63@company.com,Operations,L2,53920.96,Full-Time,2021-05-16,,EMP-000060,Bangalore,True
-EMP-000064,Robert Tanaka,robert.tanaka64@company.com,Marketing,L2,65590.19,Full-Time,2020-02-13,2021-11-04,EMP-000052,Singapore,False
-EMP-000065,Olivia Adams,olivia.adams65@company.com,Product,L2,70756.95,Full-Time,2018-04-12,,EMP-000029,New York,True
-EMP-000066,Emma Nelson,emma.nelson66@company.com,HR,L1,33666.24,Full-Time,2018-06-10,,EMP-000064,London,True
-EMP-000067,Mohamed Lee,mohamed.lee67@company.com,Finance,L1,44525.59,Full-Time,2018-05-22,,EMP-000047,Bangalore,True
-EMP-000068,Patricia Nelson,patricia.nelson68@company.com,Product,L1,39685.75,Part-Time,2022-02-06,,EMP-000058,Bangalore,True
-EMP-000069,Charles Sanchez,charles.sanchez69@company.com,Marketing,L3,87181.81,Full-Time,2020-06-27,,EMP-000020,Toronto,True
-EMP-000070,Owen Miller,owen.miller70@company.com,Operations,L4,137522.24,Contract,2024-08-19,,EMP-000065,Singapore,True
-EMP-000071,Aiden Sharma,aiden.sharma71@company.com,Marketing,L6,369874.32,Full-Time,2023-01-27,,EMP-000046,Sydney,True
-EMP-000072,Noah Thomas,noah.thomas72@company.com,Finance,L6,310251.68,Full-Time,2022-07-09,,EMP-000065,Sydney,True
-EMP-000073,Sophia Martinez,sophia.martinez73@company.com,Legal,L4,126459.74,Part-Time,2020-12-25,2024-10-19,EMP-000031,Berlin,False
-EMP-000074,Mary Thomas,mary.thomas74@company.com,Sales,L5,195256.12,Full-Time,2023-05-27,2026-01-23,EMP-000069,Dubai,False
-EMP-000075,James Torres,james.torres75@company.com,Product,L3,99314.08,Part-Time,2020-08-18,,EMP-000058,Singapore,True
-EMP-000076,Patricia Gonzalez,patricia.gonzalez76@company.com,Legal,L1,48584.51,Full-Time,2025-09-16,,EMP-000033,Singapore,True
-EMP-000077,Robert Clark,robert.clark77@company.com,Product,L1,35579.4,Full-Time,2018-01-27,,EMP-000048,Bangalore,True
-EMP-000078,Richard Harris,richard.harris78@company.com,Legal,L2,61617.36,Full-Time,2021-10-30,,EMP-000057,London,True
-EMP-000079,Olivia White,olivia.white79@company.com,Product,L3,106405.17,Full-Time,2018-09-13,,EMP-000049,New York,True
-EMP-000080,Abigail Lewis,abigail.lewis80@company.com,Legal,L3,110214.11,Contract,2025-02-19,,EMP-000073,Sydney,True
-EMP-000081,Susan Moore,susan.moore81@company.com,Engineering,L5,184103.9,Contract,2023-06-15,,EMP-000045,London,True
-EMP-000082,Sophia Gupta,sophia.gupta82@company.com,Product,L3,103940.12,Full-Time,2022-01-09,2023-10-27,EMP-000055,Bangalore,False
-EMP-000083,Lucas Lopez,lucas.lopez83@company.com,Product,L2,57251.12,Full-Time,2021-10-03,,EMP-000054,Dubai,True
-EMP-000084,Mohamed Garcia,mohamed.garcia84@company.com,Product,L3,86747.49,Full-Time,2023-03-18,,EMP-000042,Bangalore,True
-EMP-000085,Karen Sanchez,karen.sanchez85@company.com,Product,L3,87239.76,Full-Time,2019-09-11,,EMP-000071,Singapore,True
-EMP-000086,Linda Baker,linda.baker86@company.com,Sales,L4,164838.77,Full-Time,2021-08-27,,EMP-000056,London,True
-EMP-000087,William Thomas,william.thomas87@company.com,Operations,L1,33645.78,Full-Time,2018-06-11,,EMP-000059,Dubai,True
-EMP-000088,Yuki Brown,yuki.brown88@company.com,Finance,L4,169737.73,Full-Time,2024-10-29,,EMP-000066,Berlin,True
-EMP-000089,Jessica Sharma,jessica.sharma89@company.com,Product,L2,50109.26,Full-Time,2022-01-25,2024-09-20,EMP-000073,Sydney,False
-EMP-000090,Aiden Perez,aiden.perez90@company.com,Product,L2,56978.72,Part-Time,2025-02-01,,EMP-000070,Dubai,True
-EMP-000091,Richard Tanaka,richard.tanaka91@company.com,Product,L1,42645.91,Full-Time,2021-03-17,,EMP-000055,London,True
-EMP-000092,Mason Jackson,mason.jackson92@company.com,HR,L5,249246.8,Contract,2023-06-11,,EMP-000045,Toronto,True
-EMP-000093,Richard Robinson,richard.robinson93@company.com,Legal,L1,49106.24,Part-Time,2024-07-31,,EMP-000067,Dubai,True
-EMP-000094,John Scott,john.scott94@company.com,Marketing,L3,89112.3,Full-Time,2019-12-16,,EMP-000079,London,True
-EMP-000095,Michael Rivera,michael.rivera95@company.com,Finance,L3,117869.85,Full-Time,2020-01-14,,EMP-000079,London,True
-EMP-000096,Jennifer Campbell,jennifer.campbell96@company.com,Legal,L4,155929.78,Part-Time,2020-08-13,,EMP-000046,New York,True
-EMP-000097,Joseph Adams,joseph.adams97@company.com,HR,L2,62385.36,Part-Time,2022-06-20,,EMP-000074,Toronto,True
-EMP-000098,Sophia Gupta,sophia.gupta98@company.com,Sales,L1,49755.62,Part-Time,2025-08-05,,EMP-000055,Sydney,True
-EMP-000099,Olivia Lewis,olivia.lewis99@company.com,Marketing,L2,57802.17,Full-Time,2021-08-27,,EMP-000065,Bangalore,True
-EMP-000100,Charles Young,charles.young100@company.com,Operations,L4,164637.9,Full-Time,2024-12-31,,EMP-000060,New York,True
-EMP-000101,Mateo Harris,mateo.harris101@company.com,Sales,L2,65995.64,Part-Time,2018-01-03,,EMP-000070,Dubai,True
-EMP-000102,Patricia Kumar,patricia.kumar102@company.com,Engineering,L3,83905.0,Full-Time,2024-09-04,,EMP-000055,Berlin,True
-EMP-000103,Susan Torres,susan.torres103@company.com,Sales,L3,84607.47,Full-Time,2020-08-27,,EMP-000074,Sydney,True
-EMP-000104,Lucas Lopez,lucas.lopez104@company.com,HR,L2,73912.63,Full-Time,2019-05-05,,EMP-000072,Toronto,True
-EMP-000105,Charles Miller,charles.miller105@company.com,Legal,L5,198188.07,Full-Time,2019-12-14,2022-11-13,EMP-000056,London,False
-EMP-000106,Abigail Nguyen,abigail.nguyen106@company.com,Engineering,L4,155465.49,Full-Time,2019-05-22,,EMP-000097,Bangalore,True
-EMP-000107,James Lee,james.lee107@company.com,Sales,L2,60832.49,Full-Time,2022-03-21,2026-07-15,EMP-000085,Dubai,False
-EMP-000108,Linda White,linda.white108@company.com,Marketing,L3,114056.2,Contract,2020-07-09,,EMP-000091,New York,True
-EMP-000109,Jennifer Tanaka,jennifer.tanaka109@company.com,Sales,L2,58414.87,Full-Time,2024-07-09,,EMP-000069,New York,True
-EMP-000110,Evelyn Robinson,evelyn.robinson110@company.com,Product,L3,116180.84,Full-Time,2019-10-22,,EMP-000066,Sydney,True
-EMP-000111,Robert Anderson,robert.anderson111@company.com,Operations,L1,35841.25,Full-Time,2019-02-22,,EMP-000065,Berlin,True
-EMP-000112,Ella Allen,ella.allen112@company.com,Legal,L3,94985.38,Full-Time,2020-09-15,,EMP-000073,Dubai,True
-EMP-000113,Joseph Nguyen,joseph.nguyen113@company.com,Operations,L4,169421.09,Full-Time,2019-09-18,2022-07-09,EMP-000072,New York,False
-EMP-000114,Barbara Taylor,barbara.taylor114@company.com,HR,L1,33045.02,Full-Time,2022-04-02,,EMP-000068,Bangalore,True
-EMP-000115,John Campbell,john.campbell115@company.com,Finance,L3,99506.66,Full-Time,2018-07-06,,EMP-000113,Toronto,True
-EMP-000116,Ravi Harris,ravi.harris116@company.com,Engineering,L3,103525.71,Contract,2022-05-20,,EMP-000108,Toronto,True
-EMP-000117,David Taylor,david.taylor117@company.com,Product,L4,127086.41,Full-Time,2018-04-22,,EMP-000099,New York,True
-EMP-000118,Richard Patel,richard.patel118@company.com,Product,L2,54300.82,Full-Time,2025-11-21,,EMP-000100,Dubai,True
-EMP-000119,William Ramirez,william.ramirez119@company.com,Engineering,L1,42474.77,Full-Time,2024-12-22,,EMP-000106,New York,True
-EMP-000120,Mei Patel,mei.patel120@company.com,Finance,L1,41861.39,Full-Time,2022-10-05,,EMP-000089,Bangalore,True
-EMP-000121,William Miller,william.miller121@company.com,Sales,L4,129143.65,Full-Time,2020-05-12,,EMP-000104,London,True
-EMP-000122,Richard Flores,richard.flores122@company.com,Engineering,L6,325298.39,Full-Time,2021-10-26,,EMP-000106,New York,True
-EMP-000123,Ella Lewis,ella.lewis123@company.com,Legal,L1,31077.5,Part-Time,2019-07-06,,EMP-000122,Singapore,True
-EMP-000124,Evelyn Nguyen,evelyn.nguyen124@company.com,Operations,L4,176879.1,Contract,2023-11-06,,EMP-000117,Singapore,True
-EMP-000125,Patricia Lewis,patricia.lewis125@company.com,Product,L2,77343.35,Full-Time,2019-11-29,2020-08-05,EMP-000103,Singapore,False
-EMP-000126,Ana Flores,ana.flores126@company.com,Legal,L3,117671.28,Part-Time,2022-02-02,,EMP-000089,Bangalore,True
-EMP-000127,Thomas Miller,thomas.miller127@company.com,HR,L1,45173.26,Full-Time,2020-04-26,,EMP-000105,Berlin,True
-EMP-000128,James Martin,james.martin128@company.com,Engineering,L5,186244.15,Full-Time,2025-02-23,2026-07-25,EMP-000116,Bangalore,False
-EMP-000129,Fatima Mitchell,fatima.mitchell129@company.com,Sales,L3,102754.95,Contract,2019-06-17,,EMP-000091,Dubai,True
-EMP-000130,Ravi Kumar,ravi.kumar130@company.com,HR,L1,41816.32,Full-Time,2020-04-12,,EMP-000119,New York,True
-EMP-000131,Mary Gonzalez,mary.gonzalez131@company.com,Sales,L4,178608.25,Full-Time,2024-08-10,,EMP-000116,Berlin,True
-EMP-000132,Jackson Nelson,jackson.nelson132@company.com,Product,L6,264175.76,Full-Time,2023-03-11,,EMP-000092,Dubai,True
-EMP-000133,Charles Jackson,charles.jackson133@company.com,Sales,L2,51333.25,Full-Time,2025-09-30,2026-02-03,EMP-000104,Bangalore,False
-EMP-000134,Mia Patel,mia.patel134@company.com,Marketing,L6,293562.18,Full-Time,2020-10-13,,EMP-000110,Dubai,True
-EMP-000135,Michael Jackson,michael.jackson135@company.com,Operations,L4,144592.01,Contract,2020-12-02,,EMP-000111,Toronto,True
-EMP-000136,Jackson Hall,jackson.hall136@company.com,Product,L2,52250.77,Full-Time,2020-12-16,,EMP-000114,Berlin,True
-EMP-000137,Robert Wright,robert.wright137@company.com,Operations,L1,39973.98,Full-Time,2022-10-11,,EMP-000133,Singapore,True
-EMP-000138,Mateo Perez,mateo.perez138@company.com,HR,L4,147192.95,Full-Time,2019-06-02,,EMP-000113,New York,True
-EMP-000139,Camila Martinez,camila.martinez139@company.com,Operations,L2,58285.59,Full-Time,2024-07-07,,EMP-000125,Berlin,True
-EMP-000140,Karen Miller,karen.miller140@company.com,Finance,L1,45298.0,Part-Time,2023-11-19,,EMP-000130,New York,True
-EMP-000141,Mohamed Baker,mohamed.baker141@company.com,Legal,L4,153993.72,Full-Time,2022-12-29,,EMP-000093,Bangalore,True
-EMP-000142,David Allen,david.allen142@company.com,Product,L1,42728.66,Full-Time,2025-11-04,,EMP-000110,Sydney,True
-EMP-000143,Barbara Williams,barbara.williams143@company.com,Operations,L2,50554.15,Full-Time,2025-02-13,,EMP-000117,Dubai,True
-EMP-000144,Sebastian Lopez,sebastian.lopez144@company.com,Sales,L1,49505.67,Full-Time,2020-07-04,,EMP-000141,Bangalore,True
-EMP-000145,Ella Miller,ella.miller145@company.com,Engineering,L2,63534.83,Full-Time,2020-08-28,,EMP-000107,Berlin,True
-EMP-000146,Emma Nguyen,emma.nguyen146@company.com,Marketing,L3,83941.15,Full-Time,2025-09-04,,EMP-000145,Sydney,True
-EMP-000147,William Flores,william.flores147@company.com,Marketing,L5,233689.68,Full-Time,2021-05-24,,EMP-000113,Toronto,True
-EMP-000148,Mia Martin,mia.martin148@company.com,Product,L1,46438.01,Part-Time,2023-04-25,,EMP-000143,Toronto,True
-EMP-000149,Lucas Wright,lucas.wright149@company.com,Engineering,L5,211964.29,Full-Time,2018-03-01,,EMP-000126,New York,True
-EMP-000150,Sophia Thomas,sophia.thomas150@company.com,Product,L1,33034.34,Full-Time,2025-12-28,,EMP-000145,Berlin,True
-EMP-000151,Ella Flores,ella.flores151@company.com,Engineering,L5,231448.77,Full-Time,2022-01-08,,EMP-000131,Toronto,True
-EMP-000152,Owen Carter,owen.carter152@company.com,Marketing,L3,93950.68,Full-Time,2018-08-16,2019-10-07,EMP-000108,Dubai,False
-EMP-000153,Priya Walker,priya.walker153@company.com,Sales,L1,39106.95,Full-Time,2023-11-12,,EMP-000138,London,True
-EMP-000154,Lucas Smith,lucas.smith154@company.com,HR,L3,94493.92,Contract,2023-03-26,,EMP-000104,Singapore,True
-EMP-000155,Patricia Martinez,patricia.martinez155@company.com,Operations,L2,63439.19,Contract,2022-08-07,2026-05-23,EMP-000141,Berlin,False
-EMP-000156,Isabella Harris,isabella.harris156@company.com,Engineering,L2,67080.13,Full-Time,2021-03-11,,EMP-000135,New York,True
-EMP-000157,Jennifer Sharma,jennifer.sharma157@company.com,Operations,L4,126396.89,Full-Time,2024-10-28,,EMP-000107,Singapore,True
-EMP-000158,Linda Campbell,linda.campbell158@company.com,Legal,L5,230723.54,Full-Time,2021-11-16,,EMP-000127,Singapore,True
-EMP-000159,Ava Patel,ava.patel159@company.com,Marketing,L6,290552.93,Part-Time,2024-05-20,2025-05-04,EMP-000152,Sydney,False
-EMP-000160,Jessica Hill,jessica.hill160@company.com,Engineering,L3,101319.48,Contract,2020-04-24,,EMP-000115,Singapore,True
-EMP-000161,Charles Scott,charles.scott161@company.com,Operations,L2,68684.48,Full-Time,2024-12-06,,EMP-000151,Dubai,True
-EMP-000162,Robert Lee,robert.lee162@company.com,Legal,L2,64313.17,Full-Time,2020-07-17,,EMP-000119,Bangalore,True
-EMP-000163,Sophia Sharma,sophia.sharma163@company.com,HR,L5,249364.89,Full-Time,2025-04-20,2026-07-15,EMP-000159,Toronto,False
-EMP-000164,Theodore Hall,theodore.hall164@company.com,Product,L1,38084.0,Full-Time,2023-08-04,,EMP-000137,Berlin,True
-EMP-000165,Joseph Rivera,joseph.rivera165@company.com,Finance,L1,47887.02,Part-Time,2019-12-14,,EMP-000154,Singapore,True
-EMP-000166,Mohamed Jackson,mohamed.jackson166@company.com,Marketing,L5,215355.86,Full-Time,2020-04-23,2022-03-14,EMP-000143,Bangalore,False
-EMP-000167,Aiden Rodriguez,aiden.rodriguez167@company.com,Product,L2,56191.06,Full-Time,2019-05-21,,EMP-000147,Bangalore,True
-EMP-000168,Lucas Johnson,lucas.johnson168@company.com,HR,L4,171462.61,Full-Time,2019-10-04,,EMP-000118,Toronto,True
-EMP-000169,Evelyn Lopez,evelyn.lopez169@company.com,Finance,L4,166809.18,Full-Time,2019-09-30,,EMP-000125,Sydney,True
-EMP-000170,Karen Young,karen.young170@company.com,Sales,L3,83280.62,Full-Time,2024-08-12,,EMP-000120,Bangalore,True
-EMP-000171,Leila Johnson,leila.johnson171@company.com,HR,L1,35995.53,Part-Time,2020-10-27,,EMP-000168,Dubai,True
-EMP-000172,Barbara Garcia,barbara.garcia172@company.com,Sales,L4,138014.24,Part-Time,2024-07-11,,EMP-000170,Singapore,True
-EMP-000173,Mateo Miller,mateo.miller173@company.com,Engineering,L1,30458.22,Full-Time,2022-01-17,,EMP-000164,Toronto,True
-EMP-000174,John Walker,john.walker174@company.com,Legal,L1,32135.93,Full-Time,2018-02-27,,EMP-000146,Sydney,True
-EMP-000175,Michael Davis,michael.davis175@company.com,Finance,L3,82949.76,Full-Time,2019-07-29,,EMP-000172,Sydney,True
-EMP-000176,Sarah Lee,sarah.lee176@company.com,Legal,L2,74333.24,Full-Time,2019-12-30,,EMP-000166,New York,True
-EMP-000177,Mohamed Carter,mohamed.carter177@company.com,Marketing,L1,32031.03,Full-Time,2020-05-03,,EMP-000171,Dubai,True
-EMP-000178,Jack Gupta,jack.gupta178@company.com,Operations,L1,32678.27,Full-Time,2020-01-10,,EMP-000131,Bangalore,True
-EMP-000179,Emma Thomas,emma.thomas179@company.com,Legal,L4,167993.94,Part-Time,2020-04-01,,EMP-000130,London,True
-EMP-000180,Liam Lewis,liam.lewis180@company.com,Operations,L2,61733.54,Full-Time,2018-04-19,,EMP-000145,New York,True
-EMP-000181,Karen Adams,karen.adams181@company.com,Sales,L3,115047.24,Full-Time,2021-02-18,,EMP-000141,Toronto,True
-EMP-000182,Elizabeth Baker,elizabeth.baker182@company.com,Operations,L2,66336.83,Full-Time,2021-10-10,,EMP-000134,Toronto,True
-EMP-000183,Priya Jackson,priya.jackson183@company.com,Engineering,L4,136172.67,Full-Time,2020-11-05,,EMP-000136,Sydney,True
-EMP-000184,Sebastian Allen,sebastian.allen184@company.com,Product,L3,104724.63,Full-Time,2025-07-08,,EMP-000142,Toronto,True
-EMP-000185,Mary Brown,mary.brown185@company.com,Product,L3,86662.31,Part-Time,2020-11-05,2021-09-26,EMP-000183,Singapore,False
-EMP-000186,Ella Thompson,ella.thompson186@company.com,HR,L2,61082.49,Contract,2020-06-11,,EMP-000152,Toronto,True
-EMP-000187,Abigail Scott,abigail.scott187@company.com,Finance,L1,39137.26,Full-Time,2018-03-26,,EMP-000142,Toronto,True
-EMP-000188,Ella Wilson,ella.wilson188@company.com,Legal,L3,105997.63,Contract,2019-05-02,,EMP-000165,Singapore,True
-EMP-000189,Emily Green,emily.green189@company.com,Finance,L2,79087.04,Part-Time,2018-11-15,2023-10-14,EMP-000184,New York,False
-EMP-000190,Chen Ramirez,chen.ramirez190@company.com,HR,L3,102064.33,Part-Time,2020-11-19,,EMP-000184,Singapore,True
-EMP-000191,Noah Smith,noah.smith191@company.com,Operations,L2,59043.09,Full-Time,2019-02-11,,EMP-000159,Singapore,True
-EMP-000192,Susan Jackson,susan.jackson192@company.com,Legal,L6,258841.42,Contract,2024-04-17,,EMP-000186,Singapore,True
-EMP-000193,Chen Hill,chen.hill193@company.com,Marketing,L1,47020.49,Part-Time,2023-12-18,,EMP-000165,Toronto,True
-EMP-000194,Barbara Williams,barbara.williams194@company.com,Product,L5,247711.61,Full-Time,2019-09-03,,EMP-000167,Bangalore,True
-EMP-000195,Ella Gonzalez,ella.gonzalez195@company.com,Legal,L4,138235.32,Full-Time,2022-06-27,,EMP-000176,Berlin,True
-EMP-000196,Jackson Nguyen,jackson.nguyen196@company.com,Operations,L4,179649.86,Full-Time,2021-07-12,,EMP-000154,London,True
-EMP-000197,Linda Lewis,linda.lewis197@company.com,Finance,L3,92626.15,Full-Time,2021-05-03,,EMP-000172,Singapore,True
-EMP-000198,Harper Lewis,harper.lewis198@company.com,Marketing,L2,74110.34,Part-Time,2021-02-06,,EMP-000182,Bangalore,True
-EMP-000199,Robert Gupta,robert.gupta199@company.com,Legal,L2,73216.46,Full-Time,2019-01-28,,EMP-000164,Singapore,True
-EMP-000200,Theodore Davis,theodore.davis200@company.com,Sales,L6,361580.08,Full-Time,2018-07-06,,EMP-000189,Bangalore,True
-EMP-000201,Mei Williams,mei.williams201@company.com,HR,L2,73273.21,Full-Time,2019-10-05,,EMP-000190,Bangalore,True
-EMP-000202,Carlos Hernandez,carlos.hernandez202@company.com,Product,L1,31224.78,Full-Time,2022-12-31,2026-03-23,EMP-000158,New York,False
-EMP-000203,Yuki Lee,yuki.lee203@company.com,Engineering,L2,76612.57,Full-Time,2024-04-08,,EMP-000179,Bangalore,True
-EMP-000204,Priya Garcia,priya.garcia204@company.com,Sales,L2,67657.69,Full-Time,2023-02-16,,EMP-000202,New York,True
-EMP-000205,Carlos Walker,carlos.walker205@company.com,Finance,L3,111519.12,Full-Time,2020-06-04,2026-07-14,EMP-000191,Sydney,False
-EMP-000206,John Johnson,john.johnson206@company.com,HR,L3,83349.29,Full-Time,2021-06-20,,EMP-000192,Singapore,True
-EMP-000207,Richard Moore,richard.moore207@company.com,Marketing,L1,47962.15,Full-Time,2023-12-28,,EMP-000166,Sydney,True
-EMP-000208,Ana Gupta,ana.gupta208@company.com,Sales,L6,397135.84,Part-Time,2019-03-23,,EMP-000194,Bangalore,True
-EMP-000209,Barbara Carter,barbara.carter209@company.com,Product,L6,327184.05,Full-Time,2023-12-27,,EMP-000161,Toronto,True
-EMP-000210,Mia Thomas,mia.thomas210@company.com,Finance,L4,120388.26,Full-Time,2023-04-29,,EMP-000181,Toronto,True
-EMP-000211,Barbara Flores,barbara.flores211@company.com,Legal,L2,54923.58,Full-Time,2022-07-29,,EMP-000161,Dubai,True
-EMP-000212,Mohamed Wilson,mohamed.wilson212@company.com,HR,L4,151744.28,Full-Time,2022-07-29,,EMP-000167,Bangalore,True
-EMP-000213,Patricia Green,patricia.green213@company.com,HR,L3,117657.26,Part-Time,2018-01-22,,EMP-000169,Bangalore,True
-EMP-000214,Abigail Taylor,abigail.taylor214@company.com,Legal,L4,146793.43,Full-Time,2021-08-05,,EMP-000203,Bangalore,True
-EMP-000215,Noah Walker,noah.walker215@company.com,Product,L6,250694.46,Full-Time,2019-12-19,,EMP-000166,Toronto,True
-EMP-000216,Mary Nguyen,mary.nguyen216@company.com,Sales,L3,118527.07,Full-Time,2023-03-11,,EMP-000212,New York,True
-EMP-000217,Ravi Campbell,ravi.campbell217@company.com,Engineering,L5,192029.15,Full-Time,2025-03-27,,EMP-000205,New York,True
-EMP-000218,Jennifer Harris,jennifer.harris218@company.com,HR,L2,50309.86,Full-Time,2020-12-18,,EMP-000209,Singapore,True
-EMP-000219,Linda Gupta,linda.gupta219@company.com,HR,L1,32696.99,Full-Time,2025-08-12,2025-11-15,EMP-000181,Dubai,False
-EMP-000220,Liam Williams,liam.williams220@company.com,HR,L3,84778.71,Full-Time,2025-06-02,2026-06-26,EMP-000190,Bangalore,False
-EMP-000221,Noah Jones,noah.jones221@company.com,HR,L5,236374.18,Full-Time,2018-03-29,2020-08-20,EMP-000174,Dubai,False
-EMP-000222,John Brown,john.brown222@company.com,Legal,L3,92843.8,Full-Time,2021-10-12,,EMP-000190,Bangalore,True
-EMP-000223,Michael Sanchez,michael.sanchez223@company.com,Finance,L3,93994.26,Full-Time,2021-11-09,,EMP-000210,New York,True
-EMP-000224,Elizabeth Brown,elizabeth.brown224@company.com,Engineering,L2,76272.02,Part-Time,2019-08-15,,EMP-000182,Singapore,True
-EMP-000225,Liam Torres,liam.torres225@company.com,Operations,L3,115422.22,Part-Time,2021-08-20,,EMP-000200,Bangalore,True
-EMP-000226,Amir Jones,amir.jones226@company.com,Operations,L3,83560.84,Full-Time,2025-04-22,2025-09-21,EMP-000209,Toronto,False
-EMP-000227,Ella Wilson,ella.wilson227@company.com,Marketing,L1,43295.25,Full-Time,2021-04-08,,EMP-000201,New York,True
-EMP-000228,Patricia Jones,patricia.jones228@company.com,HR,L5,218470.82,Full-Time,2025-05-01,,EMP-000212,Berlin,True
-EMP-000229,Michael Wilson,michael.wilson229@company.com,Sales,L2,56030.94,Full-Time,2022-10-16,2025-11-01,EMP-000204,Sydney,False
-EMP-000230,Olivia Campbell,olivia.campbell230@company.com,Finance,L2,57255.73,Full-Time,2024-08-05,,EMP-000201,Bangalore,True
-EMP-000231,Liam White,liam.white231@company.com,Engineering,L2,63390.09,Full-Time,2025-04-09,,EMP-000186,Sydney,True
-EMP-000232,Barbara Nguyen,barbara.nguyen232@company.com,Legal,L4,149528.38,Full-Time,2018-09-20,,EMP-000228,Dubai,True
-EMP-000233,Mohamed Campbell,mohamed.campbell233@company.com,Legal,L1,31480.68,Part-Time,2022-02-19,,EMP-000224,Berlin,True
-EMP-000234,Sophia Singh,sophia.singh234@company.com,Sales,L4,134063.72,Part-Time,2020-04-28,,EMP-000212,Toronto,True
-EMP-000235,Jennifer Young,jennifer.young235@company.com,Legal,L4,121059.68,Part-Time,2020-09-30,,EMP-000229,Dubai,True
-EMP-000236,Evelyn Thomas,evelyn.thomas236@company.com,Finance,L4,140695.52,Full-Time,2021-06-04,,EMP-000193,Toronto,True
-EMP-000237,Leila White,leila.white237@company.com,Engineering,L5,197569.85,Full-Time,2018-08-20,,EMP-000212,Sydney,True
-EMP-000238,Aiden Moore,aiden.moore238@company.com,Sales,L4,137554.01,Full-Time,2024-04-30,,EMP-000199,Berlin,True
-EMP-000239,Jennifer Allen,jennifer.allen239@company.com,HR,L2,79487.93,Full-Time,2020-02-09,,EMP-000195,Toronto,True
-EMP-000240,Ethan Williams,ethan.williams240@company.com,Marketing,L1,31591.35,Full-Time,2025-12-22,,EMP-000233,Bangalore,True
-EMP-000241,Evelyn Robinson,evelyn.robinson241@company.com,HR,L1,43248.41,Full-Time,2019-04-14,,EMP-000210,Toronto,True
-EMP-000242,Thomas Allen,thomas.allen242@company.com,Legal,L3,83674.06,Full-Time,2018-09-13,,EMP-000192,Berlin,True
-EMP-000243,Lucas Wright,lucas.wright243@company.com,Sales,L3,87098.0,Full-Time,2023-09-20,2026-09-22,EMP-000205,Sydney,False
-EMP-000244,Ava Flores,ava.flores244@company.com,Engineering,L1,40517.05,Full-Time,2023-02-23,2024-10-15,EMP-000198,Sydney,False
-EMP-000245,Mia Torres,mia.torres245@company.com,Sales,L4,143780.95,Full-Time,2022-06-27,,EMP-000200,New York,True
-EMP-000246,Karen Sanchez,karen.sanchez246@company.com,HR,L1,44120.18,Part-Time,2019-06-23,,EMP-000243,Berlin,True
-EMP-000247,Abigail Garcia,abigail.garcia247@company.com,Marketing,L3,86300.73,Contract,2021-06-26,,EMP-000211,New York,True
-EMP-000248,Mei Nelson,mei.nelson248@company.com,Engineering,L1,37019.74,Full-Time,2024-08-31,,EMP-000220,London,True
-EMP-000249,Theodore Moore,theodore.moore249@company.com,Operations,L2,59634.06,Part-Time,2019-05-21,,EMP-000237,Singapore,True
-EMP-000250,Emily Taylor,emily.taylor250@company.com,Operations,L2,56673.58,Full-Time,2025-05-24,,EMP-000242,Bangalore,True
-EMP-000251,Liam Jackson,liam.jackson251@company.com,Engineering,L1,31676.52,Full-Time,2025-05-31,,EMP-000227,New York,True
-EMP-000252,Isabella Ramirez,isabella.ramirez252@company.com,Sales,L4,121991.59,Full-Time,2021-01-16,,EMP-000219,Sydney,True
-EMP-000253,Elizabeth Singh,elizabeth.singh253@company.com,Marketing,L1,36934.84,Full-Time,2021-12-11,,EMP-000237,New York,True
-EMP-000254,Emily Williams,emily.williams254@company.com,HR,L1,37643.23,Part-Time,2020-11-12,,EMP-000226,Berlin,True
-EMP-000255,Ella Nguyen,ella.nguyen255@company.com,Sales,L2,58263.81,Part-Time,2021-02-22,,EMP-000246,Sydney,True
-EMP-000256,David Perez,david.perez256@company.com,Legal,L2,77888.0,Part-Time,2021-05-30,,EMP-000253,Dubai,True
-EMP-000257,Joseph Young,joseph.young257@company.com,Finance,L5,228762.48,Part-Time,2021-02-16,,EMP-000217,Bangalore,True
-EMP-000258,Patricia Harris,patricia.harris258@company.com,Sales,L2,73305.48,Full-Time,2019-12-20,,EMP-000234,Toronto,True
-EMP-000259,Mei King,mei.king259@company.com,Finance,L4,137306.33,Full-Time,2020-11-30,,EMP-000244,New York,True
-EMP-000260,Evelyn Smith,evelyn.smith260@company.com,Finance,L1,40970.71,Full-Time,2024-05-30,2026-07-14,EMP-000251,Berlin,False
-EMP-000261,Mason Miller,mason.miller261@company.com,Sales,L3,90637.22,Part-Time,2023-06-16,,EMP-000256,Sydney,True
-EMP-000262,Chen Carter,chen.carter262@company.com,Finance,L1,35576.88,Full-Time,2021-11-13,,EMP-000256,Toronto,True
-EMP-000263,Michael Moore,michael.moore263@company.com,Product,L2,65383.61,Full-Time,2024-08-19,,EMP-000259,Singapore,True
-EMP-000264,Jackson Green,jackson.green264@company.com,Sales,L2,53782.1,Part-Time,2024-06-01,,EMP-000260,Sydney,True
-EMP-000265,Ana Martin,ana.martin265@company.com,Marketing,L5,236191.32,Full-Time,2021-07-19,,EMP-000256,Bangalore,True
-EMP-000266,Priya Walker,priya.walker266@company.com,Finance,L2,63563.81,Full-Time,2020-05-20,,EMP-000224,Berlin,True
-EMP-000267,Theodore Rivera,theodore.rivera267@company.com,Operations,L4,149765.2,Full-Time,2024-12-15,,EMP-000224,New York,True
-EMP-000268,Mason Ramirez,mason.ramirez268@company.com,Finance,L2,74466.91,Contract,2021-05-26,,EMP-000264,London,True
-EMP-000269,Lucas Brown,lucas.brown269@company.com,Finance,L4,130143.97,Full-Time,2024-11-22,2026-06-01,EMP-000268,Singapore,False
-EMP-000270,Mary Martinez,mary.martinez270@company.com,Legal,L1,45039.2,Full-Time,2024-06-14,2025-11-30,EMP-000220,New York,False
-EMP-000271,Jennifer Lewis,jennifer.lewis271@company.com,Sales,L6,254456.47,Contract,2020-08-28,,EMP-000256,London,True
-EMP-000272,Mary Torres,mary.torres272@company.com,Engineering,L3,89636.65,Full-Time,2022-05-25,,EMP-000270,Sydney,True
-EMP-000273,Camila Anderson,camila.anderson273@company.com,Finance,L1,34187.76,Part-Time,2023-10-24,,EMP-000261,Sydney,True
-EMP-000274,Carlos Adams,carlos.adams274@company.com,Finance,L1,32805.17,Part-Time,2024-04-23,2024-09-10,EMP-000242,New York,False
-EMP-000275,Richard White,richard.white275@company.com,Finance,L5,241368.0,Full-Time,2025-02-20,,EMP-000232,London,True
-EMP-000276,Abigail Robinson,abigail.robinson276@company.com,Operations,L3,82374.42,Full-Time,2024-06-10,,EMP-000270,Sydney,True
-EMP-000277,Olivia Singh,olivia.singh277@company.com,Operations,L3,110346.25,Full-Time,2022-01-31,,EMP-000230,Berlin,True
-EMP-000278,Carlos Anderson,carlos.anderson278@company.com,Engineering,L6,356414.07,Full-Time,2022-03-08,,EMP-000252,Bangalore,True
-EMP-000279,Ava Kumar,ava.kumar279@company.com,Marketing,L3,115675.18,Contract,2021-02-11,,EMP-000248,Bangalore,True
-EMP-000280,Mary Martin,mary.martin280@company.com,Product,L6,279625.91,Full-Time,2018-08-31,,EMP-000230,London,True
-EMP-000281,Joseph Brown,joseph.brown281@company.com,Marketing,L2,60365.73,Part-Time,2025-06-14,2025-10-05,EMP-000265,Berlin,False
-EMP-000282,James Scott,james.scott282@company.com,Product,L2,74504.51,Part-Time,2022-02-02,,EMP-000248,Sydney,True
-EMP-000283,Mei Hernandez,mei.hernandez283@company.com,HR,L3,117070.2,Full-Time,2020-03-10,,EMP-000255,Toronto,True
-EMP-000284,Lucas Gonzalez,lucas.gonzalez284@company.com,Product,L1,36955.98,Full-Time,2023-11-27,,EMP-000280,New York,True
-EMP-000285,Mia Baker,mia.baker285@company.com,Legal,L5,195390.99,Full-Time,2021-11-16,,EMP-000257,Sydney,True
-EMP-000286,James Anderson,james.anderson286@company.com,Operations,L4,142150.33,Full-Time,2024-02-21,,EMP-000246,Bangalore,True
-EMP-000287,Carlos White,carlos.white287@company.com,Engineering,L3,85688.19,Full-Time,2020-11-06,,EMP-000237,Toronto,True
-EMP-000288,Mia Mitchell,mia.mitchell288@company.com,Finance,L1,42543.66,Full-Time,2019-06-29,,EMP-000277,Berlin,True
-EMP-000289,Ana Singh,ana.singh289@company.com,Legal,L1,41576.87,Full-Time,2025-04-13,,EMP-000277,London,True
-EMP-000290,Robert Ramirez,robert.ramirez290@company.com,Finance,L1,47456.83,Full-Time,2023-10-24,,EMP-000267,Toronto,True
-EMP-000291,Sophia Campbell,sophia.campbell291@company.com,HR,L4,129510.75,Part-Time,2024-03-10,,EMP-000244,London,True
-EMP-000292,Chen Clark,chen.clark292@company.com,Engineering,L5,197952.64,Full-Time,2020-04-23,,EMP-000263,Dubai,True
-EMP-000293,Ana Walker,ana.walker293@company.com,Operations,L2,71687.39,Full-Time,2024-07-26,,EMP-000253,Berlin,True
-EMP-000294,Richard Lee,richard.lee294@company.com,Sales,L4,141857.07,Full-Time,2023-05-30,,EMP-000262,Singapore,True
-EMP-000295,Linda Rodriguez,linda.rodriguez295@company.com,Finance,L5,198691.16,Full-Time,2018-06-08,,EMP-000275,Singapore,True
-EMP-000296,Barbara Flores,barbara.flores296@company.com,Finance,L4,152233.52,Full-Time,2024-07-12,,EMP-000271,Berlin,True
-EMP-000297,Noah Young,noah.young297@company.com,Legal,L4,157597.36,Part-Time,2018-08-03,,EMP-000250,Toronto,True
-EMP-000298,Leila Miller,leila.miller298@company.com,HR,L1,30715.51,Full-Time,2025-11-05,,EMP-000254,New York,True
-EMP-000299,Robert Kumar,robert.kumar299@company.com,Engineering,L3,80316.49,Full-Time,2024-07-23,,EMP-000280,London,True
-EMP-000300,Elizabeth Walker,elizabeth.walker300@company.com,Legal,L4,142389.61,Full-Time,2023-08-21,,EMP-000292,Berlin,True
-EMP-000301,Joseph Clark,joseph.clark301@company.com,Operations,L5,183402.23,Part-Time,2022-08-17,,EMP-000258,Berlin,True
-EMP-000302,William Adams,william.adams302@company.com,Operations,L1,31249.5,Full-Time,2024-04-06,2025-03-25,EMP-000262,Berlin,False
-EMP-000303,Elizabeth Clark,elizabeth.clark303@company.com,Finance,L4,176707.23,Part-Time,2021-05-16,,EMP-000264,Dubai,True
-EMP-000304,Elizabeth Rivera,elizabeth.rivera304@company.com,Operations,L2,54364.98,Full-Time,2024-03-01,,EMP-000291,New York,True
-EMP-000305,James Williams,james.williams305@company.com,Legal,L3,81366.62,Part-Time,2022-06-21,2023-06-26,EMP-000282,London,False
-EMP-000306,Chen Clark,chen.clark306@company.com,Sales,L2,66374.95,Full-Time,2021-02-08,,EMP-000270,Berlin,True
-EMP-000307,Mateo Singh,mateo.singh307@company.com,Product,L3,106304.95,Full-Time,2020-08-24,,EMP-000272,New York,True
-EMP-000308,Evelyn Rodriguez,evelyn.rodriguez308@company.com,HR,L2,61450.08,Full-Time,2019-02-26,,EMP-000269,Toronto,True
-EMP-000309,Theodore Flores,theodore.flores309@company.com,Marketing,L1,32831.51,Part-Time,2020-10-17,,EMP-000305,Toronto,True
-EMP-000310,Olivia Jackson,olivia.jackson310@company.com,Finance,L3,118637.22,Full-Time,2018-12-27,,EMP-000277,Dubai,True
-EMP-000311,Mateo Young,mateo.young311@company.com,HR,L4,168017.08,Contract,2022-02-03,2022-08-27,EMP-000274,Dubai,False
-EMP-000312,Ravi King,ravi.king312@company.com,Engineering,L4,146271.15,Full-Time,2019-12-09,,EMP-000270,Dubai,True
-EMP-000313,Ella Baker,ella.baker313@company.com,Marketing,L2,73647.7,Full-Time,2019-06-01,,EMP-000307,Sydney,True
-EMP-000314,Sarah Brown,sarah.brown314@company.com,Sales,L4,164314.56,Contract,2023-01-12,,EMP-000264,Toronto,True
-EMP-000315,Fatima Lopez,fatima.lopez315@company.com,HR,L4,150190.3,Full-Time,2020-10-21,,EMP-000273,Singapore,True
-EMP-000316,Ana Rivera,ana.rivera316@company.com,Product,L3,92908.84,Part-Time,2018-10-31,,EMP-000270,Singapore,True
-EMP-000317,Elizabeth Torres,elizabeth.torres317@company.com,HR,L3,85251.28,Full-Time,2019-01-09,,EMP-000315,Toronto,True
-EMP-000318,James King,james.king318@company.com,HR,L3,83269.26,Full-Time,2019-10-16,2023-07-09,EMP-000315,Bangalore,False
-EMP-000319,Sebastian Miller,sebastian.miller319@company.com,Sales,L4,166493.43,Contract,2024-02-22,,EMP-000277,New York,True
-EMP-000320,Priya Jackson,priya.jackson320@company.com,Legal,L3,88125.76,Full-Time,2024-08-28,,EMP-000297,London,True
-EMP-000321,Owen Mitchell,owen.mitchell321@company.com,Sales,L4,167883.47,Contract,2021-06-20,,EMP-000296,London,True
-EMP-000322,Amir Walker,amir.walker322@company.com,Product,L2,60784.56,Full-Time,2022-02-12,,EMP-000287,Dubai,True
-EMP-000323,Barbara Brown,barbara.brown323@company.com,Operations,L2,69088.14,Full-Time,2023-04-16,,EMP-000318,Sydney,True
-EMP-000324,Priya White,priya.white324@company.com,Marketing,L3,95035.09,Part-Time,2024-06-28,,EMP-000320,New York,True
-EMP-000325,Camila Nguyen,camila.nguyen325@company.com,Sales,L3,102568.21,Full-Time,2024-08-31,,EMP-000294,New York,True
-EMP-000326,Jennifer Green,jennifer.green326@company.com,Finance,L3,92811.63,Part-Time,2022-02-17,,EMP-000307,Sydney,True
-EMP-000327,Noah King,noah.king327@company.com,HR,L3,108377.32,Part-Time,2022-08-28,,EMP-000278,Singapore,True
-EMP-000328,Mason Campbell,mason.campbell328@company.com,Marketing,L4,145892.89,Full-Time,2024-01-16,,EMP-000282,Sydney,True
-EMP-000329,William Brown,william.brown329@company.com,Legal,L3,83332.34,Full-Time,2024-02-04,,EMP-000282,Singapore,True
-EMP-000330,Ethan Ramirez,ethan.ramirez330@company.com,Product,L1,34941.86,Part-Time,2025-11-15,2026-07-28,EMP-000311,Sydney,False
-EMP-000331,Priya Williams,priya.williams331@company.com,Operations,L1,31193.08,Full-Time,2021-08-15,,EMP-000292,New York,True
-EMP-000332,Abigail Mitchell,abigail.mitchell332@company.com,Finance,L3,85680.66,Full-Time,2022-08-25,,EMP-000313,Bangalore,True
-EMP-000333,Robert Rivera,robert.rivera333@company.com,HR,L2,68339.18,Full-Time,2024-08-05,,EMP-000285,Berlin,True
-EMP-000334,Carlos Wilson,carlos.wilson334@company.com,Finance,L2,51020.87,Contract,2024-06-13,,EMP-000304,London,True
-EMP-000335,Ravi Davis,ravi.davis335@company.com,HR,L2,69673.27,Full-Time,2024-12-15,,EMP-000301,London,True
-EMP-000336,Elizabeth Rivera,elizabeth.rivera336@company.com,Finance,L2,52130.24,Contract,2021-12-02,,EMP-000296,London,True
-EMP-000337,Patricia Mitchell,patricia.mitchell337@company.com,Marketing,L3,102180.92,Full-Time,2022-05-20,,EMP-000303,Dubai,True
-EMP-000338,Emily Gupta,emily.gupta338@company.com,Sales,L6,342362.53,Part-Time,2021-10-22,,EMP-000316,Dubai,True
-EMP-000339,Ethan Sanchez,ethan.sanchez339@company.com,Product,L4,126272.49,Full-Time,2019-02-26,,EMP-000312,London,True
-EMP-000340,Mateo Gupta,mateo.gupta340@company.com,Engineering,L2,51229.67,Full-Time,2024-05-06,,EMP-000302,Berlin,True
-EMP-000341,Emily Singh,emily.singh341@company.com,Sales,L2,66994.88,Full-Time,2021-10-01,,EMP-000312,London,True
-EMP-000342,Theodore Tanaka,theodore.tanaka342@company.com,Engineering,L1,32596.77,Full-Time,2022-11-28,,EMP-000313,Bangalore,True
-EMP-000343,Carlos Williams,carlos.williams343@company.com,Sales,L1,36716.36,Full-Time,2022-03-23,,EMP-000329,Sydney,True
-EMP-000344,Jack Thompson,jack.thompson344@company.com,Operations,L2,63436.79,Full-Time,2018-01-08,,EMP-000309,Dubai,True
-EMP-000345,Camila Mitchell,camila.mitchell345@company.com,Operations,L1,34638.21,Full-Time,2022-07-29,,EMP-000332,Dubai,True
-EMP-000346,Emily Walker,emily.walker346@company.com,Product,L5,228754.55,Full-Time,2025-09-14,,EMP-000339,Dubai,True
-EMP-000347,James Robinson,james.robinson347@company.com,Product,L4,168827.71,Full-Time,2025-08-28,,EMP-000313,Singapore,True
-EMP-000348,Mia Martin,mia.martin348@company.com,Finance,L2,79681.41,Full-Time,2019-12-19,,EMP-000310,Toronto,True
-EMP-000349,Mason Torres,mason.torres349@company.com,Sales,L1,37671.19,Full-Time,2020-02-09,,EMP-000317,Sydney,True
-EMP-000350,Mohamed Tanaka,mohamed.tanaka350@company.com,HR,L1,45292.36,Full-Time,2024-08-12,,EMP-000346,Berlin,True
-EMP-000351,Aiden Davis,aiden.davis351@company.com,Product,L3,97974.28,Full-Time,2020-01-29,,EMP-000346,Dubai,True
-EMP-000352,Sebastian Robinson,sebastian.robinson352@company.com,Sales,L1,44074.72,Full-Time,2023-10-09,2026-04-10,EMP-000341,Dubai,False
-EMP-000353,Fatima Nelson,fatima.nelson353@company.com,Product,L2,53938.8,Part-Time,2025-03-09,,EMP-000349,Dubai,True
-EMP-000354,Jackson Davis,jackson.davis354@company.com,Operations,L5,182243.52,Full-Time,2018-07-19,,EMP-000307,New York,True
-EMP-000355,Barbara Wilson,barbara.wilson355@company.com,Marketing,L6,317679.1,Part-Time,2021-04-29,,EMP-000322,Berlin,True
-EMP-000356,Yuki Thomas,yuki.thomas356@company.com,Marketing,L6,269694.75,Full-Time,2024-06-25,,EMP-000335,Dubai,True
-EMP-000357,Emily Miller,emily.miller357@company.com,Sales,L3,109715.41,Full-Time,2020-07-17,2021-01-17,EMP-000354,London,False
-EMP-000358,Mateo Hill,mateo.hill358@company.com,Engineering,L4,138829.35,Full-Time,2024-08-10,2025-09-05,EMP-000330,New York,False
-EMP-000359,Camila Patel,camila.patel359@company.com,Marketing,L1,39409.56,Full-Time,2024-06-27,,EMP-000329,New York,True
-EMP-000360,Lucas Allen,lucas.allen360@company.com,Operations,L4,161704.55,Full-Time,2023-06-04,,EMP-000337,New York,True
-EMP-000361,Abigail Ramirez,abigail.ramirez361@company.com,Finance,L2,62232.71,Full-Time,2023-05-25,,EMP-000345,Sydney,True
-EMP-000362,Evelyn King,evelyn.king362@company.com,Sales,L4,174603.1,Contract,2024-10-23,2025-04-25,EMP-000317,Dubai,False
-EMP-000363,James Perez,james.perez363@company.com,HR,L2,54302.09,Full-Time,2018-07-28,,EMP-000362,Sydney,True
-EMP-000364,Emily Harris,emily.harris364@company.com,Product,L1,42929.26,Full-Time,2018-08-18,,EMP-000350,London,True
-EMP-000365,Lucas Tanaka,lucas.tanaka365@company.com,Operations,L1,36729.44,Full-Time,2020-01-30,,EMP-000333,Bangalore,True
-EMP-000366,Charles Torres,charles.torres366@company.com,Operations,L3,108470.74,Part-Time,2023-01-28,2025-12-25,EMP-000328,New York,False
-EMP-000367,Susan Carter,susan.carter367@company.com,Engineering,L1,47014.5,Contract,2021-07-14,,EMP-000329,New York,True
-EMP-000368,Abigail Williams,abigail.williams368@company.com,Legal,L2,65165.63,Contract,2025-03-05,,EMP-000357,New York,True
-EMP-000369,Sebastian Gupta,sebastian.gupta369@company.com,Engineering,L2,69187.98,Contract,2021-06-22,,EMP-000337,Bangalore,True
-EMP-000370,Joseph Hill,joseph.hill370@company.com,Product,L1,42016.15,Full-Time,2022-04-07,,EMP-000339,London,True
-EMP-000371,Jackson King,jackson.king371@company.com,Finance,L6,386358.49,Full-Time,2021-12-29,,EMP-000322,New York,True
-EMP-000372,Mateo Miller,mateo.miller372@company.com,Sales,L2,62876.63,Full-Time,2022-10-27,,EMP-000343,Berlin,True
-EMP-000373,Noah Sanchez,noah.sanchez373@company.com,Legal,L5,185603.64,Full-Time,2025-05-19,,EMP-000361,London,True
-EMP-000374,Mateo Singh,mateo.singh374@company.com,Operations,L5,238590.83,Full-Time,2019-06-01,2021-06-11,EMP-000352,London,False
-EMP-000375,Chen Robinson,chen.robinson375@company.com,Product,L2,73721.28,Full-Time,2019-05-08,,EMP-000348,London,True
-EMP-000376,James Thompson,james.thompson376@company.com,Finance,L1,49112.27,Full-Time,2024-12-13,,EMP-000341,Sydney,True
-EMP-000377,Ella Anderson,ella.anderson377@company.com,Engineering,L2,63609.43,Full-Time,2018-10-05,2019-06-18,EMP-000359,Sydney,False
-EMP-000378,Ana Scott,ana.scott378@company.com,Marketing,L6,346714.33,Full-Time,2023-04-29,,EMP-000355,Toronto,True
-EMP-000379,Ana Campbell,ana.campbell379@company.com,Operations,L2,64961.52,Full-Time,2019-07-08,,EMP-000360,London,True
-EMP-000380,Elizabeth Singh,elizabeth.singh380@company.com,Legal,L3,86523.52,Part-Time,2020-12-01,2025-08-06,EMP-000377,London,False
-EMP-000381,Ravi Flores,ravi.flores381@company.com,Legal,L3,80492.04,Full-Time,2019-03-13,,EMP-000357,Dubai,True
-EMP-000382,Noah Smith,noah.smith382@company.com,Operations,L5,200499.71,Full-Time,2025-11-14,,EMP-000349,Bangalore,True
-EMP-000383,Lucas Campbell,lucas.campbell383@company.com,Legal,L1,35909.57,Full-Time,2025-02-12,,EMP-000364,Toronto,True
-EMP-000384,Ethan Gonzalez,ethan.gonzalez384@company.com,Sales,L3,117732.47,Full-Time,2018-07-29,,EMP-000357,Berlin,True
-EMP-000385,Theodore Rodriguez,theodore.rodriguez385@company.com,Product,L5,181336.19,Full-Time,2025-02-03,,EMP-000338,Bangalore,True
-EMP-000386,Emily Adams,emily.adams386@company.com,Finance,L3,82261.27,Full-Time,2019-06-08,,EMP-000380,Sydney,True
-EMP-000387,Charles Singh,charles.singh387@company.com,HR,L3,93620.73,Full-Time,2018-02-17,,EMP-000363,Singapore,True
-EMP-000388,Aiden Campbell,aiden.campbell388@company.com,Finance,L4,159752.89,Full-Time,2024-05-07,,EMP-000343,Dubai,True
-EMP-000389,Elizabeth Hill,elizabeth.hill389@company.com,Marketing,L2,77992.23,Full-Time,2024-06-08,,EMP-000384,Sydney,True
-EMP-000390,Lucas Thompson,lucas.thompson390@company.com,Marketing,L1,45382.22,Part-Time,2024-10-16,,EMP-000359,Singapore,True
-EMP-000391,Olivia Smith,olivia.smith391@company.com,Sales,L2,68587.47,Full-Time,2020-01-19,,EMP-000355,New York,True
-EMP-000392,Chen Allen,chen.allen392@company.com,Marketing,L4,154857.12,Part-Time,2020-03-20,,EMP-000360,Dubai,True
-EMP-000393,Fatima Martinez,fatima.martinez393@company.com,Sales,L6,367038.36,Full-Time,2023-04-11,,EMP-000386,Bangalore,True
-EMP-000394,Yuki Perez,yuki.perez394@company.com,HR,L3,86975.04,Full-Time,2021-06-14,,EMP-000375,London,True
-EMP-000395,Sophia Brown,sophia.brown395@company.com,Operations,L1,46132.42,Full-Time,2023-02-15,,EMP-000352,Bangalore,True
-EMP-000396,Ella Perez,ella.perez396@company.com,Sales,L3,110754.92,Full-Time,2019-12-04,,EMP-000393,New York,True
-EMP-000397,Barbara Lee,barbara.lee397@company.com,Marketing,L5,190986.59,Full-Time,2020-06-21,,EMP-000362,Singapore,True
-EMP-000398,Jack Walker,jack.walker398@company.com,HR,L3,93374.6,Full-Time,2025-08-05,,EMP-000383,Singapore,True
-EMP-000399,Michael Jackson,michael.jackson399@company.com,HR,L5,223728.53,Full-Time,2023-11-04,,EMP-000368,Dubai,True
-EMP-000400,Carlos Flores,carlos.flores400@company.com,Legal,L3,87827.95,Full-Time,2023-03-17,,EMP-000382,Sydney,True
+employee_id,first_name,last_name,email,department,designation,cost_center_id,hire_date,termination_date,manager_id
+EMP0001,Anjali,Desai,anjali.desai.1@company.com,Finance,Junior Engineer,CC004,2018-01-06,,EMP0012
+EMP0002,Sunil,Desai,sunil.desai.2@company.com,Marketing,Senior Engineer,CC003,2020-01-27,,EMP0308
+EMP0003,Amara,Desai,amara.desai.3@company.com,Finance,Junior Engineer,CC004,2020-08-15,,EMP0172
+EMP0004,Isha,Iyer,isha.iyer.4@company.com,Product,Team Lead,CC008,2023-07-25,,EMP0390
+EMP0005,Vishal,Kapoor,vishal.kapoor.5@company.com,Marketing,Junior Engineer,CC003,2024-12-19,,EMP0021
+EMP0006,Yash,Agarwal,yash.agarwal.6@company.com,Finance,Team Lead,CC004,2024-07-03,,EMP0354
+EMP0007,Sneha,Jain,sneha.jain.7@company.com,Finance,Senior Engineer,CC004,2023-02-06,,EMP0049
+EMP0008,Jaya,Reddy,jaya.reddy.8@company.com,HR,Senior Engineer,CC005,2023-01-13,2025-06-10,EMP0296
+EMP0009,Amit,Thakur,amit.thakur.9@company.com,Engineering,Junior Engineer,CC001,2020-06-16,,EMP0376
+EMP0010,Sapna,Agarwal,sapna.agarwal.10@company.com,Engineering,Senior Engineer,CC001,2018-07-19,,EMP0034
+EMP0011,Deepa,Kumar,deepa.kumar.11@company.com,Product,Team Lead,CC008,2020-09-01,,EMP0390
+EMP0012,Anil,Gandhi,anil.gandhi.12@company.com,Finance,Senior Engineer,CC004,2019-08-25,,EMP0222
+EMP0013,Aditya,Khan,aditya.khan.13@company.com,Marketing,Team Lead,CC003,2022-12-24,,EMP0237
+EMP0014,Akash,Agarwal,akash.agarwal.14@company.com,Sales,Junior Engineer,CC002,2018-09-18,,EMP0170
+EMP0015,Rahul,Bhat,rahul.bhat.15@company.com,Product,Junior Engineer,CC008,2019-06-12,,EMP0026
+EMP0016,Deepak,Reddy,deepak.reddy.16@company.com,HR,VP,CC005,2018-06-21,2025-06-09,EMP0016
+EMP0017,Aditi,Nair,aditi.nair.17@company.com,Marketing,Team Lead,CC003,2022-02-19,,EMP0023
+EMP0018,Shreya,Joshi,shreya.joshi.18@company.com,Product,Senior Engineer,CC008,2019-05-22,,EMP0098
+EMP0019,Arjun,Mishra,arjun.mishra.19@company.com,Finance,Senior Engineer,CC004,2021-06-28,,EMP0222
+EMP0020,Amara,Mehta,amara.mehta.20@company.com,Engineering,Junior Engineer,CC001,2019-01-01,,EMP0089
+EMP0021,Nandini,Shah,nandini.shah.21@company.com,Marketing,Senior Engineer,CC003,2025-01-09,,EMP0334
+EMP0022,Vivek,Dutta,vivek.dutta.22@company.com,Operations,Manager,CC006,2018-05-02,,EMP0381
+EMP0023,Karan,Khan,karan.khan.23@company.com,Marketing,Manager,CC003,2019-08-06,,EMP0160
+EMP0024,Rekha,Reddy,rekha.reddy.24@company.com,Operations,Junior Engineer,CC006,2024-05-22,,EMP0070
+EMP0025,Sanjay,Pandey,sanjay.pandey.25@company.com,Sales,Senior Manager,CC002,2022-04-21,,EMP0263
+EMP0026,Tanvi,Sharma,tanvi.sharma.26@company.com,Product,Senior Engineer,CC008,2018-04-29,,EMP0252
+EMP0027,Arjun,Thakur,arjun.thakur.27@company.com,Engineering,Senior Engineer,CC001,2022-11-10,2025-11-24,EMP0066
+EMP0028,Amit,Kapoor,amit.kapoor.28@company.com,Engineering,Junior Engineer,CC001,2018-12-01,,EMP0235
+EMP0029,Seema,Das,seema.das.29@company.com,Finance,Team Lead,CC004,2021-02-07,,EMP0364
+EMP0030,Bhavya,Verma,bhavya.verma.30@company.com,HR,Senior Engineer,CC005,2018-10-01,,EMP0083
+EMP0031,Nikhil,Mishra,nikhil.mishra.31@company.com,Marketing,Senior Engineer,CC003,2022-11-28,,EMP0268
+EMP0032,Zara,Saxena,zara.saxena.32@company.com,Operations,Team Lead,CC006,2023-06-24,,EMP0207
+EMP0033,Chandra,Malhotra,chandra.malhotra.33@company.com,Legal,Senior Engineer,CC007,2018-12-08,,EMP0062
+EMP0034,Rahul,Kumar,rahul.kumar.34@company.com,Engineering,Team Lead,CC001,2018-09-09,,EMP0299
+EMP0035,Aditi,Kapoor,aditi.kapoor.35@company.com,Product,Senior Engineer,CC008,2021-04-10,2021-08-16,EMP0382
+EMP0036,Pallavi,Agarwal,pallavi.agarwal.36@company.com,Product,Senior Manager,CC008,2022-02-17,,EMP0189
+EMP0037,Vijay,Gandhi,vijay.gandhi.37@company.com,Sales,Junior Engineer,CC002,2019-04-21,,EMP0053
+EMP0038,Esha,Desai,esha.desai.38@company.com,Sales,Team Lead,CC002,2023-09-22,,EMP0246
+EMP0039,Shreya,Khan,shreya.khan.39@company.com,Operations,Director,CC006,2025-03-26,,EMP0271
+EMP0040,Seema,Agarwal,seema.agarwal.40@company.com,Operations,Senior Manager,CC006,2024-03-19,,EMP0381
+EMP0041,Shreya,Das,shreya.das.41@company.com,Finance,Team Lead,CC004,2021-08-13,,EMP0364
+EMP0042,Amara,Thakur,amara.thakur.42@company.com,Product,Team Lead,CC008,2019-08-07,,EMP0341
+EMP0043,Sachin,Shah,sachin.shah.43@company.com,Product,Senior Engineer,CC008,2023-05-05,,EMP0182
+EMP0044,Naveen,Verma,naveen.verma.44@company.com,HR,Senior Manager,CC005,2022-10-17,,EMP0016
+EMP0045,Sachin,Patel,sachin.patel.45@company.com,Legal,Team Lead,CC007,2021-05-20,,EMP0223
+EMP0046,Meera,Jain,meera.jain.46@company.com,Sales,Team Lead,CC002,2022-11-23,,EMP0163
+EMP0047,Kavita,Patel,kavita.patel.47@company.com,Legal,Junior Engineer,CC007,2018-01-23,,EMP0045
+EMP0048,Yash,Kapoor,yash.kapoor.48@company.com,Finance,Team Lead,CC004,2021-12-06,,EMP0273
+EMP0049,Deepa,Kumar,deepa.kumar.49@company.com,Finance,Manager,CC004,2024-05-01,,EMP0338
+EMP0050,Bhavya,Reddy,bhavya.reddy.50@company.com,Engineering,Junior Engineer,CC001,2024-09-11,,EMP0300
+EMP0051,Sapna,Agarwal,sapna.agarwal.51@company.com,Finance,Junior Engineer,CC004,2018-08-26,,EMP0388
+EMP0052,Manish,Mehta,manish.mehta.52@company.com,Engineering,Junior Engineer,CC001,2021-08-14,,EMP0221
+EMP0053,Kavita,Dutta,kavita.dutta.53@company.com,Sales,Manager,CC002,2020-10-28,,EMP0179
+EMP0054,Sanjay,Sharma,sanjay.sharma.54@company.com,Marketing,Junior Engineer,CC003,2019-06-03,,EMP0266
+EMP0055,Neha,Desai,neha.desai.55@company.com,Engineering,Manager,CC001,2020-01-08,,EMP0355
+EMP0056,Vijay,Kumar,vijay.kumar.56@company.com,Engineering,Team Lead,CC001,2023-02-04,,EMP0099
+EMP0057,Sapna,Agarwal,sapna.agarwal.57@company.com,Marketing,Senior Engineer,CC003,2025-05-05,,EMP0387
+EMP0058,Akash,Patel,akash.patel.58@company.com,Product,Manager,CC008,2025-06-09,,EMP0189
+EMP0059,Mohan,Das,mohan.das.59@company.com,Product,Junior Engineer,CC008,2020-02-22,,EMP0341
+EMP0060,Nandini,Kumar,nandini.kumar.60@company.com,Finance,Junior Engineer,CC004,2021-11-09,,EMP0206
+EMP0061,Nandini,Shah,nandini.shah.61@company.com,Marketing,Senior Engineer,CC003,2018-06-04,,EMP0160
+EMP0062,Pallavi,Patel,pallavi.patel.62@company.com,Legal,Team Lead,CC007,2024-04-23,,EMP0130
+EMP0063,Meera,Thakur,meera.thakur.63@company.com,Operations,Senior Engineer,CC006,2019-07-29,,EMP0271
+EMP0064,Zara,Mishra,zara.mishra.64@company.com,Marketing,Senior Engineer,CC003,2022-05-13,,EMP0127
+EMP0065,Hari,Thakur,hari.thakur.65@company.com,Finance,Team Lead,CC004,2024-09-06,,EMP0289
+EMP0066,Neha,Reddy,neha.reddy.66@company.com,Engineering,Manager,CC001,2020-09-10,,EMP0301
+EMP0067,Jaya,Thakur,jaya.thakur.67@company.com,Marketing,Junior Engineer,CC003,2024-01-30,,EMP0208
+EMP0068,Shreya,Nair,shreya.nair.68@company.com,Engineering,Senior Engineer,CC001,2019-07-31,,EMP0034
+EMP0069,Rajesh,Iyer,rajesh.iyer.69@company.com,Operations,Senior Manager,CC006,2024-08-16,2025-01-23,EMP0271
+EMP0070,Meera,Srivastava,meera.srivastava.70@company.com,Operations,Senior Engineer,CC006,2022-11-15,,EMP0326
+EMP0071,Kavita,Desai,kavita.desai.71@company.com,Engineering,Team Lead,CC001,2019-07-15,,EMP0221
+EMP0072,Pradeep,Desai,pradeep.desai.72@company.com,Marketing,Manager,CC003,2024-08-25,,EMP0304
+EMP0073,Yash,Joshi,yash.joshi.73@company.com,HR,Senior Engineer,CC005,2018-07-09,,EMP0374
+EMP0074,Lakshmi,Agarwal,lakshmi.agarwal.74@company.com,Marketing,Senior Engineer,CC003,2023-03-13,,EMP0295
+EMP0075,Aditya,Yadav,aditya.yadav.75@company.com,Sales,Junior Engineer,CC002,2018-04-23,,EMP0102
+EMP0076,Chandra,Jain,chandra.jain.76@company.com,Product,Junior Engineer,CC008,2024-07-26,,EMP0043
+EMP0077,Gaurav,Mishra,gaurav.mishra.77@company.com,Operations,Junior Engineer,CC006,2024-05-23,2025-03-26,EMP0032
+EMP0078,Mohan,Bhat,mohan.bhat.78@company.com,Operations,Senior Manager,CC006,2018-09-05,,EMP0381
+EMP0079,Manish,Rao,manish.rao.79@company.com,Legal,Senior Engineer,CC007,2025-01-15,,EMP0136
+EMP0080,Priya,Bhat,priya.bhat.80@company.com,HR,Senior Engineer,CC005,2022-06-21,,EMP0375
+EMP0081,Ananya,Shah,ananya.shah.81@company.com,Marketing,Junior Engineer,CC003,2020-03-09,,EMP0017
+EMP0082,Rohan,Kapoor,rohan.kapoor.82@company.com,HR,Manager,CC005,2021-05-26,2022-03-13,EMP0044
+EMP0083,Uma,Joshi,uma.joshi.83@company.com,HR,Team Lead,CC005,2024-03-26,,EMP0104
+EMP0084,Naveen,Gupta,naveen.gupta.84@company.com,Operations,Senior Engineer,CC006,2021-02-26,,EMP0186
+EMP0085,Pallavi,Bhat,pallavi.bhat.85@company.com,Operations,Senior Manager,CC006,2019-06-28,,EMP0381
+EMP0086,Deepak,Verma,deepak.verma.86@company.com,Finance,Manager,CC004,2024-05-24,,EMP0289
+EMP0087,Nandini,Nair,nandini.nair.87@company.com,Engineering,Senior Manager,CC001,2024-12-12,,EMP0261
+EMP0088,Pooja,Bhat,pooja.bhat.88@company.com,Finance,Team Lead,CC004,2025-01-30,,EMP0289
+EMP0089,Arjun,Shah,arjun.shah.89@company.com,Engineering,Senior Engineer,CC001,2019-07-07,,EMP0202
+EMP0090,Sunil,Singh,sunil.singh.90@company.com,HR,Senior Manager,CC005,2018-07-14,,EMP0016
+EMP0091,Manish,Bhat,manish.bhat.91@company.com,HR,Senior Manager,CC005,2018-04-11,,EMP0218
+EMP0092,Uma,Singh,uma.singh.92@company.com,Product,Senior Engineer,CC008,2021-06-25,,EMP0331
+EMP0093,Yash,Singh,yash.singh.93@company.com,HR,Senior Engineer,CC005,2022-01-18,,EMP0145
+EMP0094,Karan,Shah,karan.shah.94@company.com,Sales,Team Lead,CC002,2019-10-19,,EMP0270
+EMP0095,Geeta,Mehta,geeta.mehta.95@company.com,HR,Junior Engineer,CC005,2020-11-28,,EMP0082
+EMP0096,Meera,Verma,meera.verma.96@company.com,Operations,Senior Engineer,CC006,2022-07-27,,EMP0207
+EMP0097,Anil,Iyer,anil.iyer.97@company.com,Operations,Junior Engineer,CC006,2024-05-12,2025-11-27,EMP0183
+EMP0098,Arjun,Saxena,arjun.saxena.98@company.com,Product,Team Lead,CC008,2024-05-23,,EMP0058
+EMP0099,Bhavya,Kapoor,bhavya.kapoor.99@company.com,Engineering,Manager,CC001,2020-12-12,,EMP0087
+EMP0100,Sneha,Das,sneha.das.100@company.com,Engineering,Manager,CC001,2024-12-08,,EMP0087
+EMP0101,Sneha,Chopra,sneha.chopra.101@company.com,Finance,Junior Engineer,CC004,2021-05-22,,EMP0192
+EMP0102,Aditi,Saxena,aditi.saxena.102@company.com,Sales,Manager,CC002,2020-12-14,,EMP0138
+EMP0103,Geeta,Gupta,geeta.gupta.103@company.com,Operations,Team Lead,CC006,2019-04-11,,EMP0238
+EMP0104,Bhavya,Bhat,bhavya.bhat.104@company.com,HR,Manager,CC005,2021-05-19,,EMP0090
+EMP0105,Aditya,Shah,aditya.shah.105@company.com,HR,Junior Engineer,CC005,2019-05-06,,EMP0290
+EMP0106,Chandra,Das,chandra.das.106@company.com,Engineering,Team Lead,CC001,2024-08-04,,EMP0144
+EMP0107,Anil,Desai,anil.desai.107@company.com,Engineering,Senior Engineer,CC001,2022-03-06,,EMP0034
+EMP0108,Vijay,Joshi,vijay.joshi.108@company.com,Sales,Junior Engineer,CC002,2025-05-14,,EMP0102
+EMP0109,Ravi,Sharma,ravi.sharma.109@company.com,Product,Manager,CC008,2023-06-23,,EMP0036
+EMP0110,Aditya,Yadav,aditya.yadav.110@company.com,Product,Junior Engineer,CC008,2024-11-22,,EMP0018
+EMP0111,Varun,Verma,varun.verma.111@company.com,Product,Team Lead,CC008,2020-08-24,,EMP0386
+EMP0112,Kavita,Sharma,kavita.sharma.112@company.com,Finance,Junior Engineer,CC004,2021-11-25,2025-06-18,EMP0400
+EMP0113,Isha,Sharma,isha.sharma.113@company.com,Finance,Junior Engineer,CC004,2023-08-28,,EMP0260
+EMP0114,Vinay,Dutta,vinay.dutta.114@company.com,Engineering,Junior Engineer,CC001,2025-05-09,,EMP0321
+EMP0115,Vijay,Rao,vijay.rao.115@company.com,HR,Senior Engineer,CC005,2025-06-01,,EMP0218
+EMP0116,Rohan,Shah,rohan.shah.116@company.com,Product,Senior Engineer,CC008,2024-05-08,,EMP0283
+EMP0117,Naveen,Mishra,naveen.mishra.117@company.com,Sales,Senior Engineer,CC002,2023-05-17,,EMP0123
+EMP0118,Vishal,Kapoor,vishal.kapoor.118@company.com,Product,Senior Engineer,CC008,2018-08-30,,EMP0382
+EMP0119,Zara,Mishra,zara.mishra.119@company.com,Engineering,Team Lead,CC001,2022-07-09,2024-12-23,EMP0303
+EMP0120,Geeta,Yadav,geeta.yadav.120@company.com,Sales,Senior Manager,CC002,2021-03-02,,EMP0279
+EMP0121,Karan,Sharma,karan.sharma.121@company.com,Engineering,Senior Engineer,CC001,2023-03-06,,EMP0299
+EMP0122,Rekha,Mishra,rekha.mishra.122@company.com,Legal,Junior Engineer,CC007,2022-02-26,,EMP0264
+EMP0123,Arjun,Saxena,arjun.saxena.123@company.com,Sales,Senior Manager,CC002,2020-02-08,,EMP0138
+EMP0124,Sapna,Mishra,sapna.mishra.124@company.com,Sales,Director,CC002,2021-04-03,,EMP0263
+EMP0125,Amara,Srivastava,amara.srivastava.125@company.com,Sales,Junior Engineer,CC002,2020-07-08,,EMP0102
+EMP0126,Sandeep,Iyer,sandeep.iyer.126@company.com,Marketing,Senior Engineer,CC003,2023-07-21,,EMP0387
+EMP0127,Karan,Joshi,karan.joshi.127@company.com,Marketing,Team Lead,CC003,2023-03-01,,EMP0268
+EMP0128,Nandini,Jain,nandini.jain.128@company.com,Legal,Manager,CC007,2019-05-13,,EMP0216
+EMP0129,Sandeep,Desai,sandeep.desai.129@company.com,Engineering,Manager,CC001,2024-07-05,,EMP0087
+EMP0130,Suresh,Agarwal,suresh.agarwal.130@company.com,Legal,Manager,CC007,2020-04-13,2023-08-16,EMP0216
+EMP0131,Pradeep,Kumar,pradeep.kumar.131@company.com,Marketing,Junior Engineer,CC003,2024-05-16,,EMP0031
+EMP0132,Sandeep,Singh,sandeep.singh.132@company.com,Sales,Junior Engineer,CC002,2025-05-03,,EMP0025
+EMP0133,Seema,Desai,seema.desai.133@company.com,Operations,Team Lead,CC006,2024-02-03,,EMP0078
+EMP0134,Akash,Mishra,akash.mishra.134@company.com,Engineering,Senior Manager,CC001,2021-07-08,,EMP0355
+EMP0135,Varun,Rao,varun.rao.135@company.com,HR,Junior Engineer,CC005,2018-03-23,,EMP0150
+EMP0136,Chandra,Mishra,chandra.mishra.136@company.com,Legal,Team Lead,CC007,2019-01-07,,EMP0128
+EMP0137,Deepak,Mishra,deepak.mishra.137@company.com,HR,Senior Engineer,CC005,2019-02-18,,EMP0145
+EMP0138,Pallavi,Kumar,pallavi.kumar.138@company.com,Sales,Director,CC002,2020-03-16,,EMP0263
+EMP0139,Aditya,Jain,aditya.jain.139@company.com,Marketing,Senior Engineer,CC003,2024-05-30,,EMP0072
+EMP0140,Sanjay,Srivastava,sanjay.srivastava.140@company.com,Sales,Junior Engineer,CC002,2020-10-23,,EMP0094
+EMP0141,Lakshmi,Jain,lakshmi.jain.141@company.com,Sales,Junior Engineer,CC002,2020-04-24,,EMP0293
+EMP0142,Anjali,Sharma,anjali.sharma.142@company.com,Engineering,Junior Engineer,CC001,2024-06-25,,EMP0184
+EMP0143,Priya,Singh,priya.singh.143@company.com,Marketing,Senior Engineer,CC003,2025-02-06,,EMP0160
+EMP0144,Shiva,Saxena,shiva.saxena.144@company.com,Engineering,Director,CC001,2021-02-06,,EMP0202
+EMP0145,Pooja,Nair,pooja.nair.145@company.com,HR,Manager,CC005,2018-06-09,,EMP0296
+EMP0146,Sapna,Reddy,sapna.reddy.146@company.com,HR,Manager,CC005,2025-02-26,,EMP0044
+EMP0147,Deepa,Patel,deepa.patel.147@company.com,HR,Junior Engineer,CC005,2022-09-25,,EMP0296
+EMP0148,Suresh,Khan,suresh.khan.148@company.com,Finance,Senior Manager,CC004,2024-04-12,,EMP0338
+EMP0149,Kavita,Malhotra,kavita.malhotra.149@company.com,Marketing,Senior Engineer,CC003,2020-07-24,,EMP0017
+EMP0150,Sapna,Pandey,sapna.pandey.150@company.com,HR,Team Lead,CC005,2024-07-10,,EMP0230
+EMP0151,Mohan,Chopra,mohan.chopra.151@company.com,Sales,Junior Engineer,CC002,2018-04-07,,EMP0117
+EMP0152,Esha,Srivastava,esha.srivastava.152@company.com,Finance,Senior Engineer,CC004,2019-02-17,2025-03-28,EMP0289
+EMP0153,Ananya,Rao,ananya.rao.153@company.com,Operations,Junior Engineer,CC006,2024-11-11,,EMP0166
+EMP0154,Uma,Mehta,uma.mehta.154@company.com,Finance,Junior Engineer,CC004,2024-06-12,,EMP0250
+EMP0155,Pradeep,Mishra,pradeep.mishra.155@company.com,Product,Manager,CC008,2023-06-01,,EMP0194
+EMP0156,Geeta,Pandey,geeta.pandey.156@company.com,Sales,Team Lead,CC002,2019-09-10,,EMP0138
+EMP0157,Sandeep,Rao,sandeep.rao.157@company.com,Operations,Junior Engineer,CC006,2020-05-06,,EMP0166
+EMP0158,Geeta,Joshi,geeta.joshi.158@company.com,Finance,Junior Engineer,CC004,2024-05-16,,EMP0227
+EMP0159,Krishna,Dutta,krishna.dutta.159@company.com,Operations,Senior Engineer,CC006,2023-12-02,,EMP0231
+EMP0160,Kavita,Nair,kavita.nair.160@company.com,Marketing,Senior Manager,CC003,2024-09-08,,EMP0295
+EMP0161,Chandra,Verma,chandra.verma.161@company.com,Legal,Team Lead,CC007,2021-07-22,,EMP0130
+EMP0162,Suresh,Nair,suresh.nair.162@company.com,Engineering,Team Lead,CC001,2022-03-04,,EMP0087
+EMP0163,Deepa,Mehta,deepa.mehta.163@company.com,Sales,Director,CC002,2020-01-15,,EMP0179
+EMP0164,Ananya,Nair,ananya.nair.164@company.com,Engineering,Team Lead,CC001,2020-04-16,,EMP0314
+EMP0165,Mohan,Iyer,mohan.iyer.165@company.com,Marketing,Junior Engineer,CC003,2020-01-06,,EMP0237
+EMP0166,Shiva,Das,shiva.das.166@company.com,Operations,Senior Manager,CC006,2019-04-16,,EMP0186
+EMP0167,Krishna,Yadav,krishna.yadav.167@company.com,HR,Senior Manager,CC005,2025-04-04,,EMP0016
+EMP0168,Geeta,Mishra,geeta.mishra.168@company.com,Operations,Senior Engineer,CC006,2019-11-14,,EMP0267
+EMP0169,Aditya,Mishra,aditya.mishra.169@company.com,Sales,Team Lead,CC002,2022-12-10,,EMP0120
+EMP0170,Pooja,Iyer,pooja.iyer.170@company.com,Sales,Manager,CC002,2023-01-10,,EMP0348
+EMP0171,Neha,Desai,neha.desai.171@company.com,Legal,Senior Engineer,CC007,2024-01-10,,EMP0335
+EMP0172,Meera,Gupta,meera.gupta.172@company.com,Finance,Team Lead,CC004,2024-11-16,,EMP0354
+EMP0173,Zara,Pandey,zara.pandey.173@company.com,Sales,Junior Engineer,CC002,2023-08-02,,EMP0120
+EMP0174,Aarav,Jain,aarav.jain.174@company.com,HR,Team Lead,CC005,2023-04-25,,EMP0290
+EMP0175,Anjali,Nair,anjali.nair.175@company.com,Product,Senior Manager,CC008,2021-07-18,,EMP0182
+EMP0176,Kavita,Iyer,kavita.iyer.176@company.com,HR,Team Lead,CC005,2022-09-10,,EMP0346
+EMP0177,Geeta,Das,geeta.das.177@company.com,Engineering,Junior Engineer,CC001,2021-11-25,,EMP0378
+EMP0178,Hari,Pandey,hari.pandey.178@company.com,Operations,Junior Engineer,CC006,2022-01-06,,EMP0096
+EMP0179,Sunil,Gandhi,sunil.gandhi.179@company.com,Sales,VP,CC002,2019-10-05,,EMP0179
+EMP0180,Manish,Desai,manish.desai.180@company.com,Marketing,Team Lead,CC003,2023-08-14,,EMP0255
+EMP0181,Tanvi,Dutta,tanvi.dutta.181@company.com,Finance,Junior Engineer,CC004,2024-06-06,,EMP0206
+EMP0182,Sneha,Sharma,sneha.sharma.182@company.com,Product,VP,CC008,2025-04-21,,EMP0182
+EMP0183,Geeta,Reddy,geeta.reddy.183@company.com,Operations,Senior Engineer,CC006,2021-06-18,2024-05-01,EMP0039
+EMP0184,Suresh,Shah,suresh.shah.184@company.com,Engineering,Senior Engineer,CC001,2019-11-26,2024-10-28,EMP0360
+EMP0185,Vinay,Dutta,vinay.dutta.185@company.com,Marketing,Senior Manager,CC003,2020-05-16,,EMP0237
+EMP0186,Hari,Bhat,hari.bhat.186@company.com,Operations,Director,CC006,2024-10-12,,EMP0188
+EMP0187,Vijay,Patel,vijay.patel.187@company.com,Product,Senior Engineer,CC008,2019-06-19,,EMP0341
+EMP0188,Anjali,Khan,anjali.khan.188@company.com,Operations,VP,CC006,2024-04-27,,EMP0188
+EMP0189,Shreya,Nair,shreya.nair.189@company.com,Product,Director,CC008,2020-12-27,,EMP0386
+EMP0190,Suresh,Chopra,suresh.chopra.190@company.com,HR,Junior Engineer,CC005,2019-09-14,,EMP0090
+EMP0191,Pradeep,Saxena,pradeep.saxena.191@company.com,Legal,Junior Engineer,CC007,2023-08-15,,EMP0171
+EMP0192,Rajesh,Reddy,rajesh.reddy.192@company.com,Finance,Team Lead,CC004,2018-07-03,,EMP0148
+EMP0193,Divya,Iyer,divya.iyer.193@company.com,Engineering,Senior Manager,CC001,2018-06-17,,EMP0221
+EMP0194,Nikhil,Kapoor,nikhil.kapoor.194@company.com,Product,Senior Manager,CC008,2022-07-28,,EMP0386
+EMP0195,Shiva,Nair,shiva.nair.195@company.com,Sales,Junior Engineer,CC002,2023-03-10,,EMP0263
+EMP0196,Sneha,Nair,sneha.nair.196@company.com,Sales,Senior Engineer,CC002,2021-08-05,,EMP0102
+EMP0197,Aarav,Yadav,aarav.yadav.197@company.com,Sales,Manager,CC002,2019-05-08,,EMP0138
+EMP0198,Krishna,Saxena,krishna.saxena.198@company.com,Finance,Junior Engineer,CC004,2023-01-12,,EMP0086
+EMP0199,Anil,Yadav,anil.yadav.199@company.com,HR,Senior Engineer,CC005,2020-04-21,,EMP0320
+EMP0200,Krishna,Iyer,krishna.iyer.200@company.com,Sales,Junior Engineer,CC002,2021-11-11,,EMP0163
+EMP0201,Divya,Yadav,divya.yadav.201@company.com,HR,Senior Engineer,CC005,2025-05-17,,EMP0230
+EMP0202,Deepak,Saxena,deepak.saxena.202@company.com,Engineering,VP,CC001,2022-09-23,,EMP0202
+EMP0203,Sunil,Patel,sunil.patel.203@company.com,HR,Junior Engineer,CC005,2024-08-28,,EMP0044
+EMP0204,Aarav,Patel,aarav.patel.204@company.com,Sales,Team Lead,CC002,2024-10-04,,EMP0348
+EMP0205,Uma,Kapoor,uma.kapoor.205@company.com,Engineering,Junior Engineer,CC001,2022-11-17,,EMP0369
+EMP0206,Vijay,Srivastava,vijay.srivastava.206@company.com,Finance,Senior Engineer,CC004,2021-05-29,,EMP0278
+EMP0207,Vijay,Sharma,vijay.sharma.207@company.com,Operations,Manager,CC006,2018-04-24,,EMP0085
+EMP0208,Uma,Reddy,uma.reddy.208@company.com,Marketing,Senior Engineer,CC003,2024-10-31,,EMP0308
+EMP0209,Amara,Chopra,amara.chopra.209@company.com,HR,Team Lead,CC005,2018-04-18,,EMP0082
+EMP0210,Arjun,Bhat,arjun.bhat.210@company.com,Legal,Team Lead,CC007,2024-04-03,,EMP0394
+EMP0211,Manish,Das,manish.das.211@company.com,Engineering,Junior Engineer,CC001,2021-05-18,,EMP0202
+EMP0212,Tanvi,Singh,tanvi.singh.212@company.com,Legal,Senior Engineer,CC007,2018-03-31,,EMP0365
+EMP0213,Vishal,Iyer,vishal.iyer.213@company.com,Engineering,Manager,CC001,2024-10-07,,EMP0221
+EMP0214,Shreya,Dutta,shreya.dutta.214@company.com,Operations,Junior Engineer,CC006,2023-02-09,,EMP0070
+EMP0215,Amit,Khan,amit.khan.215@company.com,Operations,Manager,CC006,2024-11-28,,EMP0166
+EMP0216,Ravi,Joshi,ravi.joshi.216@company.com,Legal,Director,CC007,2023-07-16,,EMP0216
+EMP0217,Geeta,Patel,geeta.patel.217@company.com,Marketing,Senior Engineer,CC003,2019-08-04,2023-03-23,EMP0255
+EMP0218,Uma,Mishra,uma.mishra.218@company.com,HR,VP,CC005,2019-04-05,,EMP0016
+EMP0219,Yash,Pandey,yash.pandey.219@company.com,Finance,Junior Engineer,CC004,2024-06-24,,EMP0007
+EMP0220,Meera,Chopra,meera.chopra.220@company.com,Product,Junior Engineer,CC008,2024-02-06,,EMP0011
+EMP0221,Sandeep,Kumar,sandeep.kumar.221@company.com,Engineering,Director,CC001,2018-10-20,,EMP0202
+EMP0222,Anil,Patel,anil.patel.222@company.com,Finance,Manager,CC004,2021-05-07,,EMP0338
+EMP0223,Sanjay,Verma,sanjay.verma.223@company.com,Legal,Manager,CC007,2022-07-27,,EMP0395
+EMP0224,Divya,Das,divya.das.224@company.com,Product,Senior Engineer,CC008,2018-04-18,,EMP0283
+EMP0225,Chandra,Verma,chandra.verma.225@company.com,HR,Senior Engineer,CC005,2019-09-06,,EMP0244
+EMP0226,Meera,Reddy,meera.reddy.226@company.com,Sales,Senior Manager,CC002,2019-11-22,,EMP0263
+EMP0227,Nikhil,Dutta,nikhil.dutta.227@company.com,Finance,Team Lead,CC004,2018-03-25,,EMP0289
+EMP0228,Sunil,Saxena,sunil.saxena.228@company.com,Operations,Team Lead,CC006,2021-05-10,,EMP0039
+EMP0229,Rahul,Kapoor,rahul.kapoor.229@company.com,Operations,Senior Engineer,CC006,2019-09-29,,EMP0103
+EMP0230,Naveen,Kumar,naveen.kumar.230@company.com,HR,Manager,CC005,2022-03-09,,EMP0090
+EMP0231,Pradeep,Sharma,pradeep.sharma.231@company.com,Operations,Team Lead,CC006,2022-05-09,,EMP0215
+EMP0232,Ananya,Sharma,ananya.sharma.232@company.com,Marketing,Senior Engineer,CC003,2024-08-31,,EMP0072
+EMP0233,Lakshmi,Kumar,lakshmi.kumar.233@company.com,Operations,Senior Engineer,CC006,2023-06-05,,EMP0133
+EMP0234,Zara,Malhotra,zara.malhotra.234@company.com,Marketing,Senior Engineer,CC003,2020-02-25,,EMP0072
+EMP0235,Akash,Gandhi,akash.gandhi.235@company.com,Engineering,Senior Engineer,CC001,2021-06-21,,EMP0134
+EMP0236,Tanvi,Bhat,tanvi.bhat.236@company.com,Sales,Junior Engineer,CC002,2018-04-01,,EMP0246
+EMP0237,Deepa,Kapoor,deepa.kapoor.237@company.com,Marketing,VP,CC003,2022-11-20,,EMP0237
+EMP0238,Vinay,Yadav,vinay.yadav.238@company.com,Operations,Manager,CC006,2024-11-03,,EMP0039
+EMP0239,Sunil,Rao,sunil.rao.239@company.com,Marketing,Junior Engineer,CC003,2021-06-25,,EMP0208
+EMP0240,Sneha,Saxena,sneha.saxena.240@company.com,Sales,Junior Engineer,CC002,2019-01-03,,EMP0102
+EMP0241,Rohan,Patel,rohan.patel.241@company.com,Marketing,Senior Engineer,CC003,2023-07-08,,EMP0308
+EMP0242,Divya,Kapoor,divya.kapoor.242@company.com,Product,Junior Engineer,CC008,2023-05-29,,EMP0341
+EMP0243,Varun,Verma,varun.verma.243@company.com,Marketing,Senior Engineer,CC003,2021-12-07,,EMP0304
+EMP0244,Vivek,Das,vivek.das.244@company.com,HR,Team Lead,CC005,2023-11-08,2025-10-12,EMP0167
+EMP0245,Sapna,Singh,sapna.singh.245@company.com,Operations,Manager,CC006,2022-07-04,,EMP0381
+EMP0246,Anil,Jain,anil.jain.246@company.com,Sales,Manager,CC002,2019-04-12,,EMP0226
+EMP0247,Bhavya,Yadav,bhavya.yadav.247@company.com,Operations,Senior Engineer,CC006,2022-09-06,,EMP0078
+EMP0248,Arjun,Srivastava,arjun.srivastava.248@company.com,Legal,Team Lead,CC007,2022-01-06,,EMP0130
+EMP0249,Aarav,Desai,aarav.desai.249@company.com,HR,Junior Engineer,CC005,2020-03-24,,EMP0137
+EMP0250,Naveen,Das,naveen.das.250@company.com,Finance,Senior Manager,CC004,2022-04-05,,EMP0338
+EMP0251,Neha,Thakur,neha.thakur.251@company.com,Legal,Junior Engineer,CC007,2020-04-18,,EMP0130
+EMP0252,Pooja,Mishra,pooja.mishra.252@company.com,Product,Senior Manager,CC008,2018-04-06,,EMP0189
+EMP0253,Zara,Kumar,zara.kumar.253@company.com,Sales,Manager,CC002,2019-03-30,,EMP0123
+EMP0254,Meera,Dutta,meera.dutta.254@company.com,Sales,Senior Engineer,CC002,2022-08-09,,EMP0179
+EMP0255,Amit,Saxena,amit.saxena.255@company.com,Marketing,VP,CC003,2024-09-17,,EMP0237
+EMP0256,Vijay,Shah,vijay.shah.256@company.com,Sales,Manager,CC002,2018-12-01,,EMP0226
+EMP0257,Vivek,Jain,vivek.jain.257@company.com,Marketing,Junior Engineer,CC003,2025-01-18,,EMP0185
+EMP0258,Divya,Das,divya.das.258@company.com,Operations,Team Lead,CC006,2022-12-29,,EMP0039
+EMP0259,Ravi,Singh,ravi.singh.259@company.com,Marketing,Junior Engineer,CC003,2020-01-25,,EMP0217
+EMP0260,Suresh,Dutta,suresh.dutta.260@company.com,Finance,Senior Engineer,CC004,2018-05-23,,EMP0388
+EMP0261,Amara,Desai,amara.desai.261@company.com,Engineering,VP,CC001,2019-11-24,,EMP0202
+EMP0262,Vijay,Sharma,vijay.sharma.262@company.com,Sales,Senior Engineer,CC002,2024-07-10,,EMP0156
+EMP0263,Vijay,Kumar,vijay.kumar.263@company.com,Sales,VP,CC002,2022-01-05,,EMP0179
+EMP0264,Meera,Srivastava,meera.srivastava.264@company.com,Legal,Senior Engineer,CC007,2024-07-05,,EMP0128
+EMP0265,Aditya,Rao,aditya.rao.265@company.com,Legal,Senior Engineer,CC007,2019-05-17,,EMP0395
+EMP0266,Anjali,Dutta,anjali.dutta.266@company.com,Marketing,Senior Engineer,CC003,2020-03-10,,EMP0160
+EMP0267,Anil,Das,anil.das.267@company.com,Operations,Director,CC006,2019-08-20,,EMP0271
+EMP0268,Hari,Iyer,hari.iyer.268@company.com,Marketing,Manager,CC003,2020-11-26,,EMP0387
+EMP0269,Esha,Bhat,esha.bhat.269@company.com,Sales,Junior Engineer,CC002,2022-06-27,,EMP0102
+EMP0270,Aditya,Dutta,aditya.dutta.270@company.com,Sales,Senior Manager,CC002,2023-08-09,,EMP0163
+EMP0271,Pooja,Agarwal,pooja.agarwal.271@company.com,Operations,VP,CC006,2019-09-29,,EMP0188
+EMP0272,Meera,Verma,meera.verma.272@company.com,Marketing,Team Lead,CC003,2019-09-16,,EMP0295
+EMP0273,Sachin,Khan,sachin.khan.273@company.com,Finance,Manager,CC004,2025-05-28,,EMP0148
+EMP0274,Aditi,Mehta,aditi.mehta.274@company.com,Product,Manager,CC008,2018-09-25,,EMP0182
+EMP0275,Aditya,Gupta,aditya.gupta.275@company.com,Product,Senior Manager,CC008,2022-06-07,,EMP0189
+EMP0276,Tanvi,Iyer,tanvi.iyer.276@company.com,Finance,Senior Engineer,CC004,2024-10-12,,EMP0172
+EMP0277,Vinay,Sharma,vinay.sharma.277@company.com,Engineering,Team Lead,CC001,2019-02-21,,EMP0221
+EMP0278,Divya,Das,divya.das.278@company.com,Finance,Team Lead,CC004,2019-01-28,,EMP0049
+EMP0279,Vishal,Desai,vishal.desai.279@company.com,Sales,Director,CC002,2021-10-06,,EMP0179
+EMP0280,Yash,Thakur,yash.thakur.280@company.com,Engineering,Junior Engineer,CC001,2025-01-22,,EMP0376
+EMP0281,Karan,Nair,karan.nair.281@company.com,HR,Junior Engineer,CC005,2022-06-06,,EMP0357
+EMP0282,Chandra,Bhat,chandra.bhat.282@company.com,HR,Junior Engineer,CC005,2020-03-06,,EMP0016
+EMP0283,Anjali,Malhotra,anjali.malhotra.283@company.com,Product,Manager,CC008,2021-05-25,,EMP0275
+EMP0284,Kavita,Mishra,kavita.mishra.284@company.com,Operations,Senior Engineer,CC006,2022-10-09,2025-12-14,EMP0366
+EMP0285,Yash,Jain,yash.jain.285@company.com,Engineering,Senior Engineer,CC001,2021-11-20,,EMP0099
+EMP0286,Shiva,Das,shiva.das.286@company.com,Sales,Senior Engineer,CC002,2018-03-15,,EMP0253
+EMP0287,Sapna,Verma,sapna.verma.287@company.com,Marketing,Junior Engineer,CC003,2024-07-19,,EMP0268
+EMP0288,Meera,Gupta,meera.gupta.288@company.com,Operations,Team Lead,CC006,2025-03-07,,EMP0267
+EMP0289,Gaurav,Dutta,gaurav.dutta.289@company.com,Finance,Senior Manager,CC004,2018-11-28,,EMP0338
+EMP0290,Zara,Das,zara.das.290@company.com,HR,Manager,CC005,2021-09-18,,EMP0296
+EMP0291,Deepa,Gandhi,deepa.gandhi.291@company.com,Engineering,Junior Engineer,CC001,2023-08-08,,EMP0066
+EMP0292,Geeta,Singh,geeta.singh.292@company.com,Engineering,Junior Engineer,CC001,2024-01-13,,EMP0056
+EMP0293,Amara,Das,amara.das.293@company.com,Sales,Senior Manager,CC002,2023-08-14,,EMP0263
+EMP0294,Shreya,Dutta,shreya.dutta.294@company.com,HR,Junior Engineer,CC005,2018-04-22,,EMP0091
+EMP0295,Gaurav,Saxena,gaurav.saxena.295@company.com,Marketing,VP,CC003,2023-09-08,,EMP0237
+EMP0296,Mohan,Reddy,mohan.reddy.296@company.com,HR,Senior Manager,CC005,2020-08-08,,EMP0218
+EMP0297,Hari,Rao,hari.rao.297@company.com,Product,Senior Engineer,CC008,2022-11-07,,EMP0283
+EMP0298,Hari,Saxena,hari.saxena.298@company.com,Legal,Manager,CC007,2020-08-21,,EMP0395
+EMP0299,Shiva,Malhotra,shiva.malhotra.299@company.com,Engineering,Manager,CC001,2022-03-07,,EMP0355
+EMP0300,Varun,Shah,varun.shah.300@company.com,Engineering,Senior Engineer,CC001,2024-09-23,,EMP0360
+EMP0301,Varun,Singh,varun.singh.301@company.com,Engineering,Director,CC001,2019-12-21,,EMP0261
+EMP0302,Arjun,Thakur,arjun.thakur.302@company.com,Finance,Junior Engineer,CC004,2024-10-02,,EMP0260
+EMP0303,Aarav,Dutta,aarav.dutta.303@company.com,Engineering,Manager,CC001,2021-10-25,,EMP0360
+EMP0304,Anjali,Desai,anjali.desai.304@company.com,Marketing,Senior Manager,CC003,2020-01-22,,EMP0237
+EMP0305,Jaya,Khan,jaya.khan.305@company.com,Engineering,Junior Engineer,CC001,2023-07-08,,EMP0010
+EMP0306,Rekha,Dutta,rekha.dutta.306@company.com,Sales,Junior Engineer,CC002,2019-01-06,,EMP0204
+EMP0307,Meera,Chopra,meera.chopra.307@company.com,Sales,Junior Engineer,CC002,2019-12-16,,EMP0279
+EMP0308,Aditi,Srivastava,aditi.srivastava.308@company.com,Marketing,Team Lead,CC003,2018-09-17,,EMP0295
+EMP0309,Yash,Jain,yash.jain.309@company.com,Engineering,Senior Engineer,CC001,2019-05-24,,EMP0213
+EMP0310,Bhavya,Rao,bhavya.rao.310@company.com,Operations,Senior Engineer,CC006,2022-08-08,,EMP0133
+EMP0311,Arjun,Thakur,arjun.thakur.311@company.com,Sales,Senior Engineer,CC002,2018-01-11,2018-12-03,EMP0025
+EMP0312,Bhavya,Kapoor,bhavya.kapoor.312@company.com,Finance,Team Lead,CC004,2020-01-25,,EMP0250
+EMP0313,Sneha,Shah,sneha.shah.313@company.com,Operations,Junior Engineer,CC006,2020-02-29,,EMP0040
+EMP0314,Amit,Iyer,amit.iyer.314@company.com,Engineering,Manager,CC001,2021-11-04,,EMP0087
+EMP0315,Bhavya,Kumar,bhavya.kumar.315@company.com,Product,Junior Engineer,CC008,2021-09-20,,EMP0042
+EMP0316,Vishal,Saxena,vishal.saxena.316@company.com,HR,Junior Engineer,CC005,2018-03-23,,EMP0093
+EMP0317,Vivek,Desai,vivek.desai.317@company.com,Product,Manager,CC008,2024-07-28,,EMP0189
+EMP0318,Deepa,Reddy,deepa.reddy.318@company.com,Marketing,Senior Engineer,CC003,2024-09-07,,EMP0013
+EMP0319,Isha,Sharma,isha.sharma.319@company.com,Legal,Junior Engineer,CC007,2024-12-12,,EMP0136
+EMP0320,Deepa,Kapoor,deepa.kapoor.320@company.com,HR,Team Lead,CC005,2019-01-25,,EMP0230
+EMP0321,Pradeep,Srivastava,pradeep.srivastava.321@company.com,Engineering,Manager,CC001,2019-03-10,,EMP0301
+EMP0322,Amara,Joshi,amara.joshi.322@company.com,Operations,Team Lead,CC006,2020-01-02,,EMP0078
+EMP0323,Naveen,Bhat,naveen.bhat.323@company.com,Engineering,Junior Engineer,CC001,2018-01-22,,EMP0321
+EMP0324,Pooja,Bhat,pooja.bhat.324@company.com,Legal,Junior Engineer,CC007,2025-01-31,,EMP0248
+EMP0325,Sandeep,Mishra,sandeep.mishra.325@company.com,Marketing,Junior Engineer,CC003,2022-12-06,,EMP0064
+EMP0326,Rahul,Verma,rahul.verma.326@company.com,Operations,Manager,CC006,2024-01-01,,EMP0166
+EMP0327,Hari,Saxena,hari.saxena.327@company.com,Engineering,Junior Engineer,CC001,2021-10-09,,EMP0162
+EMP0328,Vishal,Chopra,vishal.chopra.328@company.com,Operations,Manager,CC006,2023-10-23,,EMP0085
+EMP0329,Priya,Joshi,priya.joshi.329@company.com,Operations,Team Lead,CC006,2022-10-09,,EMP0040
+EMP0330,Sandeep,Jain,sandeep.jain.330@company.com,Marketing,Junior Engineer,CC003,2023-04-27,,EMP0002
+EMP0331,Uma,Gupta,uma.gupta.331@company.com,Product,Team Lead,CC008,2018-06-13,,EMP0182
+EMP0332,Geeta,Bhat,geeta.bhat.332@company.com,HR,Team Lead,CC005,2022-12-01,,EMP0218
+EMP0333,Vijay,Pandey,vijay.pandey.333@company.com,Engineering,Junior Engineer,CC001,2018-10-14,2025-12-24,EMP0285
+EMP0334,Pooja,Mehta,pooja.mehta.334@company.com,Marketing,Team Lead,CC003,2023-02-28,,EMP0387
+EMP0335,Meera,Pandey,meera.pandey.335@company.com,Legal,Manager,CC007,2019-07-09,,EMP0394
+EMP0336,Zara,Kapoor,zara.kapoor.336@company.com,Finance,Junior Engineer,CC004,2022-01-28,,EMP0337
+EMP0337,Sandeep,Chopra,sandeep.chopra.337@company.com,Finance,Senior Engineer,CC004,2020-06-22,,EMP0388
+EMP0338,Anil,Chopra,anil.chopra.338@company.com,Finance,Director,CC004,2024-09-02,,EMP0338
+EMP0339,Sachin,Srivastava,sachin.srivastava.339@company.com,Sales,Manager,CC002,2020-07-17,,EMP0120
+EMP0340,Ravi,Malhotra,ravi.malhotra.340@company.com,Legal,Team Lead,CC007,2021-10-21,,EMP0394
+EMP0341,Neha,Shah,neha.shah.341@company.com,Product,Senior Manager,CC008,2021-04-24,,EMP0182
+EMP0342,Manish,Mishra,manish.mishra.342@company.com,Legal,Team Lead,CC007,2025-05-21,,EMP0223
+EMP0343,Vivek,Joshi,vivek.joshi.343@company.com,Finance,Junior Engineer,CC004,2021-11-20,2022-10-06,EMP0012
+EMP0344,Bhavya,Iyer,bhavya.iyer.344@company.com,Legal,Senior Engineer,CC007,2025-01-26,2025-11-14,EMP0342
+EMP0345,Akash,Malhotra,akash.malhotra.345@company.com,Operations,Team Lead,CC006,2023-01-24,,EMP0238
+EMP0346,Vinay,Agarwal,vinay.agarwal.346@company.com,HR,Manager,CC005,2022-04-01,,EMP0218
+EMP0347,Shiva,Iyer,shiva.iyer.347@company.com,Legal,Team Lead,CC007,2024-01-30,,EMP0335
+EMP0348,Arjun,Srivastava,arjun.srivastava.348@company.com,Sales,Senior Manager,CC002,2021-06-19,,EMP0138
+EMP0349,Pradeep,Kumar,pradeep.kumar.349@company.com,Engineering,Team Lead,CC001,2018-12-10,,EMP0221
+EMP0350,Neha,Rao,neha.rao.350@company.com,Sales,Senior Engineer,CC002,2020-01-26,,EMP0102
+EMP0351,Vijay,Jain,vijay.jain.351@company.com,Finance,Senior Engineer,CC004,2025-03-10,,EMP0192
+EMP0352,Rekha,Malhotra,rekha.malhotra.352@company.com,Finance,Senior Engineer,CC004,2020-09-05,,EMP0354
+EMP0353,Krishna,Malhotra,krishna.malhotra.353@company.com,Legal,Senior Engineer,CC007,2024-02-25,,EMP0347
+EMP0354,Rahul,Jain,rahul.jain.354@company.com,Finance,Manager,CC004,2018-09-16,,EMP0338
+EMP0355,Amit,Yadav,amit.yadav.355@company.com,Engineering,Director,CC001,2020-10-24,,EMP0261
+EMP0356,Tanvi,Malhotra,tanvi.malhotra.356@company.com,Legal,Junior Engineer,CC007,2018-08-06,,EMP0212
+EMP0357,Yash,Khan,yash.khan.357@company.com,HR,Manager,CC005,2025-02-10,,EMP0167
+EMP0358,Seema,Gandhi,seema.gandhi.358@company.com,Product,Junior Engineer,CC008,2024-05-26,,EMP0018
+EMP0359,Anjali,Das,anjali.das.359@company.com,Engineering,Junior Engineer,CC001,2023-03-14,,EMP0162
+EMP0360,Yash,Pandey,yash.pandey.360@company.com,Engineering,Senior Manager,CC001,2021-03-07,,EMP0221
+EMP0361,Kavita,Shah,kavita.shah.361@company.com,Legal,Junior Engineer,CC007,2024-12-12,,EMP0265
+EMP0362,Aarav,Rao,aarav.rao.362@company.com,Product,Team Lead,CC008,2020-05-23,,EMP0058
+EMP0363,Pooja,Malhotra,pooja.malhotra.363@company.com,Operations,Team Lead,CC006,2021-03-23,,EMP0166
+EMP0364,Esha,Joshi,esha.joshi.364@company.com,Finance,Manager,CC004,2018-03-14,,EMP0250
+EMP0365,Sandeep,Kapoor,sandeep.kapoor.365@company.com,Legal,Manager,CC007,2022-06-26,,EMP0394
+EMP0366,Gaurav,Saxena,gaurav.saxena.366@company.com,Operations,Manager,CC006,2019-03-25,,EMP0078
+EMP0367,Suresh,Joshi,suresh.joshi.367@company.com,Marketing,Junior Engineer,CC003,2022-05-17,,EMP0127
+EMP0368,Neha,Gandhi,neha.gandhi.368@company.com,Product,Junior Engineer,CC008,2023-06-03,2025-11-29,EMP0317
+EMP0369,Amit,Mishra,amit.mishra.369@company.com,Engineering,Senior Engineer,CC001,2023-04-27,,EMP0066
+EMP0370,Deepa,Jain,deepa.jain.370@company.com,Operations,Junior Engineer,CC006,2021-10-28,,EMP0345
+EMP0371,Mohan,Yadav,mohan.yadav.371@company.com,Sales,Junior Engineer,CC002,2023-08-21,,EMP0226
+EMP0372,Vishal,Sharma,vishal.sharma.372@company.com,HR,Junior Engineer,CC005,2023-08-16,,EMP0008
+EMP0373,Geeta,Reddy,geeta.reddy.373@company.com,Product,Senior Engineer,CC008,2024-06-25,,EMP0341
+EMP0374,Anil,Jain,anil.jain.374@company.com,HR,Team Lead,CC005,2020-08-02,,EMP0090
+EMP0375,Aditi,Verma,aditi.verma.375@company.com,HR,Team Lead,CC005,2022-07-05,,EMP0044
+EMP0376,Pradeep,Agarwal,pradeep.agarwal.376@company.com,Engineering,Senior Engineer,CC001,2022-03-04,,EMP0299
+EMP0377,Vivek,Yadav,vivek.yadav.377@company.com,Marketing,Junior Engineer,CC003,2018-01-24,,EMP0272
+EMP0378,Sandeep,Desai,sandeep.desai.378@company.com,Engineering,Manager,CC001,2019-12-27,,EMP0355
+EMP0379,Sapna,Thakur,sapna.thakur.379@company.com,HR,Senior Engineer,CC005,2021-05-14,,EMP0357
+EMP0380,Uma,Desai,uma.desai.380@company.com,HR,Junior Engineer,CC005,2025-04-09,,EMP0225
+EMP0381,Yash,Kumar,yash.kumar.381@company.com,Operations,Director,CC006,2019-07-19,,EMP0188
+EMP0382,Pooja,Reddy,pooja.reddy.382@company.com,Product,Team Lead,CC008,2019-12-21,,EMP0058
+EMP0383,Sachin,Shah,sachin.shah.383@company.com,Sales,Senior Engineer,CC002,2020-09-20,,EMP0038
+EMP0384,Meera,Mehta,meera.mehta.384@company.com,HR,Senior Engineer,CC005,2018-05-31,,EMP0290
+EMP0385,Chandra,Singh,chandra.singh.385@company.com,Finance,Junior Engineer,CC004,2018-09-25,,EMP0352
+EMP0386,Yash,Joshi,yash.joshi.386@company.com,Product,VP,CC008,2023-06-22,,EMP0182
+EMP0387,Meera,Jain,meera.jain.387@company.com,Marketing,Senior Manager,CC003,2022-03-01,,EMP0237
+EMP0388,Rajesh,Yadav,rajesh.yadav.388@company.com,Finance,Team Lead,CC004,2019-05-19,,EMP0148
+EMP0389,Pradeep,Dutta,pradeep.dutta.389@company.com,Legal,Junior Engineer,CC007,2023-10-08,,EMP0395
+EMP0390,Manish,Malhotra,manish.malhotra.390@company.com,Product,Manager,CC008,2018-02-04,2023-12-25,EMP0182
+EMP0391,Suresh,Pandey,suresh.pandey.391@company.com,Finance,Senior Engineer,CC004,2019-10-12,,EMP0278
+EMP0392,Nandini,Shah,nandini.shah.392@company.com,Engineering,Senior Engineer,CC001,2018-11-12,,EMP0119
+EMP0393,Pooja,Saxena,pooja.saxena.393@company.com,Marketing,Junior Engineer,CC003,2019-10-19,,EMP0208
+EMP0394,Karan,Chopra,karan.chopra.394@company.com,Legal,Director,CC007,2021-01-21,,EMP0216
+EMP0395,Vivek,Jain,vivek.jain.395@company.com,Legal,Director,CC007,2023-04-15,,EMP0216
+EMP0396,Sunil,Pandey,sunil.pandey.396@company.com,Legal,Team Lead,CC007,2020-07-17,,EMP0335
+EMP0397,Nandini,Shah,nandini.shah.397@company.com,Sales,Junior Engineer,CC002,2021-08-27,,EMP0046
+EMP0398,Tanvi,Thakur,tanvi.thakur.398@company.com,Engineering,Junior Engineer,CC001,2020-05-27,,EMP0087
+EMP0399,Jaya,Singh,jaya.singh.399@company.com,Engineering,Manager,CC001,2023-11-03,,EMP0355
+EMP0400,Aditya,Joshi,aditya.joshi.400@company.com,Finance,Senior Engineer,CC004,2021-05-25,,EMP0289

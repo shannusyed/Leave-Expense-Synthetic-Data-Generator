@@ -1,171 +1,280 @@
-anomaly_id,anomaly_type,entity,entity_id,description,injected_at
-ANO-NLB-1628,NegativeLeaveBalance,LeaveBalance,EMP-000326|LP-005,Balance forced to -1.74 days (overdraft),leave_balances
-ANO-NLB-1012,NegativeLeaveBalance,LeaveBalance,EMP-000203|LP-004,Balance forced to -2.01 days (overdraft),leave_balances
-ANO-NLB-0820,NegativeLeaveBalance,LeaveBalance,EMP-000165|LP-001,Balance forced to -3.10 days (overdraft),leave_balances
-ANO-NLB-1874,NegativeLeaveBalance,LeaveBalance,EMP-000375|LP-006,Balance forced to -1.52 days (overdraft),leave_balances
-ANO-NLB-1156,NegativeLeaveBalance,LeaveBalance,EMP-000232|LP-003,Balance forced to -1.30 days (overdraft),leave_balances
-ANO-NLB-0436,NegativeLeaveBalance,LeaveBalance,EMP-000088|LP-003,Balance forced to -4.85 days (overdraft),leave_balances
-ANO-NLB-0868,NegativeLeaveBalance,LeaveBalance,EMP-000174|LP-005,Balance forced to -1.47 days (overdraft),leave_balances
-ANO-NLB-1251,NegativeLeaveBalance,LeaveBalance,EMP-000251|LP-003,Balance forced to -2.53 days (overdraft),leave_balances
-ANO-NLB-1112,NegativeLeaveBalance,LeaveBalance,EMP-000223|LP-004,Balance forced to -4.03 days (overdraft),leave_balances
-ANO-NLB-1502,NegativeLeaveBalance,LeaveBalance,EMP-000301|LP-004,Balance forced to -4.88 days (overdraft),leave_balances
-ANO-NLB-1435,NegativeLeaveBalance,LeaveBalance,EMP-000288|LP-001,Balance forced to -2.53 days (overdraft),leave_balances
-ANO-NLB-1011,NegativeLeaveBalance,LeaveBalance,EMP-000203|LP-003,Balance forced to -3.64 days (overdraft),leave_balances
-ANO-NLB-0611,NegativeLeaveBalance,LeaveBalance,EMP-000123|LP-003,Balance forced to -4.48 days (overdraft),leave_balances
-ANO-NLB-1391,NegativeLeaveBalance,LeaveBalance,EMP-000279|LP-003,Balance forced to -0.83 days (overdraft),leave_balances
-ANO-NLB-0917,NegativeLeaveBalance,LeaveBalance,EMP-000184|LP-004,Balance forced to -3.95 days (overdraft),leave_balances
-ANO-NLB-1939,NegativeLeaveBalance,LeaveBalance,EMP-000388|LP-006,Balance forced to -3.41 days (overdraft),leave_balances
-ANO-NLB-1580,NegativeLeaveBalance,LeaveBalance,EMP-000317|LP-001,Balance forced to -4.20 days (overdraft),leave_balances
-ANO-NLB-0077,NegativeLeaveBalance,LeaveBalance,EMP-000016|LP-004,Balance forced to -0.86 days (overdraft),leave_balances
-ANO-NLB-0642,NegativeLeaveBalance,LeaveBalance,EMP-000129|LP-004,Balance forced to -2.18 days (overdraft),leave_balances
-ANO-NLB-0948,NegativeLeaveBalance,LeaveBalance,EMP-000190|LP-005,Balance forced to -3.48 days (overdraft),leave_balances
-ANO-NLB-1596,NegativeLeaveBalance,LeaveBalance,EMP-000320|LP-003,Balance forced to -1.86 days (overdraft),leave_balances
-ANO-NLB-1102,NegativeLeaveBalance,LeaveBalance,EMP-000221|LP-004,Balance forced to -1.60 days (overdraft),leave_balances
-ANO-NLB-1869,NegativeLeaveBalance,LeaveBalance,EMP-000374|LP-006,Balance forced to -4.54 days (overdraft),leave_balances
-ANO-NLB-0087,NegativeLeaveBalance,LeaveBalance,EMP-000018|LP-004,Balance forced to -3.14 days (overdraft),leave_balances
-ANO-NLB-0333,NegativeLeaveBalance,LeaveBalance,EMP-000067|LP-005,Balance forced to -1.35 days (overdraft),leave_balances
-ANO-NLB-0216,NegativeLeaveBalance,LeaveBalance,EMP-000044|LP-003,Balance forced to -0.70 days (overdraft),leave_balances
-ANO-NLB-1655,NegativeLeaveBalance,LeaveBalance,EMP-000332|LP-001,Balance forced to -4.81 days (overdraft),leave_balances
-ANO-NLB-0036,NegativeLeaveBalance,LeaveBalance,EMP-000008|LP-003,Balance forced to -2.71 days (overdraft),leave_balances
-ANO-NLB-1136,NegativeLeaveBalance,LeaveBalance,EMP-000228|LP-003,Balance forced to -0.89 days (overdraft),leave_balances
-ANO-NLB-0381,NegativeLeaveBalance,LeaveBalance,EMP-000077|LP-003,Balance forced to -2.17 days (overdraft),leave_balances
-ANO-NLB-1594,NegativeLeaveBalance,LeaveBalance,EMP-000319|LP-006,Balance forced to -0.59 days (overdraft),leave_balances
-ANO-NLB-1400,NegativeLeaveBalance,LeaveBalance,EMP-000281|LP-001,Balance forced to -3.65 days (overdraft),leave_balances
-ANO-NLB-1439,NegativeLeaveBalance,LeaveBalance,EMP-000288|LP-006,Balance forced to -4.33 days (overdraft),leave_balances
-ANO-NLB-0887,NegativeLeaveBalance,LeaveBalance,EMP-000178|LP-004,Balance forced to -4.67 days (overdraft),leave_balances
-ANO-NLB-1311,NegativeLeaveBalance,LeaveBalance,EMP-000263|LP-003,Balance forced to -4.53 days (overdraft),leave_balances
-ANO-NLB-0129,NegativeLeaveBalance,LeaveBalance,EMP-000026|LP-006,Balance forced to -4.91 days (overdraft),leave_balances
-ANO-NLB-0866,NegativeLeaveBalance,LeaveBalance,EMP-000174|LP-003,Balance forced to -2.26 days (overdraft),leave_balances
-ANO-NLB-0576,NegativeLeaveBalance,LeaveBalance,EMP-000116|LP-003,Balance forced to -4.82 days (overdraft),leave_balances
-ANO-NLB-0195,NegativeLeaveBalance,LeaveBalance,EMP-000040|LP-002,Balance forced to -3.03 days (overdraft),leave_balances
-ANO-NLB-1279,NegativeLeaveBalance,LeaveBalance,EMP-000256|LP-006,Balance forced to -3.54 days (overdraft),leave_balances
-ANO-OVL-0800,OverlappingLeave,LeaveRequest,LVE-2026-900800,Overlaps with LVE-2026-000205 for employee EMP-000179,leave_requests
-ANO-OVL-0801,OverlappingLeave,LeaveRequest,LVE-2026-900801,Overlaps with LVE-2026-000470 for employee EMP-000185,leave_requests
-ANO-OVL-0802,OverlappingLeave,LeaveRequest,LVE-2026-900802,Overlaps with LVE-2026-000024 for employee EMP-000400,leave_requests
-ANO-OVL-0803,OverlappingLeave,LeaveRequest,LVE-2026-900803,Overlaps with LVE-2026-000432 for employee EMP-000116,leave_requests
-ANO-OVL-0804,OverlappingLeave,LeaveRequest,LVE-2026-900804,Overlaps with LVE-2026-000377 for employee EMP-000128,leave_requests
-ANO-OVL-0805,OverlappingLeave,LeaveRequest,LVE-2026-900805,Overlaps with LVE-2026-000155 for employee EMP-000171,leave_requests
-ANO-OVL-0806,OverlappingLeave,LeaveRequest,LVE-2026-900806,Overlaps with LVE-2026-000315 for employee EMP-000261,leave_requests
-ANO-OVL-0807,OverlappingLeave,LeaveRequest,LVE-2026-900807,Overlaps with LVE-2026-000516 for employee EMP-000033,leave_requests
-ANO-OVL-0808,OverlappingLeave,LeaveRequest,LVE-2026-900808,Overlaps with LVE-2026-000746 for employee EMP-000134,leave_requests
-ANO-OVL-0809,OverlappingLeave,LeaveRequest,LVE-2026-900809,Overlaps with LVE-2026-000276 for employee EMP-000183,leave_requests
-ANO-OVL-0810,OverlappingLeave,LeaveRequest,LVE-2026-900810,Overlaps with LVE-2026-000378 for employee EMP-000134,leave_requests
-ANO-OVL-0811,OverlappingLeave,LeaveRequest,LVE-2026-900811,Overlaps with LVE-2026-000723 for employee EMP-000013,leave_requests
-ANO-EMP-2272,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000410-02,Expense date 2019-02-01 is before hire date 2019-02-26 for employee EMP-000308,expense_lines
-ANO-EMP-1321,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000243-06,Expense date 2018-07-30 is before hire date 2018-08-18 for employee EMP-000364,expense_lines
-ANO-EMP-2980,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000531-05,Expense date 2020-07-04 is before hire date 2020-08-03 for employee EMP-000039,expense_lines
-ANO-EMP-2112,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000379-03,Expense date 2025-02-07 is before hire date 2025-03-05 for employee EMP-000368,expense_lines
-ANO-EMP-3633,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000638-03,Expense date 2024-05-13 is before hire date 2024-07-01 for employee EMP-000046,expense_lines
-ANO-EMP-4671,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000830-05,Expense date 2023-05-22 is before hire date 2023-06-16 for employee EMP-000261,expense_lines
-ANO-EMP-5170,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000919-07,Expense date 2022-01-16 is before hire date 2022-02-17 for employee EMP-000326,expense_lines
-ANO-EMP-0710,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000130-03,Expense date 2023-09-24 is before hire date 2023-10-24 for employee EMP-000273,expense_lines
-ANO-EMP-2591,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000467-05,Expense date 2023-01-25 is before hire date 2023-03-11 for employee EMP-000216,expense_lines
-ANO-EMP-0633,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000115-05,Expense date 2024-06-07 is before hire date 2024-07-23 for employee EMP-000299,expense_lines
-ANO-EMP-5124,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000909-04,Expense date 2019-05-31 is before hire date 2019-06-23 for employee EMP-000246,expense_lines
-ANO-EMP-4453,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000789-01,Expense date 2018-03-13 is before hire date 2018-05-07 for employee EMP-000052,expense_lines
-ANO-EMP-1165,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000211-05,Expense date 2019-10-11 is before hire date 2019-12-04 for employee EMP-000396,expense_lines
-ANO-EMP-3078,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000548-01,Expense date 2021-04-01 is before hire date 2021-05-16 for employee EMP-000303,expense_lines
-ANO-EMP-0254,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000053-01,Expense date 2024-05-14 is before hire date 2024-06-08 for employee EMP-000389,expense_lines
-ANO-EMP-3225,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000570-01,Expense date 2025-10-24 is before hire date 2025-11-05 for employee EMP-000298,expense_lines
-ANO-EMP-1208,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000218-07,Expense date 2020-08-22 is before hire date 2020-09-30 for employee EMP-000235,expense_lines
-ANO-EMP-4186,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000741-02,Expense date 2019-10-12 is before hire date 2019-12-04 for employee EMP-000396,expense_lines
-ANO-EMP-4686,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000832-02,Expense date 2019-01-29 is before hire date 2019-03-21 for employee EMP-000061,expense_lines
-ANO-EMP-0831,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000152-04,Expense date 2019-05-23 is before hire date 2019-06-23 for employee EMP-000246,expense_lines
-ANO-EMP-1984,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000357-02,Expense date 2021-04-10 is before hire date 2021-05-24 for employee EMP-000147,expense_lines
-ANO-EMP-1285,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000235-08,Expense date 2020-06-24 is before hire date 2020-08-19 for employee EMP-000035,expense_lines
-ANO-EMP-2688,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000484-01,Expense date 2019-01-24 is before hire date 2019-02-26 for employee EMP-000308,expense_lines
-ANO-EMP-5617,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000999-04,Expense date 2025-10-05 is before hire date 2025-11-14 for employee EMP-000382,expense_lines
-ANO-EMP-4344,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000770-04,Expense date 2021-10-24 is before hire date 2021-11-12 for employee EMP-000016,expense_lines
-ANO-EMP-5195,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000925-06,Expense date 2020-04-27 is before hire date 2020-06-21 for employee EMP-000397,expense_lines
-ANO-EMP-0390,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000078-01,Expense date 2024-06-18 is before hire date 2024-07-02 for employee EMP-000056,expense_lines
-ANO-EMP-0236,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000048-08,Expense date 2018-07-21 is before hire date 2018-08-18 for employee EMP-000364,expense_lines
-ANO-EMP-4698,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000833-07,Expense date 2021-04-06 is before hire date 2021-05-16 for employee EMP-000063,expense_lines
-ANO-EMP-0835,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000154-01,Expense date 2019-10-20 is before hire date 2019-12-19 for employee EMP-000215,expense_lines
-ANO-EMP-0410,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000080-05,Expense date 2025-09-23 is before hire date 2025-10-11 for employee EMP-000038,expense_lines
-ANO-EMP-3953,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000698-07,Expense date 2022-05-27 is before hire date 2022-06-20 for employee EMP-000097,expense_lines
-ANO-EMP-4349,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000770-09,Expense date 2021-10-20 is before hire date 2021-11-12 for employee EMP-000016,expense_lines
-ANO-EMP-0159,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000031-01,Expense date 2021-03-28 is before hire date 2021-05-16 for employee EMP-000303,expense_lines
-ANO-EMP-2537,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000456-03,Expense date 2019-08-17 is before hire date 2019-09-03 for employee EMP-000194,expense_lines
-ANO-EMP-4881,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000868-05,Expense date 2023-09-23 is before hire date 2023-11-12 for employee EMP-000153,expense_lines
-ANO-EMP-4840,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000860-07,Expense date 2018-01-05 is before hire date 2018-02-27 for employee EMP-000174,expense_lines
-ANO-EMP-3097,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000552-04,Expense date 2018-09-15 is before hire date 2018-10-31 for employee EMP-000316,expense_lines
-ANO-EMP-0845,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000155-03,Expense date 2021-04-07 is before hire date 2021-05-31 for employee EMP-000055,expense_lines
-ANO-EMP-1050,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000190-04,Expense date 2020-05-14 is before hire date 2020-06-27 for employee EMP-000069,expense_lines
-ANO-EMP-2219,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000401-01,Expense date 2021-08-21 is before hire date 2021-10-01 for employee EMP-000341,expense_lines
-ANO-EMP-1600,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000292-06,Expense date 2021-01-20 is before hire date 2021-03-17 for employee EMP-000091,expense_lines
-ANO-EMP-5095,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000905-04,Expense date 2018-05-08 is before hire date 2018-07-06 for employee EMP-000115,expense_lines
-ANO-EMP-2010,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000361-01,Expense date 2024-10-22 is before hire date 2024-11-22 for employee EMP-000269,expense_lines
-ANO-EMP-5567,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000990-05,Expense date 2023-01-03 is before hire date 2023-02-26 for employee EMP-000003,expense_lines
-ANO-EMP-3698,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000651-04,Expense date 2022-01-27 is before hire date 2022-02-19 for employee EMP-000233,expense_lines
-ANO-EMP-1444,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000265-08,Expense date 2020-11-13 is before hire date 2020-12-03 for employee EMP-000004,expense_lines
-ANO-EMP-1606,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000294-02,Expense date 2020-12-31 is before hire date 2021-02-06 for employee EMP-000198,expense_lines
-ANO-EMP-1706,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000307-03,Expense date 2024-06-20 is before hire date 2024-08-05 for employee EMP-000230,expense_lines
-ANO-EMP-1338,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000247-02,Expense date 2019-01-27 is before hire date 2019-03-13 for employee EMP-000381,expense_lines
-ANO-EMP-3167,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000561-04,Expense date 2019-01-01 is before hire date 2019-01-28 for employee EMP-000199,expense_lines
-ANO-EMP-4319,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000764-01,Expense date 2023-03-18 is before hire date 2023-04-16 for employee EMP-000323,expense_lines
-ANO-EMP-1036,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000187-06,Expense date 2021-05-26 is before hire date 2021-07-19 for employee EMP-000265,expense_lines
-ANO-EMP-0967,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000174-05,Expense date 2019-09-01 is before hire date 2019-10-22 for employee EMP-000110,expense_lines
-ANO-EMP-1128,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000206-05,Expense date 2020-07-18 is before hire date 2020-08-18 for employee EMP-000075,expense_lines
-ANO-EMP-0144,ExpenseDateOutsideEmployment,ExpenseLine,EXPL-EXP-2026-000027-04,Expense date 2024-09-02 is before hire date 2024-10-29 for employee EMP-000088,expense_lines
-ANO-SPL-1000,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901000,Clone of EXP-2026-000347 (amount 844.42) split to evade L2 threshold,expense_claims
-ANO-SPL-1001,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901001,Clone of EXP-2026-000089 (amount 940.93) split to evade L2 threshold,expense_claims
-ANO-SPL-1002,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901002,Clone of EXP-2026-000172 (amount 1206.94) split to evade L2 threshold,expense_claims
-ANO-SPL-1003,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901003,Clone of EXP-2026-000012 (amount 1376.68) split to evade L2 threshold,expense_claims
-ANO-SPL-1004,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901004,Clone of EXP-2026-000924 (amount 1267.8) split to evade L2 threshold,expense_claims
-ANO-SPL-1005,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901005,Clone of EXP-2026-000211 (amount 1182.09) split to evade L2 threshold,expense_claims
-ANO-SPL-1006,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901006,Clone of EXP-2026-000640 (amount 1659.74) split to evade L2 threshold,expense_claims
-ANO-SPL-1007,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901007,Clone of EXP-2026-000608 (amount 1145.28) split to evade L2 threshold,expense_claims
-ANO-SPL-1008,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901008,Clone of EXP-2026-000604 (amount 976.7) split to evade L2 threshold,expense_claims
-ANO-SPL-1009,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901009,Clone of EXP-2026-000994 (amount 1452.08) split to evade L2 threshold,expense_claims
-ANO-SPL-1010,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901010,Clone of EXP-2026-000887 (amount 1644.3) split to evade L2 threshold,expense_claims
-ANO-SPL-1011,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901011,Clone of EXP-2026-000772 (amount 1768.05) split to evade L2 threshold,expense_claims
-ANO-SPL-1012,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901012,Clone of EXP-2026-000107 (amount 813.06) split to evade L2 threshold,expense_claims
-ANO-SPL-1013,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901013,Clone of EXP-2026-000851 (amount 1389.7) split to evade L2 threshold,expense_claims
-ANO-SPL-1014,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901014,Clone of EXP-2026-000077 (amount 1399.03) split to evade L2 threshold,expense_claims
-ANO-SPL-1015,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901015,Clone of EXP-2026-000591 (amount 1237.32) split to evade L2 threshold,expense_claims
-ANO-SPL-1016,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901016,Clone of EXP-2026-000570 (amount 939.3) split to evade L2 threshold,expense_claims
-ANO-SPL-1017,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901017,Clone of EXP-2026-000832 (amount 1162.68) split to evade L2 threshold,expense_claims
-ANO-SPL-1018,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901018,Clone of EXP-2026-000528 (amount 1727.09) split to evade L2 threshold,expense_claims
-ANO-SPL-1019,SplitClaimThresholdEvasion,ExpenseClaim,EXP-2026-901019,Clone of EXP-2026-000748 (amount 833.62) split to evade L2 threshold,expense_claims
-ANO-MCC-0423,MissingCostCenter,ExpenseClaim,EXP-2026-000424,Cost center removed (was CC-0017),expense_claims
-ANO-MCC-0292,MissingCostCenter,ExpenseClaim,EXP-2026-000293,Cost center removed (was CC-0007),expense_claims
-ANO-MCC-0403,MissingCostCenter,ExpenseClaim,EXP-2026-000404,Cost center removed (was CC-0002),expense_claims
-ANO-MCC-0572,MissingCostCenter,ExpenseClaim,EXP-2026-000573,Cost center removed (was CC-0004),expense_claims
-ANO-MCC-0087,MissingCostCenter,ExpenseClaim,EXP-2026-000088,Cost center removed (was CC-0014),expense_claims
-ANO-MCC-0802,MissingCostCenter,ExpenseClaim,EXP-2026-000803,Cost center removed (was CC-0010),expense_claims
-ANO-MCC-0900,MissingCostCenter,ExpenseClaim,EXP-2026-000901,Cost center removed (was CC-0012),expense_claims
-ANO-MCC-0978,MissingCostCenter,ExpenseClaim,EXP-2026-000979,Cost center removed (was CC-0015),expense_claims
-ANO-MCC-0709,MissingCostCenter,ExpenseClaim,EXP-2026-000710,Cost center removed (was CC-0006),expense_claims
-ANO-MCC-0626,MissingCostCenter,ExpenseClaim,EXP-2026-000627,Cost center removed (was CC-0017),expense_claims
-ANO-MCC-0789,MissingCostCenter,ExpenseClaim,EXP-2026-000790,Cost center removed (was CC-0017),expense_claims
-ANO-MCC-0679,MissingCostCenter,ExpenseClaim,EXP-2026-000680,Cost center removed (was CC-0009),expense_claims
-ANO-MCC-0381,MissingCostCenter,ExpenseClaim,EXP-2026-000382,Cost center removed (was CC-0012),expense_claims
-ANO-MCC-0499,MissingCostCenter,ExpenseClaim,EXP-2026-000500,Cost center removed (was CC-0013),expense_claims
-ANO-MCC-0801,MissingCostCenter,ExpenseClaim,EXP-2026-000802,Cost center removed (was CC-0014),expense_claims
-ANO-SA-1172,SelfApproval,ApprovalStep,APR-EXP-2026-000201-01,Approver EMP-000024 is same as requester on EXP-2026-000201,approval_steps
-ANO-SA-1961,SelfApproval,ApprovalStep,APR-EXP-2026-000873-01,Approver EMP-000072 is same as requester on EXP-2026-000873,approval_steps
-ANO-SA-0504,SelfApproval,ApprovalStep,APR-LVE-2026-000431-01,Approver EMP-000010 is same as requester on LVE-2026-000431,approval_steps
-ANO-SA-0594,SelfApproval,ApprovalStep,APR-LVE-2026-000506-01,Approver EMP-000200 is same as requester on LVE-2026-000506,approval_steps
-ANO-SA-1385,SelfApproval,ApprovalStep,APR-EXP-2026-000387-02,Approver EMP-000306 is same as requester on EXP-2026-000387,approval_steps
-ANO-SA-0409,SelfApproval,ApprovalStep,APR-LVE-2026-000350-01,Approver EMP-000074 is same as requester on LVE-2026-000350,approval_steps
-ANO-SA-0895,SelfApproval,ApprovalStep,APR-LVE-2026-000766-01,Approver EMP-000113 is same as requester on LVE-2026-000766,approval_steps
-ANO-SA-0365,SelfApproval,ApprovalStep,APR-LVE-2026-000308-02,Approver EMP-000067 is same as requester on LVE-2026-000308,approval_steps
-ANO-SA-1757,SelfApproval,ApprovalStep,APR-EXP-2026-000699-01,Approver EMP-000378 is same as requester on EXP-2026-000699,approval_steps
-ANO-SA-0169,SelfApproval,ApprovalStep,APR-LVE-2026-000144-01,Approver EMP-000127 is same as requester on LVE-2026-000144,approval_steps
-ANO-SA-1026,SelfApproval,ApprovalStep,APR-EXP-2026-000078-01,Approver EMP-000056 is same as requester on EXP-2026-000078,approval_steps
-ANO-SA-0093,SelfApproval,ApprovalStep,APR-LVE-2026-000077-02,Approver EMP-000133 is same as requester on LVE-2026-000077,approval_steps
-ANO-SA-0568,SelfApproval,ApprovalStep,APR-LVE-2026-000485-01,Approver EMP-000395 is same as requester on LVE-2026-000485,approval_steps
-ANO-SA-1289,SelfApproval,ApprovalStep,APR-EXP-2026-000304-01,Approver EMP-000149 is same as requester on EXP-2026-000304,approval_steps
-ANO-SA-1705,SelfApproval,ApprovalStep,APR-EXP-2026-000653-01,Approver EMP-000022 is same as requester on EXP-2026-000653,approval_steps
-ANO-SA-1580,SelfApproval,ApprovalStep,APR-EXP-2026-000553-01,Approver EMP-000131 is same as requester on EXP-2026-000553,approval_steps
-ANO-SA-1032,SelfApproval,ApprovalStep,APR-EXP-2026-000083-01,Approver EMP-000379 is same as requester on EXP-2026-000083,approval_steps
-ANO-SA-1113,SelfApproval,ApprovalStep,APR-EXP-2026-000150-01,Approver EMP-000360 is same as requester on EXP-2026-000150,approval_steps
-ANO-SA-0478,SelfApproval,ApprovalStep,APR-LVE-2026-000410-01,Approver EMP-000264 is same as requester on LVE-2026-000410,approval_steps
-ANO-SA-1529,SelfApproval,ApprovalStep,APR-EXP-2026-000510-01,Approver EMP-000126 is same as requester on EXP-2026-000510,approval_steps
-ANO-SA-1368,SelfApproval,ApprovalStep,APR-EXP-2026-000372-01,Approver EMP-000198 is same as requester on EXP-2026-000372,approval_steps
-ANO-DUP-0648,DuplicateReimbursement,Reimbursement,RMB-2026-900648,Duplicate of RMB-2026-000227 for claim EXP-2026-000359,reimbursements
-ANO-DUP-0649,DuplicateReimbursement,Reimbursement,RMB-2026-900649,Duplicate of RMB-2026-000530 for claim EXP-2026-000827,reimbursements
-ANO-DUP-0650,DuplicateReimbursement,Reimbursement,RMB-2026-900650,Duplicate of RMB-2026-000494 for claim EXP-2026-000773,reimbursements
-ANO-DUP-0651,DuplicateReimbursement,Reimbursement,RMB-2026-900651,Duplicate of RMB-2026-000042 for claim EXP-2026-000065,reimbursements
-ANO-DUP-0652,DuplicateReimbursement,Reimbursement,RMB-2026-900652,Duplicate of RMB-2026-000628 for claim EXP-2026-000977,reimbursements
-ANO-DUP-0653,DuplicateReimbursement,Reimbursement,RMB-2026-900653,Duplicate of RMB-2026-000193 for claim EXP-2026-000303,reimbursements
+entity_type,entity_id,issue_type,description,expected_decision,expected_reason
+leave_request,LR0102,insufficient_balance,Requested 11 days but only 8 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0107,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0109,overlapping_leave,Overlaps with approved leave LR0095,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0122,self_approval,Employee is the approver (self-approval),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0124,insufficient_balance,Requested 10 days but only 8 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0135,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0137,overlapping_leave,Notice 2d < required 7d,Rejected,INSUFFICIENT_NOTICE
+leave_request,LR0146,insufficient_balance,Leave starts before hire date 2025-02-26,Rejected,BEFORE_HIRE
+leave_request,LR0162,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0164,self_approval,Employee is the approver (self-approval),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0165,overlapping_leave,Overlaps with approved leave LR0104,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0168,insufficient_balance,Requested 14 days but only 8 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0189,insufficient_balance,Requested 11 days but only 4 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0191,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_NOTICE
+leave_request,LR0193,overlapping_leave,Overlaps with approved leave LR0017,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0207,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0211,insufficient_balance,Requested 7 days but only 5 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0219,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0221,overlapping_leave,Overlaps with approved leave LR0034,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0233,insufficient_balance,Requested 12 days but only 5 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0246,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0249,overlapping_leave,Notice 1d < required 7d,Rejected,INSUFFICIENT_NOTICE
+leave_request,LR0250,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0255,insufficient_balance,Requested 13 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0274,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0276,insufficient_balance,Requested 8 days but only 4 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0277,overlapping_leave,Requested 4 days exceeds max consecutive 3,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0292,self_approval,Employee is the approver (self-approval),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0298,insufficient_balance,Requested 8 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0303,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0305,overlapping_leave,Overlaps with approved leave LR0131,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0320,insufficient_balance,Requested 14 days but only 7 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0330,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0333,overlapping_leave,Overlaps with approved leave LR0003,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0335,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0342,insufficient_balance,Leave starts before hire date 2025-05-21,Rejected,BEFORE_HIRE
+leave_request,LR0358,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0361,overlapping_leave,Requested 4 days exceeds max consecutive 3,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0364,insufficient_balance,Requested 17 days but only 11 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0377,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0385,insufficient_balance,Requested 9 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0387,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_NOTICE
+leave_request,LR0389,overlapping_leave,Requested 4 days exceeds max consecutive 3,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0407,insufficient_balance,Requested 12 days but only 8 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0414,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0417,overlapping_leave,Overlaps with approved leave LR0195,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0420,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0429,insufficient_balance,Requested 8 days but only 5 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0442,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0445,overlapping_leave,Requested 3 days exceeds max consecutive 2,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0451,insufficient_balance,Requested 17 days but only 14 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0462,self_approval,Employee is the approver (self-approval),Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0470,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0472,insufficient_balance,Requested 11 days but only 4 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0473,overlapping_leave,Requested 4 days exceeds max consecutive 2,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0494,insufficient_balance,Requested 12 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0498,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_NOTICE
+leave_request,LR0501,overlapping_leave,Overlaps with approved leave LR0154,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0505,self_approval,Employee is the approver (self-approval),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0516,insufficient_balance,Requested 5 days but only 3 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0526,holiday_span,Leave spans public holiday(s),Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0529,overlapping_leave,Overlaps with approved leave LR0463,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0538,insufficient_balance,Requested 12 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0547,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0554,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0557,overlapping_leave,Overlaps with approved leave LR0531,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0560,insufficient_balance,Requested 9 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0581,insufficient_balance,Requested 19 days but only 15 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0582,holiday_span,Leave spans public holiday(s),Rejected,BEFORE_HIRE
+leave_request,LR0585,overlapping_leave,Overlaps with approved leave LR0485,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0590,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0603,insufficient_balance,Requested 20 days but only 16 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0610,holiday_span,Leave spans public holiday(s),Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0613,overlapping_leave,Overlaps with approved leave LR0216,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0625,insufficient_balance,Requested 4 days but only 2 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0632,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0638,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0641,overlapping_leave,Overlaps with approved leave LR0329,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0647,insufficient_balance,Requested 18 days but only 16 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0665,holiday_span,Leave spans public holiday(s),Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0668,insufficient_balance,Requested 26 days but only 23 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0669,overlapping_leave,Requested 3 days but only 2 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0675,self_approval,Employee is the approver (self-approval),Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0690,insufficient_balance,Requested 13 days but only 10 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0694,holiday_span,Leave spans public holiday(s),Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0697,overlapping_leave,Overlaps with approved leave LR0510,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0712,insufficient_balance,Requested 11 days but only 9 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0717,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0722,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0725,overlapping_leave,Requested 4 days exceeds max consecutive 3,Rejected,EXCEEDS_MAX_CONSECUTIVE
+leave_request,LR0734,insufficient_balance,Requested 20 days but only 18 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0749,holiday_span,Leave spans public holiday(s),Approved,RULES_PASSED
+leave_request,LR0753,overlapping_leave,Overlaps with approved leave LR0398,Rejected,OVERLAPPING_LEAVE
+leave_request,LR0756,insufficient_balance,Requested 17 days but only 11 available,Rejected,INSUFFICIENT_BALANCE
+leave_request,LR0760,self_approval,Employee is the approver (self-approval),Approved,RULES_PASSED
+leave_request,LR0777,insufficient_balance,Requested 10 days but only 6 available,Rejected,INSUFFICIENT_BALANCE
+expense_claim,EC0118,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0128,policy_limit_breach,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0135,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0139,split_claim,Split from claim EC0138,Approved,RULES_PASSED
+expense_claim,EC0140,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0141,expense_outside_dates,Claim date after termination 2025-12-24,Rejected,AFTER_TERMINATION
+expense_claim,EC0142,self_approval,Employee EMP0142 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0143,duplicate_receipt,Line EL00751 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0152,missing_receipt,Claim date after termination 2025-03-28,Rejected,AFTER_TERMINATION
+reimbursement,RB0066,duplicate_reimbursement,Duplicate reimbursement of RB0065 for claim EC0155,Flag,DUPLICATE_REIMBURSEMENT
+expense_claim,EC0157,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0169,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0181,split_claim,Split from claim EC0180,Approved,RULES_PASSED
+expense_claim,EC0182,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0183,expense_outside_dates,Claim date after termination 2025-06-18,Rejected,AFTER_TERMINATION
+expense_claim,EC0184,policy_limit_breach,Claim date after termination 2024-10-28,Rejected,AFTER_TERMINATION
+expense_claim,EC0185,duplicate_receipt,Line EL00968 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0186,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0187,self_approval,Employee EMP0187 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0203,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0213,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0220,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0225,split_claim,Split from claim EC0224,Approved,RULES_PASSED
+expense_claim,EC0226,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0227,expense_outside_dates,Claim date after termination 2024-05-01,Rejected,AFTER_TERMINATION
+expense_claim,EC0228,duplicate_receipt,Line EL01204 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0229,self_approval,Employee EMP0229 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0237,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0242,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0254,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+reimbursement,RB0112,duplicate_reimbursement,Duplicate reimbursement of RB0111 for claim EC0265,Flag,DUPLICATE_REIMBURSEMENT
+expense_claim,EC0267,split_claim,Split from claim EC0266,Approved,RULES_PASSED
+expense_claim,EC0268,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0269,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0270,duplicate_receipt,Line EL01420 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0271,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0272,expense_outside_dates,Claim date after termination 2021-08-16,Rejected,AFTER_TERMINATION
+expense_claim,EC0273,self_approval,Employee EMP0273 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0288,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0298,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0305,missing_receipt,5 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0311,split_claim,Split from claim EC0310,Rejected,AFTER_TERMINATION
+expense_claim,EC0312,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0313,duplicate_receipt,Line EL01674 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0314,expense_outside_dates,Claim date after termination 2022-10-06,Rejected,AFTER_TERMINATION
+expense_claim,EC0315,self_approval,Employee EMP0315 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0322,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0327,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0339,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0353,split_claim,Split from claim EC0352,Approved,RULES_PASSED
+expense_claim,EC0354,policy_limit_breach,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0355,duplicate_receipt,Line EL01917 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0356,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0357,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0358,expense_outside_dates,Claim date after termination 2025-06-10,Rejected,AFTER_TERMINATION
+expense_claim,EC0359,self_approval,Employee EMP0359 approved own claim,Approved,RULES_PASSED
+expense_claim,EC0373,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0383,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0390,missing_receipt,Claim date after termination 2023-12-25,Rejected,AFTER_TERMINATION
+expense_claim,EC0397,split_claim,Split from claim EC0396,Approved,RULES_PASSED
+expense_claim,EC0398,duplicate_receipt,Line EL02123 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0399,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0400,expense_outside_dates,Claim date after termination 2022-10-06,Rejected,AFTER_TERMINATION
+expense_claim,EC0401,self_approval,Employee EMP0001 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0407,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0412,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0424,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0439,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0440,duplicate_receipt,Line EL02350 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0441,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0442,split_claim,Split from claim EC0438,Approved,RULES_PASSED
+expense_claim,EC0443,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0444,expense_outside_dates,Claim date after termination 2025-06-18,Rejected,AFTER_TERMINATION
+expense_claim,EC0445,self_approval,Employee EMP0045 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0458,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0468,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0475,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0483,duplicate_receipt,Line EL02570 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0484,split_claim,Split from claim EC0482,Approved,RULES_PASSED
+expense_claim,EC0485,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0486,expense_outside_dates,Claim date after termination 2024-12-23,Rejected,AFTER_TERMINATION
+expense_claim,EC0487,self_approval,Employee EMP0087 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0492,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0497,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0509,missing_receipt,5 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0524,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0525,duplicate_receipt,Line EL02813 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0526,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0528,split_claim,Split from claim EC0527,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0529,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0530,expense_outside_dates,Claim date after termination 2025-10-12,Rejected,AFTER_TERMINATION
+expense_claim,EC0531,self_approval,Employee EMP0131 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0543,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0553,policy_limit_breach,4 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0560,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0568,duplicate_receipt,Line EL03046 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0570,split_claim,Split from claim EC0569,Approved,RULES_PASSED
+expense_claim,EC0571,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0572,expense_outside_dates,Claim date after termination 2025-03-26,Rejected,AFTER_TERMINATION
+expense_claim,EC0573,self_approval,Employee EMP0173 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0577,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0582,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0594,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0609,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0610,duplicate_receipt,Line EL03267 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0611,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0614,split_claim,Split from claim EC0613,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0615,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0616,expense_outside_dates,Claim date after termination 2025-12-24,Rejected,AFTER_TERMINATION
+expense_claim,EC0617,self_approval,Employee EMP0217 approved own claim,Rejected,AFTER_TERMINATION
+expense_claim,EC0628,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0638,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0645,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0653,duplicate_receipt,Line EL03473 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0656,split_claim,Split from claim EC0655,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0657,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0658,expense_outside_dates,Claim date after termination 2025-01-23,Rejected,AFTER_TERMINATION
+expense_claim,EC0659,self_approval,Employee EMP0259 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0662,missing_receipt,4 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0667,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0679,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0694,policy_limit_breach,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0695,duplicate_receipt,Line EL03723 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0696,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0700,split_claim,Split from claim EC0699,Approved,RULES_PASSED
+expense_claim,EC0701,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0702,expense_outside_dates,Claim date after termination 2025-12-14,Rejected,AFTER_TERMINATION
+expense_claim,EC0703,self_approval,Employee EMP0303 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0713,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0723,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0730,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0738,duplicate_receipt,Line EL03957 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0742,split_claim,Split from claim EC0741,Rejected,BEFORE_HIRE
+expense_claim,EC0743,missing_cost_center,Claim date after termination 2022-10-06,Rejected,AFTER_TERMINATION
+expense_claim,EC0744,expense_outside_dates,Claim date after termination 2024-12-23,Rejected,AFTER_TERMINATION
+expense_claim,EC0745,self_approval,Employee EMP0345 approved own claim,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0747,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0752,policy_limit_breach,5 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0764,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+reimbursement,RB0301,duplicate_reimbursement,Duplicate reimbursement of RB0300 for claim EC0778,Flag,DUPLICATE_REIMBURSEMENT
+expense_claim,EC0779,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0780,duplicate_receipt,Line EL04210 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0781,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0786,split_claim,Split from claim EC0785,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0787,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0788,expense_outside_dates,Claim date after termination 2025-06-09,Rejected,AFTER_TERMINATION
+expense_claim,EC0789,self_approval,Employee EMP0389 approved own claim,Approved,RULES_PASSED
+expense_claim,EC0798,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0808,policy_limit_breach,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0815,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0823,duplicate_receipt,Line EL04446 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0828,split_claim,Split from claim EC0827,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0829,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0830,expense_outside_dates,Claim date after termination 2025-06-10,Rejected,AFTER_TERMINATION
+expense_claim,EC0831,self_approval,Employee EMP0031 approved own claim,Approved,RULES_PASSED
+expense_claim,EC0832,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0837,policy_limit_breach,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0849,missing_receipt,3 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0864,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0865,duplicate_receipt,Line EL04650 uses duplicated receipt hash,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0866,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0872,split_claim,Split from claim EC0871,Approved,RULES_PASSED
+expense_claim,EC0873,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0874,expense_outside_dates,Claim date after termination 2023-03-23,Rejected,AFTER_TERMINATION
+expense_claim,EC0875,self_approval,Employee EMP0075 approved own claim,Approved,RULES_PASSED
+expense_claim,EC0883,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0893,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0900,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0908,duplicate_receipt,Line EL04894 uses duplicated receipt hash,Rejected,BEFORE_HIRE
+expense_claim,EC0914,split_claim,Split from claim EC0913,Approved,RULES_PASSED
+expense_claim,EC0915,missing_cost_center,Claim date before hire 2025-06-01,Rejected,BEFORE_HIRE
+expense_claim,EC0916,expense_outside_dates,Claim date after termination 2025-10-12,Rejected,AFTER_TERMINATION
+expense_claim,EC0917,missing_receipt,5 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0918,self_approval,Employee EMP0118 approved own claim,Approved,RULES_PASSED
+expense_claim,EC0922,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0934,missing_receipt,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0949,policy_limit_breach,1 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0950,duplicate_receipt,Line EL05081 uses duplicated receipt hash,Approved,RULES_PASSED
+expense_claim,EC0951,missing_receipt,2 line(s) violate policy,Rejected,LINE_POLICY_VIOLATION
+expense_claim,EC0958,split_claim,Split from claim EC0957,Approved,RULES_PASSED
+expense_claim,EC0959,missing_cost_center,No cost center assigned,Rejected,MISSING_COST_CENTER
+expense_claim,EC0960,expense_outside_dates,Claim date after termination 2021-08-16,Rejected,AFTER_TERMINATION
+expense_claim,EC0961,self_approval,Employee EMP0161 approved own claim,Approved,RULES_PASSED

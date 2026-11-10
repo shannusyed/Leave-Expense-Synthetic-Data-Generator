@@ -1,5 +1,8 @@
-policy_id,policy_name,expense_category,per_diem_limit,single_receipt_limit,monthly_claim_limit,requires_receipt_above,approval_threshold_l1,approval_threshold_l2,approval_threshold_l3,reimbursable
-EP-001,Travel & Subsistence,Travel,150.0,500.0,3000.0,25.0,500.0,2000.0,5000.0,True
-EP-002,Meals & Entertainment,Meals,75.0,200.0,1000.0,25.0,200.0,800.0,2000.0,True
-EP-003,Office Supplies,Office,0.0,300.0,500.0,10.0,300.0,1000.0,3000.0,True
-EP-004,Training & Conferences,Training,0.0,5000.0,10000.0,50.0,500.0,2000.0,8000.0,True
+policy_id,category,single_receipt_limit,monthly_limit,receipt_required_above,requires_pre_approval_above
+EP001,Travel,5000,25000,500,10000
+EP002,Meals,1500,8000,200,5000
+EP003,Accommodation,8000,30000,500,15000
+EP004,Software,20000,50000,1000,20000
+EP005,Office Supplies,3000,10000,300,8000
+EP006,Training,15000,40000,1000,20000
+EP007,Client Entertainment,10000,30000,500,15000
