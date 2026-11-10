@@ -63,6 +63,11 @@ def main() -> int:
     global _pass, _fail
     _pass = _fail = 0
 
+    # Fix encoding for Windows
+    import io
+    if sys.platform == 'win32':
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
     employees       = _load("employees.csv")
     cost_centers    = _load("cost_centers.csv")
     leave_policies  = _load("leave_policies.csv")
@@ -84,14 +89,14 @@ def main() -> int:
     el_ids    = {l["expense_line_id"] for l in expense_lines}
 
     # ── 1. VOLUME CHECKS ───────────────────────────────────────
-    print("\n── Volume checks ──")
+    print("\n-- Volume checks --")
     check("400 employees",       len(employees) == 400,       f"got {len(employees)}")
     check("6 leave policies",    len(leave_policies) == 6,    f"got {len(leave_policies)}")
     check("800 leave requests",  len(leave_requests) == 800,  f"got {len(leave_requests)}")
     check("1000 expense claims", len(expense_claims) == 1000, f"got {len(expense_claims)}")
 
     # ── 2. PRIMARY KEY UNIQUENESS ──────────────────────────────
-    print("\n── PK uniqueness ──")
+    print("\n-- PK uniqueness --")
     check("employee_id unique",        len(emp_ids) == len(employees))
     check("cost_center_id unique",     len(cc_ids) == len(cost_centers))
     check("leave_request_id unique",   len(lr_ids) == len(leave_requests))
@@ -103,7 +108,7 @@ def main() -> int:
     check("balance_id unique",         len({b["balance_id"] for b in leave_balances}) == len(leave_balances))
 
     # ── 3. FK INTEGRITY ────────────────────────────────────────
-    print("\n── FK integrity ──")
+    print("\n-- FK integrity --")
     # Employees → cost centers
     emp_cc = {e["cost_center_id"] for e in employees}
     check("employee.cost_center → cost_centers", emp_cc.issubset(cc_ids),
@@ -152,7 +157,7 @@ def main() -> int:
     check("status_event expense → expense_claims", se_exp.issubset(ec_ids))
 
     # ── 4. ZERO GROUND-TRUTH LEAKAGE ──────────────────────────
-    print("\n── Ground-truth leakage ──")
+    print("\n-- Ground-truth leakage --")
     LEAK_COLS = {"anomaly_flag", "anomaly_type", "policy_violation",
                  "remarks", "is_anomaly", "issue_type", "expected_decision"}
     for name, rows in [
@@ -167,7 +172,7 @@ def main() -> int:
             check(f"{name}: no leakage", not leaked, f"found: {leaked}")
 
     # ── 5. ID FORMAT ───────────────────────────────────────────
-    print("\n── ID format ──")
+    print("\n-- ID format --")
     import re
     check("EMP format",  all(re.match(r"^EMP\d{4}$", e["employee_id"]) for e in employees))
     check("LR format",   all(re.match(r"^LR\d{4}$",  r["leave_request_id"]) for r in leave_requests))
@@ -175,7 +180,7 @@ def main() -> int:
     check("EL format",   all(re.match(r"^EL\d{5}$",  l["expense_line_id"]) for l in expense_lines))
 
     # ── 6. DATE ORDERING ──────────────────────────────────────
-    print("\n── Date ordering ──")
+    print("\n-- Date ordering --")
     # Leave: applied_date <= start_date <= end_date
     lr_date_ok = 0
     for r in leave_requests:
@@ -191,7 +196,7 @@ def main() -> int:
     check("expense lines have dates", el_date_ok)
 
     # ── 7. EXPENSE LINES PER CLAIM (1–10) ─────────────────────
-    print("\n── Lines per claim ──")
+    print("\n-- Lines per claim --")
     lines_per_claim = Counter(l["claim_id"] for l in expense_lines)
     in_range = all(1 <= v <= 10 for v in lines_per_claim.values())
     all_claims_have_lines = ec_ids == set(lines_per_claim.keys())
@@ -199,7 +204,7 @@ def main() -> int:
           f"min={min(lines_per_claim.values())}, max={max(lines_per_claim.values())}, claims_with_lines={len(lines_per_claim)}")
 
     # ── 8. APPROVAL SEQUENCE CORRECTNESS ──────────────────────
-    print("\n── Approval sequence ──")
+    print("\n-- Approval sequence --")
     # If step N is Rejected, step N+1.. should be Skipped
     steps_by_entity: Dict[str, List[dict]] = defaultdict(list)
     for s in approval_steps:
@@ -224,7 +229,7 @@ def main() -> int:
           f"{seq_ok}/{seq_total}")
 
     # ── 9. REIMBURSEMENT ELIGIBILITY ──────────────────────────
-    print("\n── Reimbursement eligibility ──")
+    print("\n-- Reimbursement eligibility --")
     claim_status = {c["claim_id"]: c["status"] for c in expense_claims}
     # All reimbursements should be for approved claims (except anomaly duplicates)
     gt_dup_reimbs = {r["entity_id"] for r in ground_truth if r["issue_type"] == "duplicate_reimbursement"}
@@ -233,7 +238,7 @@ def main() -> int:
     check("reimbursements only for approved claims", eligible)
 
     # ── 10. LEAVE BALANCE RECONCILIATION ──────────────────────
-    print("\n── Balance reconciliation ──")
+    print("\n-- Balance reconciliation --")
     # opening_balance = accrued + carry_forward
     bal_ok = 0
     for b in leave_balances:
@@ -257,7 +262,7 @@ def main() -> int:
           f"{rem_ok}/{len(leave_balances)}")
 
     # ── 11. STATUS EVENTS CHAIN ───────────────────────────────
-    print("\n── Status events ──")
+    print("\n-- Status events --")
     # Each entity should have a chain Draft→Submitted→Under Review→final
     events_by_entity: Dict[str, List[dict]] = defaultdict(list)
     for ev in status_events:
@@ -278,7 +283,7 @@ def main() -> int:
           chain_ok == chain_total, f"{chain_ok}/{chain_total}")
 
     # ── 12. GROUND TRUTH COVERAGE ─────────────────────────────
-    print("\n── Ground-truth coverage ──")
+    print("\n-- Ground-truth coverage --")
     gt_types = Counter(r["issue_type"] for r in ground_truth)
     required_types = [
         "missing_receipt", "duplicate_receipt", "policy_limit_breach",
@@ -291,7 +296,7 @@ def main() -> int:
               f"count={gt_types.get(rt, 0)}")
 
     # ── 13. RUNTIME ANOMALY DETECTION ─────────────────────────
-    print("\n── Runtime anomaly detection ──")
+    print("\n-- Runtime anomaly detection --")
     try:
         import engine as eng
         detected = eng.run_all_anomaly_detection(

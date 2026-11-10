@@ -379,22 +379,31 @@ elif page == "📊 Data Quality":
     if st.button("🔄 Run Validation"):
         with st.spinner("Running 61 validation checks..."):
             try:
+                # Get the full path to validate.py
+                validate_path = Path(__file__).parent / "validate.py"
                 result = subprocess.run(
-                    [sys.executable, "validate.py"],
+                    [sys.executable, str(validate_path)],
                     capture_output=True,
                     text=True,
-                    cwd=Path(__file__).parent
+                    cwd=str(Path(__file__).parent),
+                    timeout=60
                 )
                 
                 st.subheader("Validation Results")
-                st.code(result.stdout, language="text")
+                if result.stdout:
+                    st.code(result.stdout, language="text")
                 
                 if result.returncode == 0:
                     st.success("✅ All validation checks passed!")
                 else:
-                    st.error("❌ Some validation checks failed")
+                    if result.stderr:
+                        st.error(f"Error output:\n{result.stderr}")
+                    else:
+                        st.error("❌ Some validation checks may have issues")
+            except subprocess.TimeoutExpired:
+                st.error("⏱️ Validation took too long (timeout)")
             except Exception as e:
-                st.error(f"Error running validation: {e}")
+                st.error(f"Error running validation: {str(e)}")
     else:
         st.info("Click 'Run Validation' to execute 61 data quality checks")
     
