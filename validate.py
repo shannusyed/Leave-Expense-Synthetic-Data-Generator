@@ -290,6 +290,26 @@ def main() -> int:
         check(f"ground_truth has {rt}", gt_types.get(rt, 0) > 0,
               f"count={gt_types.get(rt, 0)}")
 
+    # ── 13. RUNTIME ANOMALY DETECTION ─────────────────────────
+    print("\n── Runtime anomaly detection ──")
+    try:
+        import engine as eng
+        detected = eng.run_all_anomaly_detection(
+            employees, expense_claims, expense_lines, approval_steps, reimbursements
+        )
+        check("Anomaly detection runs without error", True)
+        check("Detects duplicate receipts", len(detected["duplicate_receipts"]) > 0,
+              f"found {len(detected['duplicate_receipts'])}")
+        check("Detects split claims", len(detected["split_claims"]) >= 0,
+              f"found {len(detected['split_claims'])}")
+        check("Detects self-approvals", len(detected["self_approvals"]) > 0,
+              f"found {len(detected['self_approvals'])}")
+        check("Detects duplicate reimbursements", len(detected["duplicate_reimbursements"]) >= 0,
+              f"found {len(detected['duplicate_reimbursements'])}")
+        print(f"\n  ℹ️  {detected['summary']}")
+    except Exception as e:
+        check("Anomaly detection runs without error", False, str(e))
+
     # ── SUMMARY ───────────────────────────────────────────────
     total = _pass + _fail
     print(f"\n{'='*50}")

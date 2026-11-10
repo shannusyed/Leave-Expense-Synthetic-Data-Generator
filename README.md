@@ -16,7 +16,8 @@ pipelines.
 | Status-event history (append-only) | ✅ |
 | 11 anomaly scenarios injected in-place | ✅ |
 | Holiday-aware business-day logic | ✅ |
-| Comprehensive validation (56 checks) | ✅ |
+| Comprehensive validation (61 checks) | ✅ |
+| **Runtime anomaly detection** | ✅ |
 | pytest suite (36 tests) | ✅ |
 
 ## 📁 Project Structure
@@ -133,6 +134,124 @@ All approval decisions are **computed from business rules**, not random:
 | Expense | > ₹20,000 | 3 | Manager → Senior Manager → Director |
 
 Rejection at any level terminates the chain — subsequent steps are **Skipped**.
+
+## 🔍 Runtime Anomaly Detection (`engine.py`)
+
+The engine includes **four runtime anomaly detection functions** that analyze operational data to discover issues:
+
+### `detect_duplicate_receipts(claims, lines)`
+Finds expense lines with identical receipt hashes across different claims (fraud indicator).
+
+**Example:**
+```python
+anomalies = engine.detect_duplicate_receipts(claims, lines)
+# Returns: [
+#   {
+#     "anomaly_type": "duplicate_receipt",
+#     "severity": "HIGH",
+#     "claim_ids": ["EC0040", "EC0035"],
+#     "line_ids": ["EL00268", "EL04894"],
+#     "receipt_hash": "ba77a2d339533012...",
+#     "description": "Receipt ba77a2d3... used on 2 lines across 2 claims"
+#   }
+# ]
+```
+
+### `detect_split_claims(claims, lines)`
+Identifies claims artificially split to evade approval thresholds.
+
+**Logic:** Groups claims by (employee, cost_center) within 7 days. Flags if group total > ₹20k but individual claims ≤ ₹20k.
+
+**Example:**
+```python
+anomalies = engine.detect_split_claims(claims, lines)
+# Returns: [
+#   {
+#     "anomaly_type": "split_claim",
+#     "severity": "MEDIUM",
+#     "employee_id": "EMP0362",
+#     "claim_ids": ["EC0362", "EC0762"],
+#     "group_total": 25445,
+#     "description": "2 claims totaling ₹25,445 (threshold ₹20,000)"
+#   }
+# ]
+```
+
+### `detect_self_approval(approval_steps, claims, employees)`
+Flags cases where an employee is their own first-level approver (conflict of interest).
+
+**Example:**
+```python
+anomalies = engine.detect_self_approval(approval_steps, claims, employees)
+# Returns: [
+#   {
+#     "anomaly_type": "self_approval",
+#     "severity": "HIGH",
+#     "employee_id": "EMP0016",
+#     "claim_id": "EC0016",
+#     "description": "Employee EMP0016 is first-level approver for their own claim"
+#   }
+# ]
+```
+
+### `detect_duplicate_reimbursements(reimbursements)`
+Finds claims that have been reimbursed multiple times (payment fraud).
+
+**Example:**
+```python
+anomalies = engine.detect_duplicate_reimbursements(reimbursements)
+# Returns: [
+#   {
+#     "anomaly_type": "duplicate_reimbursement",
+#     "severity": "CRITICAL",
+#     "claim_id": "EC0155",
+#     "reimbursement_ids": ["RB0065", "RB0066"],
+#     "count": 2,
+#     "description": "Claim EC0155 reimbursed 2 times"
+#   }
+# ]
+```
+
+### `run_all_anomaly_detection(employees, claims, lines, approval_steps, reimbursements)`
+Master function that runs all detection checks and returns comprehensive results.
+
+**Usage:**
+```python
+import csv
+import engine
+
+# Load data
+def load_csv(name):
+    with open(f"data/{name}", newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+employees = load_csv("employees.csv")
+claims = load_csv("expense_claims.csv")
+lines = load_csv("expense_lines.csv")
+approval_steps = load_csv("approval_steps.csv")
+reimbursements = load_csv("reimbursements.csv")
+
+# Run detection
+results = engine.run_all_anomaly_detection(
+    employees, claims, lines, approval_steps, reimbursements
+)
+
+print(results["summary"])
+# Output: "Detected 66 runtime anomalies: 20 duplicate receipts, 
+#          3 split claims, 40 self-approvals, 3 duplicate reimbursements"
+
+# Inspect details
+for dup in results["duplicate_receipts"]:
+    print(f"  {dup['description']}")
+    print(f"  Claims: {dup['claim_ids']}")
+```
+
+**Test it:**
+```bash
+python test_anomaly_detection.py
+```
+
+This demonstrates **runtime anomaly detection** on operational data, not just pre-labeled ground truth.
 
 ## 🐛 Injected Anomaly Scenarios
 
