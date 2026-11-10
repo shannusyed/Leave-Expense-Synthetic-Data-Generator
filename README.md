@@ -309,3 +309,25 @@ Typical chain: `Draft → Submitted → Under Review → Approved/Rejected`
 - Python ≥ 3.9
 - NumPy ≥ 1.21
 - pytest (for tests only)
+- Streamlit (for dashboard)
+
+## 📊 Interactive Dashboard
+
+A Streamlit-based dashboard provides visual exploration of the data:
+
+```bash
+# Install Streamlit (if not already installed)
+pip install streamlit
+
+# Run the dashboard
+streamlit run streamlit_app.py
+```
+
+**Features:**
+- **Home**: System overview with key metrics
+- **Approval Decisions**: Search leave/expense by ID; view approval chains
+- **Anomaly Detection**: Browse detected anomalies with filtering
+- **Data Quality**: Run and view 61 validation checks
+- **Audit Trail**: View status event history for any entity
+
+The dashboard demonstrates **runtime anomaly detection** and complete traceability.
